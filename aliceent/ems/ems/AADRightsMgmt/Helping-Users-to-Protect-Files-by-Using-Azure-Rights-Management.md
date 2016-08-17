@@ -9,6 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 58f9a6ff-4121-4c8c-9865-1bb290604ad2
 caps.latest.revision: 16
+caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
@@ -87,7 +88,7 @@ If you are using Azure RMS and have not installed the Rights Management sharing
 2. From the **File** menu, click **Info**, click **Protect Document**, click **Restrict Access**, and then choose a template to quickly apply the appropriate usage rights, or select **Restrict Access** and select the usage rights yourself.
 
    > [!NOTE]
-   >    If this is the first time that you have used Rights Management, you will contact the [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] service and will be prompted for credentials to configure the Office IRM client.
+   >    If this is the first time that you have used Rights Management, you will contact the Azure Rights Management service and will be prompted for credentials to configure the Office IRM client.
 
 3. Save the document.
 

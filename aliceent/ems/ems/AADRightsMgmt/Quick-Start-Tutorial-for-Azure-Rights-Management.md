@@ -9,6 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 1db923bf-7d19-4fdd-a413-bfeb58af5e03
 caps.latest.revision: 16
+caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
@@ -85,7 +86,7 @@ At this time, do not click **advanced features**. This takes you to the Azure po
 
 3. From the **active directory** page, click **RIGHTS MANAGEMENT**.
 
-4. Select the directory to manage for [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], click **ACTIVATE**, and then confirm your action.
+4. Select the directory to manage for Rights Management, click **ACTIVATE**, and then confirm your action.
 
 The **RIGHTS MANAGEMENT STATUS** should now display **Active** and the **ACTIVATE** option is replaced with **DEACTIVATE**.
 

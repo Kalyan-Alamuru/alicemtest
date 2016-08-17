@@ -9,6 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 18564e4a-9364-4ed2-8f17-89d24fc0d878
 caps.latest.revision: 27
+caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
@@ -55,9 +56,9 @@ translation.priority.mt:
 
 ![1-aadp onboarding process-v3](../../ems/AADRightsMgmt/media/1-aadp-onboarding-process-v3.png)
 
-[!INCLUDE[test test test](../../ems/AADRightsMgmt/includes/test-test-test.md)]
+Markdown Token Text
 
-This section contains operations information for after you have configured   [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)]:
+This section contains operations information for after you have configured   Azure Rights Management:
 
 -   [Verifying Azure Rights Management](../../ems/AADRightsMgmt/Verifying-Azure-Rights-Management.md)
 
