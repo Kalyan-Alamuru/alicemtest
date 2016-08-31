@@ -1,8 +1,8 @@
 ---
-title: "Validate Port Mirroring"
+title: Validate Port Mirroring
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: ebd41719-c91a-4fdd-bcab-2affa2a2cace
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

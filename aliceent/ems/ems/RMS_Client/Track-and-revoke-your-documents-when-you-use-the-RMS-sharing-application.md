@@ -1,15 +1,13 @@
 ---
-title: "Track and revoke your documents when you use the RMS sharing application"
+title: Track and revoke your documents when you use the RMS sharing application
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.service: rights-management
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 61f349ce-bdd2-45c1-acc5-bc83937fb187
-caps.latest.revision: 26
-caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 

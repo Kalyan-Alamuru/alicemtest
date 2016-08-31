@@ -1,13 +1,12 @@
 ---
-title: "Full screen picture: Alice shares protected attachment"
+title: Full screen picture: Alice shares protected attachment
 ms.custom: na
-ms.date: 2015-11-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: feeef78d-3c2e-432b-817d-d06f784be226
-caps.latest.revision: 25
 author: karthikaraman
 manager: jeffgilb
 robots: nofollow

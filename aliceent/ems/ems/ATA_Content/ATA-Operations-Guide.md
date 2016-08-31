@@ -1,8 +1,8 @@
 ---
-title: "ATA Operations Guide"
+title: ATA Operations Guide
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 50d46d67-8858-4288-9599-16715cc6e34e
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

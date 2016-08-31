@@ -1,13 +1,12 @@
 ---
-title: "Full screen picture: Bob sees the email on his iPad"
+title: Full screen picture: Bob sees the email on his iPad
 ms.custom: na
-ms.date: 2015-11-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: e748fd78-8bba-4168-96cf-f96def078283
-caps.latest.revision: 25
 author: karthikaraman
 manager: jeffgilb
 robots: nofollow

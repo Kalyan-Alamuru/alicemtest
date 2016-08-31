@@ -1,8 +1,8 @@
 ---
-title: "ATA Capacity Planning"
+title: ATA Capacity Planning
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 279d79f2-962c-4c6f-9702-29744a5d50e2
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

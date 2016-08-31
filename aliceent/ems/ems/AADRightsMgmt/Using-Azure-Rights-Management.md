@@ -1,15 +1,13 @@
 ---
-title: "Using Azure Rights Management"
+title: Using Azure Rights Management
 ms.custom: na
-ms.date: 2015-08-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.service: rights-management
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 18564e4a-9364-4ed2-8f17-89d24fc0d878
-caps.latest.revision: 27
-caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
@@ -56,9 +54,9 @@ translation.priority.mt:
 
 ![1-aadp onboarding process-v3](../../ems/AADRightsMgmt/media/1-aadp-onboarding-process-v3.png)
 
-Markdown Token Text
+[!INCLUDE[test test test](../../ems/AADRightsMgmt/includes/test-test-test.md)]
 
-This section contains operations information for after you have configured   Azure Rights Management:
+This section contains operations information for after you have configured   [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)]:
 
 -   [Verifying Azure Rights Management](../../ems/AADRightsMgmt/Verifying-Azure-Rights-Management.md)
 
@@ -69,10 +67,10 @@ This section contains operations information for after you have configured   Azu
 -   [Operations for Your Azure Rights Management Tenant Key](../../ems/AADRightsMgmt/Operations-for-Your-Azure-Rights-Management-Tenant-Key.md)
 
 > [!TIP]
-> If you’re new to Azure RMS, you might find the [Getting Started with Azure Rights Management](../../ems/AADRightsMgmt/Getting-Started-with-Azure-Rights-Management.md) section useful, because it contains information to help you learn more about Azure RMS and how it can help you to protect information in your organization.
+> If you’re new to Azure RMS, you might find the [Getting Started with Azure Rights Management](../Topic/Getting%20Started%20with%20Azure%20Rights%20Management.md) section useful, because it contains information to help you learn more about Azure RMS and how it can help you to protect information in your organization.
 > 
 > If you’re looking for deployment instructions for Azure RMS, see [Configuring Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Azure-Rights-Management.md). And if you’re a Windows PowerShell user, or just want to see how you can administer Azure RMS from the command line, see [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/Administering-Azure-Rights-Management-by-Using-Windows-PowerShell.md).
 
 ## See Also
-[Azure Rights Management](../../ems/AADRightsMgmt/Azure-Rights-Management.md)
+[Azure Rights Management](../Topic/Azure%20Rights%20Management.md)
 

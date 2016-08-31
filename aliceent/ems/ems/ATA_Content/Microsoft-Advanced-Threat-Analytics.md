@@ -1,8 +1,8 @@
 ---
-title: "Microsoft Advanced Threat Analytics"
+title: Microsoft Advanced Threat Analytics
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: a315cf03-c5a3-4ecb-a0f8-4d3e322e6ad1
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

@@ -1,8 +1,8 @@
 ---
-title: "ATA Deployment Guide"
+title: ATA Deployment Guide
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: f9ab356c-4c1c-444c-b221-2451aaebc58b
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

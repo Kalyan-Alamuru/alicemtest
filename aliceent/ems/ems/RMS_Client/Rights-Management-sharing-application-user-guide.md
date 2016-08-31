@@ -1,15 +1,13 @@
 ---
-title: "Rights Management sharing application user guide"
+title: Rights Management sharing application user guide
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.service: rights-management
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: eaf6d02c-aa36-4915-856e-49bb71ab1484
-caps.latest.revision: 25
-caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 

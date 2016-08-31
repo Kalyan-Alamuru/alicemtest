@@ -1,8 +1,8 @@
 ---
-title: "Working with ATA Detection Settings"
+title: Working with ATA Detection Settings
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: f4f2ae30-4849-4a4f-8f6d-bfe99a32c746
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

@@ -1,14 +1,13 @@
 ---
-title: "Full screen picture: Bob opens the attachment on his iPad"
+title: Full screen picture: Bob opens the attachment on his iPad
 ms.custom: 
   - test
-ms.date: 2015-11-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 7dba5ff9-a61d-4a83-8adc-d6ffb0e85df6
-caps.latest.revision: 25
 author: karthikaraman
 manager: jeffgilb
 robots: nofollow

@@ -1,8 +1,8 @@
 ---
-title: "Working with ATA Alerts"
+title: Working with ATA Alerts
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 14cb7513-5dc8-49cb-b3e0-94f469c443dd
-caps.latest.revision: 18
 author: karthikaraman
 manager: jeffgilb
 translation.priority.mt: 

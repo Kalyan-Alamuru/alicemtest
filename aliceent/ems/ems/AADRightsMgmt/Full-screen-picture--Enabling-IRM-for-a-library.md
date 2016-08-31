@@ -1,13 +1,12 @@
 ---
-title: "Full screen picture: Enabling IRM for a library"
+title: Full screen picture: Enabling IRM for a library
 ms.custom: na
-ms.date: 2015-11-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: a18f2e99-5ac4-4103-a88c-527846374091
-caps.latest.revision: 25
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 

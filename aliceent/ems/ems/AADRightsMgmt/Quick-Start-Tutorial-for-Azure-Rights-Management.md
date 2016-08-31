@@ -1,15 +1,13 @@
 ---
-title: "Quick Start Tutorial for Azure Rights Management"
+title: Quick Start Tutorial for Azure Rights Management
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.service: rights-management
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 1db923bf-7d19-4fdd-a413-bfeb58af5e03
-caps.latest.revision: 16
-caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
@@ -86,7 +84,7 @@ At this time, do not click **advanced features**. This takes you to the Azure po
 
 3. From the **active directory** page, click **RIGHTS MANAGEMENT**.
 
-4. Select the directory to manage for Rights Management, click **ACTIVATE**, and then confirm your action.
+4. Select the directory to manage for [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], click **ACTIVATE**, and then confirm your action.
 
 The **RIGHTS MANAGEMENT STATUS** should now display **Active** and the **ACTIVATE** option is replaced with **DEACTIVATE**.
 
@@ -254,5 +252,5 @@ This tutorial stepped you through just one scenario for how Azure RMS can help p
 If you’re ready to start deploying Azure RMS, use the [Azure Rights Management Deployment Roadmap](../../ems/AADRightsMgmt/Azure-Rights-Management-Deployment-Roadmap.md) for your deployment steps and links for how-to instructions.
 
 ## See Also
-[Getting Started with Azure Rights Management](../../ems/AADRightsMgmt/Getting-Started-with-Azure-Rights-Management.md)
+[Getting Started with Azure Rights Management](/Topic/Getting%20Started%20with%20Azure%20Rights%20Management.md)
 

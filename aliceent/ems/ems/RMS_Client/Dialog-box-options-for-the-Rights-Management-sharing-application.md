@@ -1,15 +1,13 @@
 ---
-title: "Dialog box options for the Rights Management sharing application"
+title: Dialog box options for the Rights Management sharing application
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: 08/30/2016
 ms.reviewer: na
 ms.service: rights-management
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 7b91ab30-6363-4929-bcbd-4dfbd05f644a
-caps.latest.revision: 19
-caps.handback.revision: 0
 author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 

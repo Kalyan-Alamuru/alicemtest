@@ -1,8 +1,8 @@
 ---
-title: "Appendix C: Sample Advanced Threat Analytics deployment diagrams"
+title: Appendix C: Sample Advanced Threat Analytics deployment diagrams
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 9528ef77-d36b-4369-b4cc-d7c46084c8c6
-caps.latest.revision: 24
 ---
 # Appendix C: Sample Advanced Threat Analytics deployment diagrams
 **Multi-server deployment**

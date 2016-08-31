@@ -1,8 +1,8 @@
 ---
-title: "Working with the ATA Console"
+title: Working with the ATA Console
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 1bf264d9-9697-44b5-9533-e1c498da4f07
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

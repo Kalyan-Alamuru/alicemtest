@@ -1,8 +1,8 @@
 ---
-title: "Modifying ATA Configuration"
+title: Modifying ATA Configuration
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: bcf0f7d3-8027-45c0-8002-19f71fcb30a6
-caps.latest.revision: 24
 author: karthikaraman
 manager: jeffgilb
 ---

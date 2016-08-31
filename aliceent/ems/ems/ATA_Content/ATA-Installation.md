@@ -1,8 +1,8 @@
 ---
-title: "ATA Installation"
+title: ATA Installation
 ms.custom: 
   - ATA
-ms.date: 08/17/2016
+ms.date: 08/30/2016
 ms.prod: identity-ata
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,6 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 3715b69e-e631-449b-9aed-144d0f9bcee7
-caps.latest.revision: 17
 author: karthikaraman
 manager: jeffgilb
 translation.priority.mt: 
