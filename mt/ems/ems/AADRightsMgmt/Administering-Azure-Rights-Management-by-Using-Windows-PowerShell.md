@@ -16,7 +16,6 @@ author: karthikaraman
 manager: jeffgilb
 translation.priority.ht: 
   - bg-bg
-  - de-de
   - el-gr
   - es-es
   - et-ee
@@ -24,7 +23,6 @@ translation.priority.ht:
   - fr-fr
   - hr-hr
   - it-it
-  - ja-jp
   - kk-kz
   - ko-kr
   - lt-lt
@@ -43,7 +41,9 @@ translation.priority.ht:
 translation.priority.mt: 
   - cs-cz
   - da-dk
+  - de-de
   - hu-hu
+  - ja-jp
   - nb-no
   - nl-nl
   - pl-pl

@@ -51,9 +51,6 @@ translation.priority.mt:
   - sv-se
 ---
 # Using Azure Rights Management
-
-This is test
-
 > [!NOTE]
 > This information is for IT administrators and consultants who have deployed Microsoft Azure Rights Management (Azure RMS). If you are looking for user help and information about how to use Rights Management for a specific application, use the help and guidance that accompanies your application.
 > 
