@@ -1,38 +1,39 @@
 ---
 title: "Requirements for Azure Rights Management"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: dc78321d-d759-4653-8818-80da74b6cdeb
 caps.latest.revision: 8
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - es-es
-  - fr-fr
-  - it-it
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # Requirements for Azure Rights Management
-<?xml version="1.0" encoding="utf-8"?>
-<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
+\<?xml version="1.0" encoding="utf-8"?>
+\<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
   <introduction>
-    <para>To deploy Microsoft Azure Rights Management (Azure RMS) in your organization, make sure that you have the following prerequisites. You can then use the <link xlink:href="086600c2-c5d8-47ec-a4c0-c782e1797486">Azure Rights Management Deployment Roadmap</link> to deploy Rights Management for your organization.</para>
-    <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+    <para>To deploy Microsoft Azure Rights Management (Azure RMS) in your organization, make sure that you have the following prerequisites. You can then use the \<link xlink:href="086600c2-c5d8-47ec-a4c0-c782e1797486">Azure Rights Management Deployment Roadmap</link> to deploy Rights Management for your organization.</para>
+    \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
       <thead>
         <tr>
           <TD>
@@ -50,7 +51,7 @@ translation.priority.mt:
           </TD>
           <TD>
             <para>Your organization must have a cloud subscription that supports RMS.</para>
-            <para>For licensing information, see the <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedSubscriptions">Cloud subscriptions that support Azure RMS</link> section in this topic.</para>
+            <para>For licensing information, see the \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedSubscriptions">Cloud subscriptions that support Azure RMS</link> section in this topic.</para>
           </TD>
         </tr>
         <tr>
@@ -59,7 +60,7 @@ translation.priority.mt:
           </TD>
           <TD>
             <para>Your organization must have an Azure AD directory to support user authentication for RMS. In addition, if you want to use your user accounts from your on-premises directory (AD DS), you must also configure directory integration. </para>
-            <para>Multi-factor authentication (MFA) is supported with Azure RMS when you have the required client software and correctly configured     MFA supporting infrastructure.</para><para>For more information, see the <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_AzureADTenant">Azure AD directory</link> section in this topic.</para>
+            <para>Multi-factor authentication (MFA) is supported with Azure RMS when you have the required client software and correctly configured     MFA supporting infrastructure.</para><para>For more information, see the \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_AzureADTenant">Azure AD directory</link> section in this topic.</para>
           </TD>
         </tr>
         <tr>
@@ -68,7 +69,7 @@ translation.priority.mt:
           </TD>
           <TD>
             <para>Users must have a client devices (computer or mobile device) that run an operating system that supports RMS.</para>
-            <para>For more information, see the <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedDevices">Client devices that support Azure RMS</link> section in this topic.</para>
+            <para>For more information, see the \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedDevices">Client devices that support Azure RMS</link> section in this topic.</para>
           </TD>
         </tr>
         <tr>
@@ -77,7 +78,7 @@ translation.priority.mt:
           </TD>
           <TD>
             <para>Users must run applications that support RMS.</para>
-            <para>For more information, see the <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedApplications">Applications that support Azure RMS</link> section in this topic.</para>
+            <para>For more information, see the \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedApplications">Applications that support Azure RMS</link> section in this topic.</para>
           </TD>
         </tr>
         <tr>
@@ -85,8 +86,8 @@ translation.priority.mt:
             <para>Infrastructure that supports connectivity to the Internet and dependent cloud services</para>
           </TD>
           <TD>
-            <?Comment CB: 13983 2015-03-05T08:43:00Z  Id='3?>
-            <para>If you have a firewall or similar intervening network devices that must be configured to allow specific connections, see <externalLink><linkText>Office 356 URLs and IP address ranges</linkText><linkUri>https://support.office.com/en-US/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2</linkUri></externalLink>. <?CommentEnd Id='3'
+            \<?Comment CB: 13983 2015-03-05T08:43:00Z  Id='3?>
+            <para>If you have a firewall or similar intervening network devices that must be configured to allow specific connections, see <externalLink><linkText>Office 356 URLs and IP address ranges</linkText><linkUri>https://support.office.com/en-US/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2</linkUri></externalLink>. \<?CommentEnd Id='3'
     ?></para>
             <para>The list of URLs and IP addresses in the <embeddedLabel>Office 356 portal and identity</embeddedLabel> section apply to the Office 365 portal, Azure Active Directory resources, and Azure Rights Management. Use the instructions in this article to keep up-to-date with changes to this information, by subscribing to an RSS feed.</para>
             <para>In addition to the information in the Office article, specific to Azure RMS:</para>
@@ -115,15 +116,15 @@ translation.priority.mt:
         <para>Windows Server file servers that support File Classification Infrastructure</para>
       </listItem>
     </list>
-    <para>For information about the additional Azure RMS requirements for this scenario, see the <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedServers">On-premises servers that support Azure RMS</link> section in this topic.</para>
+    <para>For information about the additional Azure RMS requirements for this scenario, see the \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_SupportedServers">On-premises servers that support Azure RMS</link> section in this topic.</para>
     <alert class="important">
       <para>The following deployment scenario is not supported: </para>
       <list class="bullet">
         <listItem>
-          <para>Running AD RMS and Azure RMS side-by-side in the same organization, except during migration, as described in <link xlink:href="828cf1f7-d0e7-4edf-8525-91896dbe3172">Migrating from AD RMS to Azure Rights Management</link>.</para>
+          <para>Running AD RMS and Azure RMS side-by-side in the same organization, except during migration, as described in \<link xlink:href="828cf1f7-d0e7-4edf-8525-91896dbe3172">Migrating from AD RMS to Azure Rights Management</link>.</para>
         </listItem>
       </list>
-      <para>There is a supported migration path <externalLink><linkText>from AD RMS to Azure RMS</linkText><linkUri>http://technet.microsoft.com/library/Dn858447.aspx</linkUri></externalLink>, and from <externalLink><linkText>Azure RMS to AD RMS</linkText><linkUri>http://msdn.microsoft.com/library/azure/dn629429.aspx</linkUri></externalLink>. If you deploy Azure RMS and then decide that you no longer want to use this cloud service, see <link xlink:href="0b1c2064-0d01-45ae-a541-cebd7fd762ad">Deactivating Azure Rights Management</link>. </para>
+      <para>There is a supported migration path <externalLink><linkText>from AD RMS to Azure RMS</linkText><linkUri>http://technet.microsoft.com/library/Dn858447.aspx</linkUri></externalLink>, and from <externalLink><linkText>Azure RMS to AD RMS</linkText><linkUri>http://msdn.microsoft.com/library/azure/dn629429.aspx</linkUri></externalLink>. If you deploy Azure RMS and then decide that you no longer want to use this cloud service, see \<link xlink:href="0b1c2064-0d01-45ae-a541-cebd7fd762ad">Deactivating Azure Rights Management</link>. </para>
     </alert>
     <para>Use the following sections to learn more about the Azure RMS requirements.</para>
   </introduction>
@@ -159,7 +160,7 @@ translation.priority.mt:
             </externalLink>
           </para>
           <para>This subscription is designed for organizations who want to use the Office online services and use their Information Rights Management feature, which uses Azure RMS. However, not all Office 365 subscriptions include Azure RMS. </para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <thead>
               <tr>
                 <TD>
@@ -243,7 +244,7 @@ translation.priority.mt:
           <para>This subscription was formerly known as Azure RMS Standalone and it is designed for organizations that want to use Azure RMS but don’t have subscription that includes Azure RMS. For example, if you have a subscription for Office 365 Business Essentials or Office 365 Enterprise E1, these subscriptions do not include Azure RMS (see the table in the preceding section). To use Azure RMS, you could purchase a subscription for Azure Rights Management Premium (or purchase another subscription, such as Office 365 Enterprise E4, that includes Azure RMS).</para>
           <para>For more information, see <externalLink><linkText>Microsoft Azure Rights Management</linkText><linkUri>http://products.office.com/business/microsoft-azure-rights-management</linkUri></externalLink>.</para>
           <para>This subscription also offers a trial period for you to try out Azure RMS for 25 users, at no charge. If the subscription expires before you purchase a replacement subscription, see the following section, “What happens when the trial subscription expires?”</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <thead>
               <tr>
                 <TD>
@@ -336,7 +337,7 @@ translation.priority.mt:
             </externalLink>
           </para><para>This subscription is designed for organizations who want to use a combination of Azure Active Directory Premium, Windows Intune, and Azure Rights Management. For more information, see the <externalLink><linkText>Microsoft Enterprise Mobility Overview</linkText><linkUri>http://go.microsoft.com/fwlink/?LinkId=615386</linkUri></externalLink>.</para>
           <para/>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <thead>
               <tr>
                 <TD>
@@ -413,7 +414,7 @@ translation.priority.mt:
         <title>RMS for individuals subscription</title>
         <content>
           <para>This subscription is designed for individuals in an organization that hasn’t deployed Azure RMS or AD RMS. It lets these people read content that has been protected by an organization that is using Azure RMS, and they can also protect their own content.</para>
-          <para>For more information, see <link xlink:href="2efcb440-fefd-45e9-872b-f471573aadf2">RMS for Individuals and Azure Rights Management</link>.</para>
+          <para>For more information, see \<link xlink:href="2efcb440-fefd-45e9-872b-f471573aadf2">RMS for Individuals and Azure Rights Management</link>.</para>
         </content>
       </section>
     </sections>
@@ -427,16 +428,16 @@ translation.priority.mt:
       <list class="bullet">
         <listItem>
           <para>
-            <legacyLink xlink:href="185da266-58a9-43e6-9c66-2c8f702545c6">What is an Azure AD directory?</legacyLink>
+            \<legacyLink xlink:href="185da266-58a9-43e6-9c66-2c8f702545c6">What is an Azure AD directory?</legacyLink>
           </para>
         </listItem>
         <listItem>
           <para>
-            <legacyLink xlink:href="edf05c2e-944a-4da5-a330-dc9dc479f127">How Azure subscriptions are associated with Azure AD</legacyLink>
+            \<legacyLink xlink:href="edf05c2e-944a-4da5-a330-dc9dc479f127">How Azure subscriptions are associated with Azure AD</legacyLink>
           </para>
         </listItem>
       </list>
-      <para>If you want to integrate your Azure AD directory with your on-premises AD forests, see <legacyLink xlink:href="bf82bdff-2467-403b-8c1a-0e9eebcf31e8">Directory integration</legacyLink>.</para>
+      <para>If you want to integrate your Azure AD directory with your on-premises AD forests, see \<legacyLink xlink:href="bf82bdff-2467-403b-8c1a-0e9eebcf31e8">Directory integration</legacyLink>.</para>
       <alert class="note">
         <para>If you have mobile devices or Mac computers that authenticate on-premises by using AD FS or an equivalent authentication provider: </para>
         <list class="bullet">
@@ -447,7 +448,7 @@ translation.priority.mt:
       </alert>
     </content>
   <sections><section address="BKMK_MFA">
-<title>Multi-factor authentication (MFA) and Azure RMS</title><content><para>To use multi-factor authentication (MFA) with Azure RMS requires at least one of the following: </para><list class="bullet"><listItem><para>Office 2013 (minimum version):</para><list class="bullet"><listItem><para>   If you have Office 2013, you must also install the <externalLink><linkText>June 9, 2015, update for Office 2013 (KB3054853)</linkText><linkUri>https://support.microsoft.com/kb/3054853</linkUri></externalLink>. For more information about this update and how modern authentication brings Active Directory Authentication Library (ADAL)-based sign in to Office 2013, see <externalLink><linkText>Office 2013 modern authentication public preview announced</linkText><linkUri>https://blogs.office.com/2015/03/23/office-2013-modern-authentication-public-preview-announced/</linkUri></externalLink>  on the Office blog.</para></listItem></list></listItem><listItem><para>Rights Management sharing application for Windows: </para><list class="bullet"><listItem><para>You must have installed the minimum version of 1.0.1908.0, which can be confirmed by using Control Panel, Programs and Features. For more information about the sharing application, see  <link xlink:href="7d8a8abe-6de1-4088-90ee-e0c4bd6deec8">Rights Management Sharing Application for Windows</link>.</para></listItem></list></listItem><listItem><para>Rights Management sharing app for mobile devices and Mac computers: </para><list class="bullet"><listItem><para>Make sure that you have the latest version installed. MFA support went into the September 2015 release of the RMS sharing app.</para></listItem></list></listItem></list><para>Then, configure your MFA solution:</para><list class="bullet"><listItem><para>For Microsoft-managed tenants (you have Azure Active Directory or Office 365):  </para><list class="bullet"><listItem><para>Configure Azure MFA to enforce MFA for users. For instructions, see <externalLink><linkText>Getting started with Azure Multi-Factor Authentication in the cloud</linkText><linkUri>https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/</linkUri></externalLink> from the Azure documentation. </para><para>For more information about Azure MFA, see <externalLink><linkText>What is Azure Multi-Factor Authentication?</linkText><linkUri>https://azure.microsoft.com/documentation/articles/multi-factor-authentication/</linkUri></externalLink></para></listItem></list></listItem><listItem><para>For federated tenants (you operate federation servers on-premises):  </para> <list class="bullet"><listItem><para>Configure your federation servers for Azure Active Directory or Office 365. For example, if you are using AD FS, see <externalLink><linkText>Configure Additional Authentication Methods for AD FS</linkText><linkUri>https://technet.microsoft.com/library/dn758113.aspx</linkUri></externalLink> on TechNet.  </para><para> For more information about this scenario, see  <externalLink><linkText>The Works with Office 365 – Identity program now streamlined</linkText><linkUri>https://blogs.office.com/2014/01/30/the-works-with-office-365-identity-program-now-streamlined/</linkUri></externalLink> on the Office blog. </para></listItem></list></listItem></list></content>
+<title>Multi-factor authentication (MFA) and Azure RMS</title><content><para>To use multi-factor authentication (MFA) with Azure RMS requires at least one of the following: </para><list class="bullet"><listItem><para>Office 2013 (minimum version):</para><list class="bullet"><listItem><para>   If you have Office 2013, you must also install the <externalLink><linkText>June 9, 2015, update for Office 2013 (KB3054853)</linkText><linkUri>https://support.microsoft.com/kb/3054853</linkUri></externalLink>. For more information about this update and how modern authentication brings Active Directory Authentication Library (ADAL)-based sign in to Office 2013, see <externalLink><linkText>Office 2013 modern authentication public preview announced</linkText><linkUri>https://blogs.office.com/2015/03/23/office-2013-modern-authentication-public-preview-announced/</linkUri></externalLink>  on the Office blog.</para></listItem></list></listItem><listItem><para>Rights Management sharing application for Windows: </para><list class="bullet"><listItem><para>You must have installed the minimum version of 1.0.1908.0, which can be confirmed by using Control Panel, Programs and Features. For more information about the sharing application, see  \<link xlink:href="7d8a8abe-6de1-4088-90ee-e0c4bd6deec8">Rights Management Sharing Application for Windows</link>.</para></listItem></list></listItem><listItem><para>Rights Management sharing app for mobile devices and Mac computers: </para><list class="bullet"><listItem><para>Make sure that you have the latest version installed. MFA support went into the September 2015 release of the RMS sharing app.</para></listItem></list></listItem></list><para>Then, configure your MFA solution:</para><list class="bullet"><listItem><para>For Microsoft-managed tenants (you have Azure Active Directory or Office 365):  </para><list class="bullet"><listItem><para>Configure Azure MFA to enforce MFA for users. For instructions, see <externalLink><linkText>Getting started with Azure Multi-Factor Authentication in the cloud</linkText><linkUri>https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/</linkUri></externalLink> from the Azure documentation. </para><para>For more information about Azure MFA, see <externalLink><linkText>What is Azure Multi-Factor Authentication?</linkText><linkUri>https://azure.microsoft.com/documentation/articles/multi-factor-authentication/</linkUri></externalLink></para></listItem></list></listItem><listItem><para>For federated tenants (you operate federation servers on-premises):  </para> <list class="bullet"><listItem><para>Configure your federation servers for Azure Active Directory or Office 365. For example, if you are using AD FS, see <externalLink><linkText>Configure Additional Authentication Methods for AD FS</linkText><linkUri>https://technet.microsoft.com/library/dn758113.aspx</linkUri></externalLink> on TechNet.  </para><para> For more information about this scenario, see  <externalLink><linkText>The Works with Office 365 – Identity program now streamlined</linkText><linkUri>https://blogs.office.com/2014/01/30/the-works-with-office-365-identity-program-now-streamlined/</linkUri></externalLink> on the Office blog. </para></listItem></list></listItem></list></content>
 </section></sections></section>
   <section address="BKMK_SupportedDevices">
     <title>Client devices that support Azure RMS</title>
@@ -456,17 +457,17 @@ translation.priority.mt:
       <list class="bullet">
         <listItem>
           <para>
-            <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_RMSSupportedComputers">Computers</link>
+            \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_RMSSupportedComputers">Computers</link>
           </para>
         </listItem>
         <listItem>
           <para>
-            <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_RMSSupportedMobileDevices">Mobile devices</link>
+            \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_RMSSupportedMobileDevices">Mobile devices</link>
           </para>
         </listItem>
         <listItem>
           <para>
-            <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_ClientCapabilities">Client device capabilities</link>
+            \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb#BKMK_ClientCapabilities">Client device capabilities</link>
           </para>
         </listItem>
       </list>
@@ -545,7 +546,7 @@ translation.priority.mt:
                 <embeddedLabel>Other file types</embeddedLabel>: Text and image files include files that have a file name extension such as .txt, .xml, .jpg, .and jpeg. These files change their file name extension after they are natively protected by RMS, and become read-only. Files that cannot be natively protected have a .pfile file name extension after they are generically protected by RMS. For more information, see the <externalLink><linkText>Levels of protection – native and generic</linkText><linkUri>https://technet.microsoft.com/library/dn339003.aspx#BKMK_LevelsofProtection</linkUri></externalLink> and <externalLink><linkText>Supported file types and file name extensions</linkText><linkUri>https://technet.microsoft.com/library/dn339003.aspx#BKMK_SupportFileTypes</linkUri></externalLink> sections from the <externalLink><linkText>Rights Management sharing application administrator guide</linkText><linkUri>http://technet.microsoft.com/library/dn339003(v=ws.10).aspx</linkUri></externalLink>.</para>
             </listItem>
           </list>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <thead>
               <tr>
                 <TD>
@@ -575,7 +576,7 @@ translation.priority.mt:
                   </para>
                 </TD>
                 <TD rowspan="1">
-                  <para>Office 2010</para><para>Office 2013</para><?xm-insertion_mark_start author="" time="20150922T063938-0800"?><para>Office 2016</para><?xm-insertion_mark_end?>
+                  <para>Office 2010</para><para>Office 2013</para>\<?xm-insertion_mark_start author="" time="20150922T063938-0800"?><para>Office 2016</para>\<?xm-insertion_mark_end?>
                   
                   <para>Office Mobile apps (Azure RMS only)<superscript>1</superscript></para><para>Office Online<superscript>2</superscript></para>
                 </TD>
@@ -586,7 +587,7 @@ translation.priority.mt:
                   <para>RMS sharing app</para>
                 </TD>
                 <TD rowspan="1">
-                  <para>Outlook 2010</para><para>Outlook 2013</para><?xm-insertion_mark_start author="" time="20150922T064017-0800"?><para>Outlook 2016</para><?xm-insertion_mark_end?>
+                  <para>Outlook 2010</para><para>Outlook 2013</para>\<?xm-insertion_mark_start author="" time="20150922T064017-0800"?><para>Outlook 2016</para>\<?xm-insertion_mark_end?>
                   
                   <para>Outlook Web App (OWA)</para>
                 <para>Windows Mail<superscript>3</superscript></para></TD>
@@ -753,10 +754,10 @@ translation.priority.mt:
             <listItem>
               <para>Office 365 Enterprise E3</para>
             </listItem>
-            <?xm-insertion_mark_start author="" time="20150922T064135-0800"?><listItem>
+            \<?xm-insertion_mark_start author="" time="20150922T064135-0800"?><listItem>
               <para>Office Professional 2016</para>
             </listItem>
-            <?xm-insertion_mark_end?><listItem>
+            \<?xm-insertion_mark_end?><listItem>
               <para>Office Professional 2013</para>
             </listItem>
             <listItem>
@@ -771,7 +772,7 @@ translation.priority.mt:
               </alert>
             </listItem>
           </list>
-          <para>You must have one of these Office versions to protect content, but any version of <?xm-insertion_mark_start author="" time="20150922T064105-0800"?>Office 2016, <?xm-insertion_mark_end?>Office 2013<?xm-insertion_mark_start author="" time="20150922T064119-0800"?>,<?xm-insertion_mark_end?> or Office 2010 can consume protected content.</para>
+          <para>You must have one of these Office versions to protect content, but any version of \<?xm-insertion_mark_start author="" time="20150922T064105-0800"?>Office 2016, \<?xm-insertion_mark_end?>Office 2013\<?xm-insertion_mark_start author="" time="20150922T064119-0800"?>,\<?xm-insertion_mark_end?> or Office 2010 can consume protected content.</para>
         </listItem>
         <listItem>
           <para>
@@ -806,7 +807,7 @@ translation.priority.mt:
             <listItem>
               <para>Download the relevant app by using the links on the <externalLink><linkText>Microsoft Rights Management page</linkText><linkUri>http://go.microsoft.com/fwlink/?LinkId=303970</linkUri></externalLink></para>
             </listItem>
-            <!--Not to go live before  Intune goes out.--><?xm-deletion_mark author="" time="20150617T152933-0800" data="&lt;maml:listItem xmlns:maml=&quot;http://ddue.schemas.microsoft.com/authoring/2003/5&quot;&gt;
+            \<!--Not to go live before  Intune goes out.-->\<?xm-deletion_mark author="" time="20150617T152933-0800" data="&lt;maml:listItem xmlns:maml=&quot;http://ddue.schemas.microsoft.com/authoring/2003/5&quot;&gt;
               &lt;maml:para&gt;If you manage mobile devices by using Microsoft Intune, you can deploy and configure the app on &lt;maml:externalLink&gt;&lt;maml:linkText&gt;iOS and Android devices as a policy managed app&lt;/maml:linkText&gt;&lt;maml:linkUri&gt;https://technet.microsoft.com/library/dn878026.aspx&lt;/maml:linkUri&gt;&lt;/maml:externalLink&gt;.&lt;/maml:para&gt;
             &lt;/maml:listItem&gt;"?><listItem>
               <para>
@@ -829,7 +830,7 @@ translation.priority.mt:
               <para>Applications from software vendors that are written by using the RMS SDK</para>
             </listItem>
           </list>
-          <para>For more information about <?Comment CB: Updated link per Gagan 2015-03-05T08:43:00Z  Id='85?>the SDK<?CommentEnd Id='85'
+          <para>For more information about \<?Comment CB: Updated link per Gagan 2015-03-05T08:43:00Z  Id='85?>the SDK\<?CommentEnd Id='85'
     ?>, see the <externalLink><linkText>Microsoft Rights Management SDK</linkText><linkUri>http://msdn.microsoft.com/library/hh552972(v=vs.85).aspx</linkUri></externalLink>.</para>
         </listItem>
       </list>
@@ -851,8 +852,8 @@ translation.priority.mt:
           </listItem>
         </list>
       </alert>
-      <para>For more information about how these applications support Azure RMS, see <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link>. </para>
-      <para>For information about how to configure them, see <link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link>.</para>
+      <para>For more information about how these applications support Azure RMS, see \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link>. </para>
+      <para>For information about how to configure them, see \<link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link>.</para>
     </content>
   </section>
   <section address="BKMK_SupportedServers">
@@ -897,14 +898,14 @@ translation.priority.mt:
           </list>
           <alert class="note">
             <para>Because file servers that run Windows Server 2008 R2 do not have a built-in file management task action to apply RMS protection, you cannot use the RMS connector for this scenario. However, you can use File Classification Infrastructure and Azure RMS on these operating systems if you configure a custom file management task to run an executable or script that can protect files by using Azure RMS. For example, a Windows PowerShell script that uses the <externalLink><linkText>RMS Protection cmdlets</linkText><linkUri>https://msdn.microsoft.com/library/azure/mt433195.aspx</linkUri></externalLink>. </para>
-          <para>You can also use these cmdlets with servers running later versions of Windows Server, with the benefit that these cmdlets can protect all file types. The RMS connector protects Office files only. For how-to instructions, see <link xlink:href="9aa693db-9727-4284-9f64-867681e114c9">RMS Protection with Windows Server File Classification Infrastructure (FCI)</link>.</para></alert>
+          <para>You can also use these cmdlets with servers running later versions of Windows Server, with the benefit that these cmdlets can protect all file types. The RMS connector protects Office files only. For how-to instructions, see \<link xlink:href="9aa693db-9727-4284-9f64-867681e114c9">RMS Protection with Windows Server File Classification Infrastructure (FCI)</link>.</para></alert>
         </listItem>
       </list>
       <para>The RMS connector is supported on Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2.</para>
-      <para>For more information about how to configure the RMS connector for these on-premises servers, see <link xlink:href="90e7e33f-9ecc-497b-89c5-09205ffc5066">Deploying the Azure Rights Management Connector</link>.</para>
+      <para>For more information about how to configure the RMS connector for these on-premises servers, see \<link xlink:href="90e7e33f-9ecc-497b-89c5-09205ffc5066">Deploying the Azure Rights Management Connector</link>.</para>
     </content>
   </section>
   <relatedTopics>
-    <link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting Started with Azure Rights Management</link>
+    \<link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting Started with Azure Rights Management</link>
   </relatedTopics>
 </developerConceptualDocument>

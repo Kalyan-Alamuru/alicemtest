@@ -1,18 +1,19 @@
 ---
 title: "Manage Telemetry Settings"
 ms.custom: na
-ms.date: 09/19/2016
-ms.prod: identity-ata
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 8c1c7a1b-a3de-4105-9fd0-08a061952172
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Manage Telemetry Settings
 Advanced Threat Analytics (ATA) collects anonymous telemetry data about ATA and transmits the data over an HTTPS connection to Microsoft servers.  This data is used by Microsoft to help improve future versions of ATA.
@@ -66,6 +67,6 @@ To stop collecting and sending telemetry data to Microsoft follow the following 
 2.  Uncheck the box for **Send us usage information to help improve your customer experience in the future**.
 
 ## See Also
-[ATA Release Notes](../../ems/ATA_Content/ATA-Release-Notes.md)
+[ATA Release Notes](../../ems/ATA_Content/ata-release-notes.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

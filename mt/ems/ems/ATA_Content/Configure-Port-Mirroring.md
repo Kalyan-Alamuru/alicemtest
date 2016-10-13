@@ -1,21 +1,22 @@
 ---
 title: "Configure Port Mirroring"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: cdaddca3-e26e-4137-b553-8ed3f389c460
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Configure Port Mirroring
 The main data source used by ATA is deep packet inspection of the network traffic to and from your domain controllers. For ATA to see the network traffic, port mirroring needs to be configured. Port mirroring copies the traffic on one port, known as the source port, to another port, known as the destination port.  ATA works with most solutions that can mirror traffic - if the traffic can be port mirrored to ATA, it can be used to analyze threats to your system. To configure port mirroring, refer to your vendor's documentation.
@@ -47,7 +48,7 @@ Your domain controllers and ATA Gateways can be either physical or virtual. The 
 &#42; ERSPAN is only supported when decapsulation is performed before the traffic is analyzed by ATA.
 
 ## See Also
-[Validate Port Mirroring](../../ems/ATA_Content/Validate-Port-Mirroring.md)
- [ATA Installation](../../ems/ATA_Content/ATA-Installation.md)
+[Validate Port Mirroring](../../ems/ATA_Content/validate-port-mirroring.md)
+ [ATA Installation](../../ems/ATA_Content/ata-installation.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

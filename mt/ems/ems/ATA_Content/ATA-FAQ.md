@@ -1,21 +1,22 @@
 ---
 title: "ATA FAQ"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: e1954834-ff49-4ac1-b78c-06693569abff
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # ATA FAQ
 This section provides answers to frequently asked questions about Microsoft Advanced Threat Analytics.
@@ -86,7 +87,7 @@ The Kerberos authentication protocol enables the transparent Single Sign-On (SSO
 
 The Kerberos Authentication protocol works in the following manner:
 
-![ATA Kerberos background](../../ems/ATA_Content/media/ATA-Kerberos-background.jpg "ATA Kerberos background")
+![ATA Kerberos background](../../ems/ATA_Content/media/ata-kerberos-background.jpg "ATA Kerberos background")
 
 1.  The user provides the Domain Name, user, and password to access their computer.
 
@@ -154,7 +155,7 @@ If the customer covers only some of their users with one of the three license su
 Technical support for Advanced Threat Analytics is available through [discussion forums](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata).
 
 ## See Also
-[ATA Release Notes](../../ems/ATA_Content/ATA-Release-Notes.md)
- [ATA Architecture](../../ems/ATA_Content/ATA-Architecture.md)
- [ATA Deployment Guide](../../ems/ATA_Content/ATA-Deployment-Guide.md)
+[ATA Release Notes](../../ems/ATA_Content/ata-release-notes.md)
+ [ATA Architecture](../../ems/ATA_Content/ata-architecture.md)
+ [ATA Deployment Guide](../../ems/ATA_Content/ata-deployment-guide.md)
 

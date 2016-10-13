@@ -1,21 +1,22 @@
 ---
 title: "Working with Suspicious Activities"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 44d7c899-816c-4f7f-91d3-84a09d291a24
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Working with Suspicious Activities
 This topic explains the basics of how to work with Advanced Threat Analytics.
@@ -48,7 +49,7 @@ Each suspicious activity has the following information:
 > -   When you hover your mouse over a user or computer, an entity mini-profile is displayed that provides additional information about the entity and includes the number of suspicious activities that the entity is linked to.
 > -   If you click on an entity, it will take you to the entity profile of the user or computer.
 
-![ATA Suspicious Activity Timeline](../../ems/ATA_Content/media/ATA-Suspicious-Activity-Timeline.JPG "ATA Suspicious Activity Timeline")
+![ATA Suspicious Activity Timeline](../../ems/ATA_Content/media/ata-suspicious-activity-timeline.JPG "ATA Suspicious Activity Timeline")
 
 ## Filter suspicious activities list
 To filter the suspicious activities list:
@@ -93,7 +94,7 @@ To enable ATA to learn about your network with you, some suspicious activities (
 
 1.  For suspicious activities that enable you to provide input, the input question opens automatically. You will be asked to answer questions about activities on your network and whether or not they should be considered suspicious. In the below example, you are being asked if running scanning tools is allowed from a specific computer.
 
-    ![ATA Input](../../ems/ATA_Content/media/ATA-Input.JPG "ATA Input")
+    ![ATA Input](../../ems/ATA_Content/media/ata-input.JPG "ATA Input")
 
 2.  If you answer no, this activity will be considered suspicious and any time ATA encounters this activity from this computer, you will be alerted.
 
@@ -106,6 +107,6 @@ You can change the status of a suspicious activity by clicking the current statu
 
 ## See Also
 [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
- [Working with ATA Detection Settings](../../ems/ATA_Content/Working-with-ATA-Detection-Settings.md)
- [Modifying ATA Configuration](../../ems/ATA_Content/Modifying-ATA-Configuration.md)
+ [Working with ATA Detection Settings](../../ems/ATA_Content/working-with-ata-detection-settings.md)
+ [Modifying ATA Configuration](../../ems/ATA_Content/modifying-ata-configuration.md)
 

@@ -1,21 +1,22 @@
 ---
 title: "Working with the ATA Console"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 1bf264d9-9697-44b5-9533-e1c498da4f07
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Working with the ATA Console
 This section describes the ATA Console.
@@ -34,7 +35,7 @@ To allow a user to log in to the ATA Console without making them a local adminis
 
     You have to log in with a user who is a member of the local administrator group OR of the  Microsoft Advanced Threat Analytics Administrators group.
 
-    ![ATA log in screen](../../ems/ATA_Content/media/ATA-log-in-screen.jpg "ATA log in screen")
+    ![ATA log in screen](../../ems/ATA_Content/media/ata-log-in-screen.jpg "ATA log in screen")
 
 ## ATA Console elements
 
@@ -44,7 +45,7 @@ To allow a user to log in to the ATA Console without making them a local adminis
 
 -   **Suspicious activity**
 
-    When ATA detects a suspicious activity an entry is created in the attack time line. For more information, see [Working with Suspicious Activities](../../ems/ATA_Content/Working-with-Suspicious-Activities.md).
+    When ATA detects a suspicious activity an entry is created in the attack time line. For more information, see [Working with Suspicious Activities](../../ems/ATA_Content/working-with-suspicious-activities.md).
 
 -   **Notification bar**
 
@@ -58,13 +59,13 @@ To allow a user to log in to the ATA Console without making them a local adminis
 
     On the top of the screen you will find a search bar. You can search for a specific user, computer or groups in ATA. To give it a try, just start typing.
 
-    ![ATA console search](../../ems/ATA_Content/media/ATA-console-search.png "ATA console search")
+    ![ATA console search](../../ems/ATA_Content/media/ata-console-search.png "ATA console search")
 
 -   **Health Center**
 
     The Health Center provides you with alerts when something isn't working properly in your ATA network.
 
-    Any time your system encounters a problem, such as a connectivity error or a disconnected ATA Gateway, the Health Center icon will let you know by displaying a red dot. ![ATA Health Center Alert red dot](../../ems/ATA_Content/media/ATA-Health-Center-Alert-red-dot.png "ATA Health Center Alert red dot")
+    Any time your system encounters a problem, such as a connectivity error or a disconnected ATA Gateway, the Health Center icon will let you know by displaying a red dot. ![ATA Health Center Alert red dot](../../ems/ATA_Content/media/ata-health-center-alert-red-dot.png "ATA Health Center Alert red dot")
 
     Like suspicious activities, Health Center alerts can be dismissed or resolved and are categorized High, Medium or Low depending on their severity. If you resolve an alert that the ATA service detects as still active, it will automatically be moved to the Open list of alerts. If the system detects that there is no longer cause for an alert (the situation has been fixed), it will automatically be moved to the resolved list.
 
@@ -72,20 +73,20 @@ To allow a user to log in to the ATA Console without making them a local adminis
 
     Modifying and viewing the ATA Configuration is accomplished by clicking the settings icon (three dots) on the menu bar, followed by Configuration.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 -   **User and computer profiles**
 
     ATA builds a profile for each user and computer in the domain. In the user profile ATA will display general information about the user and will provide additional information on the following pages: Summary, Activities, and Suspicious activities.
 
     > [!NOTE]
-    > A profile that ATA has not been able to fully resolve will be identified with half-filled circle icon next to it.![ATA Unresolved Profile](../../ems/ATA_Content/media/ATA-Unresolved-Profile.jpg "ATA Unresolved Profile")
+    > A profile that ATA has not been able to fully resolve will be identified with half-filled circle icon next to it.![ATA Unresolved Profile](../../ems/ATA_Content/media/ata-unresolved-profile.jpg "ATA Unresolved Profile")
 
 -   **Mini profile**
 
     Anywhere in the console where there is a single entity presented, such as a user or computer, if you hover you mouse over the entity a mini profile will automatically open displaying the following information if available:
 
-    ![ATA mini profile](../../ems/ATA_Content/media/ATA-mini-profile.jpg "ATA mini profile")
+    ![ATA mini profile](../../ems/ATA_Content/media/ata-mini-profile.jpg "ATA mini profile")
 
     -   Name
 

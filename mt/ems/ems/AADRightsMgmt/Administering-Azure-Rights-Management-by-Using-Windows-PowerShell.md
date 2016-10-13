@@ -1,54 +1,55 @@
 ---
 title: "Administering Azure Rights Management by Using Windows PowerShell"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: a890e04a-4b70-41b5-8d5f-3c210a669faa
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - bg-bg
-  - el-gr
-  - es-es
-  - et-ee
-  - fi-fi
-  - fr-fr
-  - hr-hr
-  - it-it
-  - kk-kz
-  - ko-kr
-  - lt-lt
-  - lv-lv
-  - pt-br
-  - ro-ro
-  - ru-ru
-  - sk-sk
-  - sl-si
-  - sr-latn-cs
-  - th-th
-  - tr-tr
-  - uk-ua
-  - zh-cn
-  - zh-tw
+  - "bg-bg"
+  - "el-gr"
+  - "es-es"
+  - "et-ee"
+  - "fi-fi"
+  - "fr-fr"
+  - "hr-hr"
+  - "it-it"
+  - "kk-kz"
+  - "ko-kr"
+  - "lt-lt"
+  - "lv-lv"
+  - "pt-br"
+  - "ro-ro"
+  - "ru-ru"
+  - "sk-sk"
+  - "sl-si"
+  - "sr-latn-cs"
+  - "th-th"
+  - "tr-tr"
+  - "uk-ua"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - de-de
-  - hu-hu
-  - ja-jp
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "de-de"
+  - "hu-hu"
+  - "ja-jp"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Administering Azure Rights Management by Using Windows PowerShell
 Although you can activate Microsoft [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (Azure RMS) by using the [!INCLUDE[o365_2](../../ems/AADRightsMgmt/includes/o365_2_md.md)] admin center or the Azure portal, you can also use the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (AADRM) to do this.
@@ -56,9 +57,9 @@ Although you can activate Microsoft [!INCLUDE[aad_rightsmanagement_1](../../ems/
 After you have activated [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], further administration for the service might not be required. However, some advanced configuration scenarios might require you to use the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)]. The following table lists some of the advanced configuration scenarios that use Windows PowerShell. For a complete list of the available cmdlets with more information about each one, see [Azure Rights Management Cmdlets](http://msdn.microsoft.com/library/azure/dn629398.aspx).
 
 > [!NOTE]
-> If you need to install the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Installing-Windows-PowerShell-for-Azure-Rights-Management.md).
+> If you need to install the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/installing-windows-powershell-for-azure-rights-management.md).
 
-There is also a supplemental Windows PowerShell module, **RMSProtection**, which supports both Azure RMS and AD RMS. This module supports protecting and removing protection from multiple files so that, for example, you can bulk-protect all files in a folder. For more information, see the [Scripting options for super users](../../ems/AADRightsMgmt/Configuring-Super-Users-for-Azure-Rights-Management-and-Discovery-Services-or-Data-Recovery.md#BKMK_RMSProtectionModule) section in the [Configuring Super Users for Azure Rights Management and Discovery Services or Data Recovery](../../ems/AADRightsMgmt/Configuring-Super-Users-for-Azure-Rights-Management-and-Discovery-Services-or-Data-Recovery.md) topic.
+There is also a supplemental Windows PowerShell module, **RMSProtection**, which supports both Azure RMS and AD RMS. This module supports protecting and removing protection from multiple files so that, for example, you can bulk-protect all files in a folder. For more information, see the [Scripting options for super users](../../ems/AADRightsMgmt/configuring-super-users-for-azure-rights-management-and-discovery-services-or-data-recovery.md#BKMK_RMSProtectionModule) section in the [Configuring Super Users for Azure Rights Management and Discovery Services or Data Recovery](../../ems/AADRightsMgmt/configuring-super-users-for-azure-rights-management-and-discovery-services-or-data-recovery.md) topic.
 
 |If you need to…|…use the following cmdlets|
 |-------------------|------------------------------|

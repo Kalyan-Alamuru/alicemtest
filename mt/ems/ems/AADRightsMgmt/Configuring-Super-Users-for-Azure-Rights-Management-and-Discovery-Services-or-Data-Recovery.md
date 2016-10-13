@@ -1,30 +1,31 @@
 ---
 title: "Configuring Super Users for Azure Rights Management and Discovery Services or Data Recovery"
 ms.custom: na
-ms.date: 2015-08-01
+ms.date: "2015-08-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: acb4c00b-d3a9-4d74-94fe-91eeb481f7e3
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Configuring Super Users for Azure Rights Management and Discovery Services or Data Recovery
 The super user feature of Microsoft [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (Azure RMS) ensures that authorized people and services can always read and inspect the data that Azure RMS protects for your organization. And if necessary, remove the protection or change the protection that was previously applied. A super user always has full owner rights for all use licenses that was granted by the organization’s RMS tenant. This ability is sometimes referred to as “reasoning over data” and is a crucial element in maintaining control of your organization’s data. For example, you would use this feature for any of the following scenarios:
@@ -44,7 +45,7 @@ By default, the super user feature is not enabled, and no users are assigned thi
 If you need to manually enable the super user feature, use the Windows PowerShell cmdlet [Enable-AadrmSuperUserFeature](https://msdn.microsoft.com/library/azure/dn629400.aspx), and then assign users (or service accounts) as needed by using the [Add-AadrmSuperUser](https://msdn.microsoft.com/library/azure/dn629411.aspx) cmdlet. You can have one or multiple super users for your organization, but you must add individual users; groups are not supported.
 
 > [!NOTE]
-> If you have not yet installed the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)], see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Installing-Windows-PowerShell-for-Azure-Rights-Management.md).
+> If you have not yet installed the Windows PowerShell module for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)], see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/installing-windows-powershell-for-azure-rights-management.md).
 
 Security best practices for the super user feature:
 
@@ -73,5 +74,5 @@ For more information about these cmdlets, see [RMS Protection Cmdlets](https://m
 > The RMSProtection Windows PowerShell module that ships with the RMS Protection Tool is different from and supplements the main [Windows PowerShell module for Azure Rights Management](https://technet.microsoft.com/library/jj585027.aspx). It supports both Azure RMS and AD RMS.
 
 ## See Also
-[Configuring Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Azure-Rights-Management.md)
+[Configuring Azure Rights Management](../../ems/AADRightsMgmt/configuring-azure-rights-management.md)
 

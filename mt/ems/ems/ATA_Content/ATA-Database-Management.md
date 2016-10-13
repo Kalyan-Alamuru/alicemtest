@@ -1,18 +1,19 @@
 ---
 title: "ATA Database Management"
 ms.custom: na
-ms.date: 09/19/2016
-ms.prod: identity-ata
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 1d27dba8-fb30-4cce-a68a-f0b1df02b977
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # ATA Database Management
 If you need to move, backup or restore the ATA database, use these procedures for working with MongoDB.
@@ -37,7 +38,7 @@ Refer to the [relevant MongoDB documentation](http://docs.mongodb.org/manual/adm
 
 5.  Change the `dbPath` parameter inside the mongo configuration file to the new folder path and save and close the file.
 
-    ![ATA mongoDB moveDB](../../ems/ATA_Content/media/ATA-mongoDB-moveDB.png "ATA mongoDB moveDB")
+    ![ATA mongoDB moveDB](../../ems/ATA_Content/media/ata-mongodb-movedb.png "ATA mongoDB moveDB")
 
 6.  Start the **MongoDB** service.
 
@@ -50,7 +51,7 @@ Refer to the [relevant MongoDB documentation](http://docs.mongodb.org/manual/adm
 9. Start the **Microsoft Advanced Threat Analytics Center** service.
 
 ## See Also
-[ATA Architecture](../../ems/ATA_Content/ATA-Architecture.md)
- [ATA Planning and Requirements](../../ems/ATA_Content/ATA-Planning-and-Requirements.md)
+[ATA Architecture](../../ems/ATA_Content/ata-architecture.md)
+ [ATA Planning and Requirements](../../ems/ATA_Content/ata-planning-and-requirements.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

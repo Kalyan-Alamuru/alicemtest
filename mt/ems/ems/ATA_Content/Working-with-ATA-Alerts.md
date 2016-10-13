@@ -1,24 +1,25 @@
 ---
 title: "Working with ATA Alerts"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 14cb7513-5dc8-49cb-b3e0-94f469c443dd
 caps.latest.revision: 18
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # Working with ATA Alerts
 ATA can alert you when it detects a suspicious activity, either via email or by sending the alert to your Syslog server. If you enable either or both of these types of alerts, you can set the following for them.
@@ -34,7 +35,7 @@ The **Language** and **Verbosity** settings apply to notifications sent by email
 
 2.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 3.  Select **Alerts**.
 
@@ -42,7 +43,7 @@ The **Language** and **Verbosity** settings apply to notifications sent by email
 
 5.  Under **Verbosity**, select **Low** if you want to receive a brief notification only when a new alert is generated. Select **High** if you want to receive a detailed notification when a new alert is generated as well as when existing alerts are modified.
 
-    ![ATA alerts verbosity language](../../ems/ATA_Content/media/ATA-alerts-verbosity-language.JPG "ATA alerts verbosity language")
+    ![ATA alerts verbosity language](../../ems/ATA_Content/media/ata-alerts-verbosity-language.JPG "ATA alerts verbosity language")
 
 6.  Click **Save**.
 
@@ -55,7 +56,7 @@ ATA can alert you when it detects a suspicious activity. If you enable email ale
 
 3.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 4.  Select **Alerts**.
 
@@ -88,7 +89,7 @@ ATA can alert you when it detects a suspicious activity by sending the alert to 
 
 4.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 5.  Select **Alerts**.
 

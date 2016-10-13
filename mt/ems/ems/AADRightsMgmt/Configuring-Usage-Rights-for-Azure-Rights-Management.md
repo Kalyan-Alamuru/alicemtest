@@ -1,30 +1,31 @@
 ---
 title: "Configuring Usage Rights for Azure Rights Management"
 ms.custom: na
-ms.date: 2015-08-01
+ms.date: "2015-08-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: 97ddde38-b91b-42a5-8eb4-3ce6ce15393d
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Configuring Usage Rights for Azure Rights Management
 When you set protection on files or emails by using Azure Rights Management (Azure RMS) and you do not use a template, you must configure the usage rights yourself. In addition, when you configure custom templates for Azure RMS, you select the usage rights that will then be automatically applied when the template is selected by users, administrators, or configured services. For example, in the Azure  portal you can select roles that configure a logical grouping of usage rights, or you can configure the individual rights.
@@ -52,5 +53,5 @@ The following table lists and describes the usage rights that Rights Management 
 |Allow Macros|OBJMODEL|Enables the option to run macros or perform other programmatic or remote access to the content in a document.|As the **Allow Programmatic Access** custom policy option. Not a per-recipient setting.|**Allow Macros**|**Allow Macros**|Not applicable|No additional information|
 
 ## See Also
-[Configuring Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Azure-Rights-Management.md)
+[Configuring Azure Rights Management](../../ems/AADRightsMgmt/configuring-azure-rights-management.md)
 

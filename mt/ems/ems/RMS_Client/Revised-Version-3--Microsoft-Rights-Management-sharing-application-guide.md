@@ -1,32 +1,33 @@
 ---
 title: "Revised Version 3: Microsoft Rights Management sharing application guide"
 ms.custom: na
-ms.date: 09/19/2016
+ms.date: "09/19/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 846f1895-1daf-4164-8cf6-e4a691384c41
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - cs-cz
-  - de-de
-  - es-es
-  - fr-fr
-  - hu-hu
-  - it-it
-  - ja-jp
-  - ko-kr
-  - nl-nl
-  - pl-pl
-  - pt-br
-  - pt-pt
-  - ru-ru
-  - sv-se
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "hu-hu"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-br"
+  - "pt-pt"
+  - "ru-ru"
+  - "sv-se"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Revised Version 3: Microsoft Rights Management sharing application guide
 Use this guide for the Microsoft Rights Management (RMS) sharing application for Windows to help you keep important documents and pictures safe from people who should not see them, even if you email them or save them to another device. Similarly, this application lets you open and use files that other people have protected by using the same Rights Management technology.
@@ -151,7 +152,7 @@ The easiest way to protect a file is to use templates but you can also specify y
 
 To protect a file with user-authored permissions, right-click the file, click **Protect in-place**, and then click **Custom Permissions**. You will see the following screen:
 
-![Custom Protection for RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_ProtectCustom.gif "ADRMS_MSRMSApp_ProtectCustom")
+![Custom Protection for RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_protectcustom.gif "ADRMS_MSRMSApp_ProtectCustom")
 
 Type the email addresses of the users, use the slider to select permissions for the file, and then click **Apply**.
 
@@ -164,12 +165,12 @@ When you view a protected text file that has user-authored protection, you will 
 
 For files that are protected by using the generic protection (.pfile) file format, the specific rights or permissions that were specified by the user appears in the confirmation screen instead of the name of the template that was used to protect the file, as shown in the following picture.
 
-![Consume Protected File](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_ConsumePfile.gif "ADRMS_MSRMSApp_SP_ConsumePfile")
+![Consume Protected File](../../ems/RMS_Client/media/adrms_msrmsapp_sp_consumepfile.gif "ADRMS_MSRMSApp_SP_ConsumePfile")
 
 ### <a name="BKMK_ShareProtected"></a>Protect content to share by email
 To protect content that you want to share by using an email message, right-click the file, and click **Share Protected**. You will see the following screen:
 
-![Share protected dialog box](../../ems/RMS_Client/media/ADRMS_MSRMSAPP_SP_ShareProtected.gif "ADRMS_MSRMSAPP_SP_ShareProtected")
+![Share protected dialog box](../../ems/RMS_Client/media/adrms_msrmsapp_sp_shareprotected.gif "ADRMS_MSRMSAPP_SP_ShareProtected")
 
 Type the email addresses of the list of users, use the slider to select permissions for the file, and click **Send**. Outlook then creates an email message for the recipients with a short message that you can change, and attaches the protected file attached. The original file is not protected.
 
@@ -194,14 +195,14 @@ You can protect and share files in Word, PowerPoint, and Excel  directly from wi
 
 In the **Protection** group, click **Share Protected** to start the Microsoft Rights Management sharing application.
 
-![Office toolbar add-in](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_OfficeToolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
+![Office toolbar add-in](../../ems/RMS_Client/media/adrms_msrmsapp_sp_officetoolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
 
 ### <a name="BKMK_AccessKeys"></a>Use keyboard shortcuts
 Press the **Alt** key to see the available access keys, and then press **Alt** + the access key to select an option.
 
 For example, in the **share protected** dialog box, press **Alt** to see the access keys, and then press **Alt + u** to select the **Users must login every time they open this file** check box.
 
-![RMS sharing application access keys](../../ems/RMS_Client/media/ADRMS_MSRMSApp_AccessKeys.png "ADRMS_MSRMSApp_AccessKeys")
+![RMS sharing application access keys](../../ems/RMS_Client/media/adrms_msrmsapp_accesskeys.png "ADRMS_MSRMSApp_AccessKeys")
 
 ## See Also
 [Microsoft Rights Management sharing application download](http://go.microsoft.com/fwlink/?LinkId=303970)

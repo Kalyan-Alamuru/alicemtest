@@ -1,59 +1,60 @@
 ---
 title: "Decommissioning and Deactivating Azure Rights Management"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: 0b1c2064-0d01-45ae-a541-cebd7fd762ad
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - bg-bg
-  - de-de
-  - el-gr
-  - es-es
-  - et-ee
-  - fi-fi
-  - fr-fr
-  - hr-hr
-  - it-it
-  - ja-jp
-  - kk-kz
-  - ko-kr
-  - lt-lt
-  - lv-lv
-  - pt-br
-  - ro-ro
-  - ru-ru
-  - sk-sk
-  - sl-si
-  - sr-latn-cs
-  - th-th
-  - tr-tr
-  - uk-ua
-  - zh-cn
-  - zh-tw
+  - "bg-bg"
+  - "de-de"
+  - "el-gr"
+  - "es-es"
+  - "et-ee"
+  - "fi-fi"
+  - "fr-fr"
+  - "hr-hr"
+  - "it-it"
+  - "ja-jp"
+  - "kk-kz"
+  - "ko-kr"
+  - "lt-lt"
+  - "lv-lv"
+  - "pt-br"
+  - "ro-ro"
+  - "ru-ru"
+  - "sk-sk"
+  - "sl-si"
+  - "sr-latn-cs"
+  - "th-th"
+  - "tr-tr"
+  - "uk-ua"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - hu-hu
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "hu-hu"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Decommissioning and Deactivating Azure Rights Management
 You are always in control of whether your organization protects content by using [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (Azure RMS), and if you decide you no longer want to use this information protection solution, you have the assurance that you won’t be locked out of content that was previously protected. If you don’t need continued access to previously protected content, you simply deactivate the service and you can let your subscription for Azure Rights Management expire. For example, this would be appropriate for when you have completed testing [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] before you deploy it in a production environment.
 
-However, if you have deployed [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] in production, make sure that you have a copy of your Azure Rights Management tenant key before you deactivate the service and do this before your subscription expires, because this will ensure that you can retain access to content that was protected by Azure Rights Management after the service is deactivated. If you used the bring your own key solution (BYOK) where you generate and manage your own key in an HSM, you will already have your Azure Rights Management tenant key. But if it was managed by Microsoft (the default), see the instructions for exporting your tenant key in [Operations for Your Azure Rights Management Tenant Key](../../ems/AADRightsMgmt/Operations-for-Your-Azure-Rights-Management-Tenant-Key.md) topic.
+However, if you have deployed [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] in production, make sure that you have a copy of your Azure Rights Management tenant key before you deactivate the service and do this before your subscription expires, because this will ensure that you can retain access to content that was protected by Azure Rights Management after the service is deactivated. If you used the bring your own key solution (BYOK) where you generate and manage your own key in an HSM, you will already have your Azure Rights Management tenant key. But if it was managed by Microsoft (the default), see the instructions for exporting your tenant key in [Operations for Your Azure Rights Management Tenant Key](../../ems/AADRightsMgmt/operations-for-your-azure-rights-management-tenant-key.md) topic.
 
 > [!TIP]
 > Even after your subscription expires, your Azure Rights Management tenant remains available for consuming content for an extended period. However, you will no longer be able to export your tenant key.
@@ -72,7 +73,7 @@ For more information about the procedures in this table, see the following resou
 
 -   For instructions to import your Azure RMS tenant key as a TPD file, see [Add a Trusted Publishing Domain](https://technet.microsoft.com/library/cc771460.aspx).
 
--   To install the Windows PowerShell module for Azure RMS, to set the migration URL, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Installing-Windows-PowerShell-for-Azure-Rights-Management.md).
+-   To install the Windows PowerShell module for Azure RMS, to set the migration URL, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/installing-windows-powershell-for-azure-rights-management.md).
 
 When you are ready to deactivate the Azure RMS service for your organization, use the following instructions.
 
@@ -116,5 +117,5 @@ You should now see **Rights Management is not activated** and the option to acti
 The **RIGHTS MANAGEMENT STATUS** should now display **Inactive** and the **DEACTIVATE** option is replaced with **ACTIVATE**.
 
 ## See Also
-[Configuring Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Azure-Rights-Management.md)
+[Configuring Azure Rights Management](../../ems/AADRightsMgmt/configuring-azure-rights-management.md)
 

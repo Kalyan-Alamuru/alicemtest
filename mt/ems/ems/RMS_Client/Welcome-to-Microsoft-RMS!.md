@@ -1,32 +1,33 @@
 ---
 title: "Welcome to Microsoft RMS!"
 ms.custom: na
-ms.date: 09/19/2016
+ms.date: "09/19/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: ab7855fa-3cd2-4b64-98c8-387af23c0334
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - cs-cz
-  - de-de
-  - es-es
-  - fr-fr
-  - hu-hu
-  - it-it
-  - ja-jp
-  - ko-kr
-  - nl-nl
-  - pl-pl
-  - pt-br
-  - pt-pt
-  - ru-ru
-  - sv-se
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "cs-cz"
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "hu-hu"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-br"
+  - "pt-pt"
+  - "ru-ru"
+  - "sv-se"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Welcome to Microsoft RMS!
 You’re probably reading this because someone sent you a protected document and you clicked the sign in link in the email message, or your favorite search engine sent you here.

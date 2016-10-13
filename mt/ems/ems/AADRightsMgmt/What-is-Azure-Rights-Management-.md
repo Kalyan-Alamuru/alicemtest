@@ -1,65 +1,66 @@
 ---
 title: "What is Azure Rights Management?"
 ms.custom: na
-ms.date: 2015-11-01
+ms.date: "2015-11-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: aeeebcd7-6646-4405-addf-ee1cc74df5df
 caps.latest.revision: 8
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - bg-bg
-  - cs-cz
-  - da-dk
-  - el-gr
-  - es-es
-  - et-ee
-  - fi-fi
-  - fr-fr
-  - hr-hr
-  - hu-hu
-  - it-it
-  - kk-kz
-  - ko-kr
-  - lt-lt
-  - lv-lv
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-br
-  - pt-pt
-  - ro-ro
-  - ru-ru
-  - sk-sk
-  - sl-si
-  - sr-latn-cs
-  - sv-se
-  - th-th
-  - tr-tr
-  - uk-ua
-  - zh-cn
-  - zh-tw
+  - "bg-bg"
+  - "cs-cz"
+  - "da-dk"
+  - "el-gr"
+  - "es-es"
+  - "et-ee"
+  - "fi-fi"
+  - "fr-fr"
+  - "hr-hr"
+  - "hu-hu"
+  - "it-it"
+  - "kk-kz"
+  - "ko-kr"
+  - "lt-lt"
+  - "lv-lv"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-br"
+  - "pt-pt"
+  - "ro-ro"
+  - "ru-ru"
+  - "sk-sk"
+  - "sl-si"
+  - "sr-latn-cs"
+  - "sv-se"
+  - "th-th"
+  - "tr-tr"
+  - "uk-ua"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # What is Azure Rights Management?
-<?xml version="1.0" encoding="utf-8"?>
-<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
+\<?xml version="1.0" encoding="utf-8"?>
+\<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
   <introduction>
     <para>Azure Rights Management (Azure RMS) is an information protection solution for organizations that want to protect their data in today's challenging working environment. </para><para>These challenges include the need to be Internet-connected, with users bringing personal device to work, accessing company data on the road and home, and sharing sensitive information with important business partners. As part of their daily work, users share information by using email, file-sharing sites, and cloud services. In these scenarios, traditional security controls (such as access control lists and NTFS permissions) and firewalls have limited effectiveness if you want to protect your company data while still empowering your users to work efficiently.</para>
     <para>In comparison, Azure RMS can protect your company’s sensitive information in all these scenarios. It uses encryption, identity, and authorization policies to help secure your files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within your organization and outside your organization because that protection remains with the data, even when it leaves your organization’s boundaries. As an example, employees might email a document to a partner company, or they save a document to their cloud drive. The persistent protection that Azure RMS provides not only helps to secure your company data, but might also be legally mandated for compliance, legal discovery requirements, or simply good information management practices.</para>
     <para>But very importantly, authorized people and services (such as search and indexing) can continue to read and inspect the data that Azure RMS protects, which is not easily accomplished with other information protection solutions that use peer-to-peer encryption. This ability is sometimes referred to as “reasoning over data” and is a crucial element in maintaining control of your organization’s data.</para>
     <para>The following picture shows how Azure RMS works as a Rights Management solution for Office 365 as well as for on-premises servers and services. You'll also see that it supports the popular end user devices that run Windows, Mac OS, iOS, Android, and Windows Phone. </para>
     <mediaLink>
-      <image xlink:href="b5567e9d-98ee-4c9c-ae37-46207e2e53da"/>
+      \<image xlink:href="b5567e9d-98ee-4c9c-ae37-46207e2e53da"/>
     </mediaLink>
     <para> </para>
     <alert class="tip">
@@ -69,10 +70,10 @@ translation.priority.mt:
           <para>Two minute video: <externalLink><linkText>What is Microsoft Azure Rights Management</linkText><linkUri>http://technet.microsoft.com/dn833005.aspx</linkUri></externalLink></para>
         </listItem>
         <listItem>
-          <para>Five-step tutorial: <link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link></para>
+          <para>Five-step tutorial: \<link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link></para>
         </listItem>
         <listItem>
-          <para>Azure RMS requirements, including subscription options to purchase or evaluate: <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb">Requirements for Azure Rights Management</link></para>
+          <para>Azure RMS requirements, including subscription options to purchase or evaluate: \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb">Requirements for Azure Rights Management</link></para>
         </listItem>
       </list>
     </alert>
@@ -80,68 +81,68 @@ translation.priority.mt:
     <list class="bullet">
       <listItem>
         <para>
-          <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMSrequirements">What problems does Azure RMS solve?</link>
+          \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMSrequirements">What problems does Azure RMS solve?</link>
         </para>
         <list class="bullet">
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScompliance">Security, compliance, and regulatory requirements</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScompliance">Security, compliance, and regulatory requirements</link>
             </para>
           </listItem>
         </list>
       </listItem>
       <listItem>
         <para>
-          <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMSpictures">Azure RMS in action: What administrators and users see</link>
+          \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMSpictures">Azure RMS in action: What administrators and users see</link>
         </para>
         <list class="bullet">
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_ManagementPortal">Activating and configuring Rights Management</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_ManagementPortal">Activating and configuring Rights Management</link>
             </para>
           </listItem>
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_FCI">Automatically protecting files on file servers running Windows Server and File Classification Infrastructure</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_FCI">Automatically protecting files on file servers running Windows Server and File Classification Infrastructure</link>
             </para>
           </listItem>
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_DLP">Automatically protecting emails with Exchange Online and data loss prevention policies</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_DLP">Automatically protecting emails with Exchange Online and data loss prevention policies</link>
             </para>
           </listItem>
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_SharePoint">Automatically protecting files with SharePoint Online and protected libraries</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_SharePoint">Automatically protecting files with SharePoint Online and protected libraries</link>
             </para>
           </listItem>
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_SharingApp">Users safely share attachments with mobile users</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Example_SharingApp">Users safely share attachments with mobile users</link>
             </para>
           </listItem>
         </list>
       </listItem>
       <listItem>
         <para>
-          <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_HowRMSworks">How does Azure RMS work? Under the hood</link>
+          \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_HowRMSworks">How does Azure RMS work? Under the hood</link>
         </para>
         <list class="bullet">
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScrytographics">Cryptographic controls used by Azure RMS: Algorithms and key lengths</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScrytographics">Cryptographic controls used by Azure RMS: Algorithms and key lengths</link>
             </para>
           </listItem>
           <listItem>
             <para>
-              <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Walthrough">Walkthrough of how Azure RMS works: First use, content protection, content consumption</link>
+              \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Walthrough">Walkthrough of how Azure RMS works: First use, content protection, content consumption</link>
             </para>
           </listItem>
         </list>
       </listItem>
       <listItem>
         <para>
-          <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_NextSteps">Next steps</link>
+          \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_NextSteps">Next steps</link>
         </para>
       </listItem>
     </list>
@@ -150,7 +151,7 @@ translation.priority.mt:
     <title>What problems does Azure RMS solve?</title>
     <content>
       <para>Use the following table to identify business requirements or problems that your organization might have, and how Azure RMS can address these.</para>
-      <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+      \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
         <thead>
           <tr>
             <TD>
@@ -287,7 +288,7 @@ translation.priority.mt:
             <TD>
               <para>√ Azure RMS has tight integration with Microsoft Office applications and services, and extends support for other applications by using the RMS sharing application. </para>
               <para>√ The   <externalLink><linkText>Microsoft Rights Management SDK</linkText><linkUri>https://msdn.microsoft.com/library/hh552972(v=vs.85).aspx</linkUri></externalLink> provides your internal developers and software vendors with APIs to write custom applications that support Azure RMS.</para>
-              <para>For more information, see <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link>.</para>
+              <para>For more information, see \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link>.</para>
             </TD>
           </tr>
           <tr>
@@ -300,14 +301,14 @@ translation.priority.mt:
               <para>√ Delegated access by using the <externalLink><linkText>super user feature</linkText><linkUri>https://technet.microsoft.com/library/mt147272.aspx</linkUri></externalLink> ensures that IT can always access protected content, even if a document was protected by an employee who then leaves the organization. In comparison, peer-to-peer encryption solutions risk losing access to company data.</para>
               <para>√ Synchronize <externalLink><linkText>just the directory attributes that Azure RMS needs</linkText><linkUri>https://msdn.microsoft.com/library/azure/dn764938.aspx</linkUri></externalLink> to support a common identity for your on-premises Active Directory accounts, by using Azure Active Directory Synchronization Services (AAD Sync) or Azure AD Connect.</para>
               <para>√ Enable single-sign on without replicating passwords to the cloud, by using AD FS.</para>
-              <para>√ Organizations always have the choice to stop using Azure RMS without losing access to content that was previously protected by Azure RMS. For information about decommissioning options, see <link xlink:href="0b1c2064-0d01-45ae-a541-cebd7fd762ad">Decommissioning and Deactivating Azure Rights Management</link>. In addition, organizations who have deployed Active Directory Rights Management Services (AD RMS) can <externalLink><linkText>migrate to Azure RMS</linkText><linkUri>https://technet.microsoft.com/library/dn858447.aspx</linkUri></externalLink> without losing access to data that was previously protected by AD RMS.</para>
+              <para>√ Organizations always have the choice to stop using Azure RMS without losing access to content that was previously protected by Azure RMS. For information about decommissioning options, see \<link xlink:href="0b1c2064-0d01-45ae-a541-cebd7fd762ad">Decommissioning and Deactivating Azure Rights Management</link>. In addition, organizations who have deployed Active Directory Rights Management Services (AD RMS) can <externalLink><linkText>migrate to Azure RMS</linkText><linkUri>https://technet.microsoft.com/library/dn858447.aspx</linkUri></externalLink> without losing access to data that was previously protected by AD RMS.</para>
             </TD>
           </tr>
         </tbody>
       </table>
       <para/>
       <alert class="tip">
-        <para>If you are familiar with the on-premises version of Rights Management, Active Directory Rights Management Services (AD RMS), you might be interested in the comparison table from <link xlink:href="8123bd62-1814-4d79-b306-e20c1a00e264">Comparing Azure Rights Management and AD RMS</link>.</para>
+        <para>If you are familiar with the on-premises version of Rights Management, Active Directory Rights Management Services (AD RMS), you might be interested in the comparison table from \<link xlink:href="8123bd62-1814-4d79-b306-e20c1a00e264">Comparing Azure Rights Management and AD RMS</link>.</para>
       </alert>
     </content>
     <sections>
@@ -315,7 +316,7 @@ translation.priority.mt:
         <title>Security, compliance, and regulatory requirements</title>
         <content>
           <para>Azure RMS supports the following security, compliance and regulatory requirements: </para>
-          <para>√ Use of industry-standard cryptography and supports FIPS 140-2. For more information, see the <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScrytographics">Cryptographic controls used by Azure RMS: Algorithms and key lengths</link> section in this topic.</para>
+          <para>√ Use of industry-standard cryptography and supports FIPS 140-2. For more information, see the \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_RMScrytographics">Cryptographic controls used by Azure RMS: Algorithms and key lengths</link> section in this topic.</para>
           <para>√ Support for Thales Hardware Security Modules (HSMs) to store your tenant key in Microsoft Azure data centers. Azure RMS uses separate security worlds for its data centers in North America, EMEA (Europe, Middle East and Africa), and Asia, so your keys can be used only in your region.</para>
           <para>√ Certified for the following: </para>
           <list class="bullet">
@@ -358,13 +359,13 @@ translation.priority.mt:
         <title>Activating and configuring Rights Management</title>
         <content>
           <para>Although you can use Windows PowerShell to activate and configure Azure RMS, it’s easiest from the management portal. As soon as the service is activated, you have two default templates that administrators and users can select to quickly and easily apply information protection to files. But you can also create your own custom templates for additional options and settings.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="c6f05fce-3764-46ee-a39d-0f59175de8f0"/>
+                      \<image xlink:href="c6f05fce-3764-46ee-a39d-0f59175de8f0"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -382,7 +383,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="9c82ebfa-9eb8-46bc-9f21-bfd5524a50e9"/>
+                      \<image xlink:href="9c82ebfa-9eb8-46bc-9f21-bfd5524a50e9"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -404,7 +405,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="56ea12de-6f16-4fad-b2c5-18b6d4f6b312"/>
+                      \<image xlink:href="56ea12de-6f16-4fad-b2c5-18b6d4f6b312"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -421,7 +422,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="540b00f9-817c-40bc-bf4a-580dab02077c"/>
+                      \<image xlink:href="540b00f9-817c-40bc-bf4a-580dab02077c"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -444,8 +445,8 @@ translation.priority.mt:
               </tr>
             </tbody>
           </table>
-          <para>For more information, see <link xlink:href="f8707e01-b239-4d1a-a1ea-0d1cf9a8d214">Activating Azure Rights Management</link> and <link xlink:href="1775d8d0-9a59-42c8-914f-ce285b71ac1c">Configuring Custom Templates for Azure Rights Management</link>.</para>
-          <para>To help users protect important company files, see <link xlink:href="58f9a6ff-4121-4c8c-9865-1bb290604ad2">Helping Users to Protect Files by Using Azure Rights Management</link>.</para>
+          <para>For more information, see \<link xlink:href="f8707e01-b239-4d1a-a1ea-0d1cf9a8d214">Activating Azure Rights Management</link> and \<link xlink:href="1775d8d0-9a59-42c8-914f-ce285b71ac1c">Configuring Custom Templates for Azure Rights Management</link>.</para>
+          <para>To help users protect important company files, see \<link xlink:href="58f9a6ff-4121-4c8c-9865-1bb290604ad2">Helping Users to Protect Files by Using Azure Rights Management</link>.</para>
           <para>Next, see some examples of how administrators can apply the templates to automatically configure information protection for files and emails.</para>
         </content>
       </section>
@@ -454,13 +455,13 @@ translation.priority.mt:
         <content>
           <para>This example shows how you can use Azure RMS to automatically protect files on file servers that run at least Windows Server 2012 and are configured to use File Classification Infrastructure. </para>
           <para>There are many ways to apply classification values to files. For example, you can inspect the contents of files and accordingly apply built-in classifications such as Confidentiality and Personally Identifiable Information. However, in this example, an administrator creates a custom classification of <ui>Marketing</ui> that is automatically applied to all user documents that are saved in the <ui>Marketing Promotions</ui> folder. Although this folder is protected with NTFS permissions that restricts access to members of the Marketing group, the administrator knows that these permissions can be lost if somebody from that group moves or emails the files. Then, the information in the files could be accessed by unauthorized users.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="53a0818d-a1d9-49a2-9371-0d3fe4a2458c"/>
+                      \<image xlink:href="53a0818d-a1d9-49a2-9371-0d3fe4a2458c"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -477,7 +478,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="3f2f40a3-b657-4a06-9a43-0f0a55bcee65"/>
+                      \<image xlink:href="3f2f40a3-b657-4a06-9a43-0f0a55bcee65"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -496,7 +497,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="9c3a9711-de51-4ef1-aa9b-650a12e2932a"/>
+                      \<image xlink:href="9c3a9711-de51-4ef1-aa9b-650a12e2932a"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -517,7 +518,7 @@ translation.priority.mt:
               </tr>
             </tbody>
           </table>
-          <para>For more information, see <link xlink:href="90e7e33f-9ecc-497b-89c5-09205ffc5066">Deploying the Azure Rights Management Connector</link>.</para>
+          <para>For more information, see \<link xlink:href="90e7e33f-9ecc-497b-89c5-09205ffc5066">Deploying the Azure Rights Management Connector</link>.</para>
         </content>
       </section>
       <section address="BKMK_Example_DLP" expanded="true">
@@ -525,13 +526,13 @@ translation.priority.mt:
         <content>
           <para>The previous example showed how you could automatically protect files that contain sensitive or confidential information, but what if the information is not in a file, but in an email message? This is where Exchange Online data loss prevention (DLP) policies comes in, either prompting users to apply information protection (by using Policy Tips) or automatically applying it for them (by using transport rules). </para>
           <para>In this example, the administrator configures a policy to help keep the organization in compliance with US regulations for protecting personally identifiable information data, but rules can also be configured for other compliance regulations, or custom rules that you define.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="8f330a01-3a6e-4635-8d6f-51e6be78e6f0"/>
+                      \<image xlink:href="8f330a01-3a6e-4635-8d6f-51e6be78e6f0"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -550,7 +551,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="fd9d96eb-493f-4ca6-9857-4e3aa531f7ca"/>
+                      \<image xlink:href="fd9d96eb-493f-4ca6-9857-4e3aa531f7ca"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -567,7 +568,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="43a9487e-8aae-47fe-ac7f-53996527ccc7"/>
+                      \<image xlink:href="43a9487e-8aae-47fe-ac7f-53996527ccc7"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -587,11 +588,11 @@ translation.priority.mt:
           <list class="bullet">
             <listItem>
               <para>
-                <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9#BKMK_ExchangeIntro">Exchange Online and Exchange Server</link> in the <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> topic.</para>
+                \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9#BKMK_ExchangeIntro">Exchange Online and Exchange Server</link> in the \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> topic.</para>
             </listItem>
             <listItem>
               <para>
-                <link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36#BKMK_ExchangeOnline">Exchange Online: IRM Configuration</link> in the <link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link> topic.</para>
+                \<link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36#BKMK_ExchangeOnline">Exchange Online: IRM Configuration</link> in the \<link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link> topic.</para>
             </listItem>
           </list>
         </content>
@@ -601,13 +602,13 @@ translation.priority.mt:
         <content>
           <para>This shows how you can easily protect documents when you use SharePoint Online and protected libraries.</para>
           <para>In this example, the SharePoint administrator for Contoso has created a library for each department that they use to centrally store and check out documents for editing and version control. For example, there is a library for Sales, one for Marketing, one for Human Resources, and so on. When a new document is uploaded or created in one of these protected libraries, that document inherits the protection of the library (no need to select a rights policy template) and that document is automatically protected and remains protected, even if it’s moved outside the SharePoint library.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="b445e934-e018-4c6c-912b-3d8633f12764"/>
+                      \<image xlink:href="b445e934-e018-4c6c-912b-3d8633f12764"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -624,7 +625,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="43989403-68d8-4e99-a464-42875af775a7"/>
+                      \<image xlink:href="43989403-68d8-4e99-a464-42875af775a7"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -642,7 +643,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="e51f1c83-60ad-4747-a204-37b8c80b38d8"/>
+                      \<image xlink:href="e51f1c83-60ad-4747-a204-37b8c80b38d8"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -662,11 +663,11 @@ translation.priority.mt:
           <list class="bullet">
             <listItem>
               <para>
-                <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9#BKMK_SharePointIntro">SharePoint Online and SharePoint Server</link> in the <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> topic.</para>
+                \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9#BKMK_SharePointIntro">SharePoint Online and SharePoint Server</link> in the \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> topic.</para>
             </listItem>
             <listItem>
               <para>
-                <link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36#BKMK_SharePointOnline">SharePoint Online: IRM Configuration</link> in the <link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link> topic.</para>
+                \<link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36#BKMK_SharePointOnline">SharePoint Online: IRM Configuration</link> in the \<link xlink:href="ea09cbc5-b98b-444e-8b60-5bc3cb199c36">Configuring Applications for Azure Rights Management</link> topic.</para>
             </listItem>
           </list>
         </content>
@@ -677,13 +678,13 @@ translation.priority.mt:
           <para>The previous examples showed how administrators can automatically apply information protection to sensitive and confidential data. But there will be some occasions when users might need to apply this protection themselves. For example, they are collaborating with partners in another organization, they need custom permissions or settings that are not defined in templates, for or ad-hoc situations that are not covered by the previous examples. In these situations, users can apply the RMS templates themselves or configure custom permissions.</para>
           <para>This example shows how users can easily share a document with somebody they’re collaborating with from another company, but still be able to protect the document and be confident that the recipient can read it, even from a popular mobile device. This scenario uses the Rights Management sharing application, which you can automatically deploy to Windows computers in your organization. Or, users can install it themselves.</para>
           <para>In this example, Alice from Contoso, emails a confidential Word document that she sends to Bob, at Fabrikam. He reads the document on his iPad, but he could just as easily read it on an iPhone, an Android tablet or phone, a Mac computer, or a Windows phone or computer.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="713ce496-0c24-48e9-95bb-74e6f9823e86"/>
+                      \<image xlink:href="713ce496-0c24-48e9-95bb-74e6f9823e86"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -702,7 +703,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="768dafd7-b231-4d5e-b200-ab15ab665a97"/>
+                      \<image xlink:href="768dafd7-b231-4d5e-b200-ab15ab665a97"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -720,7 +721,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="a40120ff-9de9-44ed-9fd3-1fb7a509a564"/>
+                      \<image xlink:href="a40120ff-9de9-44ed-9fd3-1fb7a509a564"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -738,7 +739,7 @@ translation.priority.mt:
                 <TD>
                   <para>
                     <mediaLinkInline>
-                      <image xlink:href="dd175b7d-102d-4787-9b4e-684565cf416f"/>
+                      \<image xlink:href="dd175b7d-102d-4787-9b4e-684565cf416f"/>
                     </mediaLinkInline>
                   </para>
                   <para>
@@ -755,7 +756,7 @@ translation.priority.mt:
             </tbody>
           </table>
           <para>For more information, see <externalLink><linkText>Protect a file that you share by email</linkText><linkUri>https://technet.microsoft.com/library/dn574735.aspx</linkUri></externalLink> and <externalLink><linkText>View and use files that have been protected</linkText><linkUri>https://technet.microsoft.com/library/dn574741.aspx</linkUri></externalLink> from the <externalLink><linkText>Rights Management sharing application user guide</linkText><linkUri>https://technet.microsoft.com/library/dn339006.aspx</linkUri></externalLink>. </para>
-          <para>In addition, the <link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link> includes step-by-step instructions for this scenario.</para><para>Now you’ve seen some examples of what Azure RMS can do, you might be interested in how it does it. For technical information about how Azure RMS works, see the next section.</para>
+          <para>In addition, the \<link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link> includes step-by-step instructions for this scenario.</para><para>Now you’ve seen some examples of what Azure RMS can do, you might be interested in how it does it. For technical information about how Azure RMS works, see the next section.</para>
         </content>
       </section>
     </sections>
@@ -775,9 +776,9 @@ translation.priority.mt:
       <para>At a high level, you can see how this process works in the following picture. A document containing the secret formula is protected, and then successfully opened by an authorized user or service. The document is protected by a content key (the green key in this picture). It is unique for each document and is placed in the file header where it is protected by your RMS tenant root key (the red key in this picture). Your tenant key can be generated and managed by Microsoft, or you can generate and manage your own tenant key. </para>
       <para>Throughout the protection process when Azure RMS is encrypting and decrypting, authorizing, and enforcing restrictions, the secret formula is never sent to Azure. </para>
       <mediaLink>
-        <image xlink:href="41972473-f0f4-4725-8435-91dc038f7f52"/>
+        \<image xlink:href="41972473-f0f4-4725-8435-91dc038f7f52"/>
       </mediaLink>
-      <para>For a detailed description of what’s happening, see the <link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Walthrough">Walkthrough of how Azure RMS works: First use, content protection, content consumption</link> section in this topic.</para>
+      <para>For a detailed description of what’s happening, see the \<link xlink:href="aeeebcd7-6646-4405-addf-ee1cc74df5df#BKMK_Walthrough">Walkthrough of how Azure RMS works: First use, content protection, content consumption</link> section in this topic.</para>
       <para>For technical details about the algorithms and key lengths that Azure RMS uses, see the next section.  </para>
     </content>
     <sections>
@@ -785,7 +786,7 @@ translation.priority.mt:
         <title>Cryptographic controls used by Azure RMS: Algorithms and key lengths</title>
         <content>
           <para>Even if you don't need to know yourself how RMS works, you might be asked about the cryptographic controls that it uses, to make sure that the security protection is industry-standard.</para>
-          <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+          \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
             <tbody>
               <tr>
                 <TD>
@@ -833,29 +834,29 @@ translation.priority.mt:
             <title>Initializing the user environment</title>
             <content>
               <para>Before a user can protect content or consume protected content on a Windows computer, the user environment must be prepared on the device. This is a one-time process and happens automatically without user intervention when a user tries to protect or consume protected content: </para>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="528204ba-1623-4a91-a3b6-be90c309f865"/>
+                        \<image xlink:href="528204ba-1623-4a91-a3b6-be90c309f865"/>
                       </mediaLink>
                     </TD>
                     <TD>
                       <para>The RMS client on the computer first connects to Azure RMS, and authenticates the user by using their Azure Active Directory account. </para>
                       <para>
-                        <?Comment CB: Feedback from Mark Parris, MVP 2014-10-20T08:50:00Z  Id='228?>When the user’s account is federated with Azure Active Directory<?CommentEnd Id='228'
+                        \<?Comment CB: Feedback from Mark Parris, MVP 2014-10-20T08:50:00Z  Id='228?>When the user’s account is federated with Azure Active Directory\<?CommentEnd Id='228'
     ?>, this authentication is automatic and the user is not prompted for credentials.</para>
                     </TD>
                   </tr>
                 </tbody>
               </table>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="8bb6409f-c518-4a04-955c-5db9324ed862"/>
+                        \<image xlink:href="8bb6409f-c518-4a04-955c-5db9324ed862"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -871,12 +872,12 @@ translation.priority.mt:
             <title>Content protection</title>
             <content>
               <para>When a user protects a document, the RMS client takes the following actions on an unprotected document:</para>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="6a239cf9-7c3a-4e18-95e5-3a95fd5621a5"/>
+                        \<image xlink:href="6a239cf9-7c3a-4e18-95e5-3a95fd5621a5"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -885,12 +886,12 @@ translation.priority.mt:
                   </tr>
                 </tbody>
               </table>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="e38c07b3-4dfa-4857-b5fc-cce791c65d94"/>
+                        \<image xlink:href="e38c07b3-4dfa-4857-b5fc-cce791c65d94"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -900,12 +901,12 @@ translation.priority.mt:
                   </tr>
                 </tbody>
               </table>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="fc8be085-1527-4621-821e-c6dc2891229e"/>
+                        \<image xlink:href="fc8be085-1527-4621-821e-c6dc2891229e"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -921,12 +922,12 @@ translation.priority.mt:
             <title>Content consumption</title>
             <content>
               <para>When a user wants to consume a protected document, the RMS client starts by requesting access to the Azure RMS service:</para>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="04998d5a-3ee6-4004-b3df-60655392b703"/>
+                        \<image xlink:href="04998d5a-3ee6-4004-b3df-60655392b703"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -935,12 +936,12 @@ translation.priority.mt:
                   </tr>
                 </tbody>
               </table>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="7d2b52e2-5a4e-4849-bc94-940c65f67d9b"/>
+                        \<image xlink:href="7d2b52e2-5a4e-4849-bc94-940c65f67d9b"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -950,12 +951,12 @@ translation.priority.mt:
                   </tr>
                 </tbody>
               </table>
-              <table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
+              \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
                 <tbody>
                   <tr>
                     <TD>
                       <mediaLink>
-                        <image xlink:href="f31f6895-a7b6-4ffa-8db2-21774b08f88d"/>
+                        \<image xlink:href="f31f6895-a7b6-4ffa-8db2-21774b08f88d"/>
                       </mediaLink>
                     </TD>
                     <TD>
@@ -998,14 +999,14 @@ translation.priority.mt:
   <section address="BKMK_NextSteps">
     <title>Next steps</title>
     <content>
-      <para>To learn more about Azure RMS, use the other topics in the <link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting Started with Azure Rights Management</link> section, such as <link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> to learn how your existing applications can integrate with Azure RMS to provide an information protection solution. Review <link xlink:href="742877bf-26f5-40e3-b1f7-8475e7c3ce11">Terminology for Azure Rights Management</link> so that you’re familiar with the terms that you might come across as you’re configuring and using Azure RMS, and be sure to also check <link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb">Requirements for Azure Rights Management</link> before you start your deployment. If you want to dive right in and try it out for yourself, use the <link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link>.</para>
-      <para>If you’re ready to start deploying Azure RMS for your organization, use the <link xlink:href="086600c2-c5d8-47ec-a4c0-c782e1797486">Azure Rights Management Deployment Roadmap</link> for your deployment steps and links for how-to instructions.</para>
+      <para>To learn more about Azure RMS, use the other topics in the \<link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting Started with Azure Rights Management</link> section, such as \<link xlink:href="2cdc7bde-4044-4021-b887-11476f99afd9">How Applications Support Azure Rights Management</link> to learn how your existing applications can integrate with Azure RMS to provide an information protection solution. Review \<link xlink:href="742877bf-26f5-40e3-b1f7-8475e7c3ce11">Terminology for Azure Rights Management</link> so that you’re familiar with the terms that you might come across as you’re configuring and using Azure RMS, and be sure to also check \<link xlink:href="dc78321d-d759-4653-8818-80da74b6cdeb">Requirements for Azure Rights Management</link> before you start your deployment. If you want to dive right in and try it out for yourself, use the \<link xlink:href="1db923bf-7d19-4fdd-a413-bfeb58af5e03">Quick Start Tutorial for Azure Rights Management</link>.</para>
+      <para>If you’re ready to start deploying Azure RMS for your organization, use the \<link xlink:href="086600c2-c5d8-47ec-a4c0-c782e1797486">Azure Rights Management Deployment Roadmap</link> for your deployment steps and links for how-to instructions.</para>
       <alert class="tip">
-        <para>For additional information and help, use the resources and links in <link xlink:href="7cc73d92-27d6-49ff-a8ab-2fae73519b4b">Information and Support for Azure Rights Management</link>.</para>
+        <para>For additional information and help, use the resources and links in \<link xlink:href="7cc73d92-27d6-49ff-a8ab-2fae73519b4b">Information and Support for Azure Rights Management</link>.</para>
       </alert>
     </content>
   </section>
   <relatedTopics>
-    <link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting started with Azure Rights Management</link>
+    \<link xlink:href="5214667c-ec69-42ca-8bbf-8cb22da8c62e">Getting started with Azure Rights Management</link>
   </relatedTopics>
 </developerConceptualDocument>

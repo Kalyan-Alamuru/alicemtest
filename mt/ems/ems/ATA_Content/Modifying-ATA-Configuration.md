@@ -1,21 +1,22 @@
 ---
 title: "Modifying ATA Configuration"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: bcf0f7d3-8027-45c0-8002-19f71fcb30a6
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Modifying ATA Configuration
 If you need to update your configuration after initial installation and deployment of ATA, use this topic for guidance.
@@ -41,7 +42,7 @@ The ATA Gateways locally store the IP address of the ATA Center to which they ne
 
 2.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 3.  Select **ATA Center**.
 
@@ -51,7 +52,7 @@ The ATA Gateways locally store the IP address of the ATA Center to which they ne
 
 6.  You will see a notification of how many ATA Gateways have synced to the latest configuration.
 
-    ![ATA chge IP after clicking save](../../ems/ATA_Content/media/ATA-chge-IP-after-clicking-save.png "ATA chge IP after clicking save")
+    ![ATA chge IP after clicking save](../../ems/ATA_Content/media/ata-chge-ip-after-clicking-save.png "ATA chge IP after clicking save")
 
 7.  After all the ATA Gateways have synced, click **Activate** to activate the new IP address.
 
@@ -76,7 +77,7 @@ If your certificates expire and need to be renewed or replaced after installing 
 
 2.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 3.  Select **ATA Center**.
 
@@ -116,11 +117,11 @@ If you need to modify the IP address used by IIS for the ATA Console, follow the
 
 4.  Select the Microsoft ATA Console site and in the **Actions** pane click **Bindings**.
 
-    ![ATA console change IP bindings](../../ems/ATA_Content/media/ATA-console-change-IP-bindings.jpg "ATA console change IP bindings")
+    ![ATA console change IP bindings](../../ems/ATA_Content/media/ata-console-change-ip-bindings.jpg "ATA console change IP bindings")
 
 5.  Select **HTTP** and click **Edit** to select the new IP address. Do the same for **HTTPS** selecting the same IP address.
 
-    ![ATA change console IP](../../ems/ATA_Content/media/ATA-change-console-IP.jpg "ATA change console IP")
+    ![ATA change console IP](../../ems/ATA_Content/media/ata-change-console-ip.jpg "ATA change console IP")
 
 6.  In the **Action** pane click **Restart**  under **Mange Website**.
 
@@ -154,7 +155,7 @@ If you need to modify the certificate used by IIS for the ATA Center, follow the
 
 4.  Select the Microsoft ATA Console site and in the **Actions** pane click **Bindings**.
 
-    ![ATA console change IP bindings](../../ems/ATA_Content/media/ATA-console-change-IP-bindings.jpg "ATA console change IP bindings")
+    ![ATA console change IP bindings](../../ems/ATA_Content/media/ata-console-change-ip-bindings.jpg "ATA console change IP bindings")
 
 5.  Select **HTTPS** and click **Edit**.
 
@@ -174,11 +175,11 @@ To correct this, follow this procedure to update the Domain Connectivity passwor
 
 2.  Select the settings option on the toolbar and select **Configuration**.
 
-    ![ATA config icon](../../ems/ATA_Content/media/ATA-config-icon.JPG "ATA config icon")
+    ![ATA config icon](../../ems/ATA_Content/media/ata-config-icon.JPG "ATA config icon")
 
 3.  Select **ATA Gateway**.
 
-    ![ATA GW change DC password](../../ems/ATA_Content/media/ATA-GW-change-DC-password.JPG "ATA GW change DC password")
+    ![ATA GW change DC password](../../ems/ATA_Content/media/ata-gw-change-dc-password.JPG "ATA GW change DC password")
 
 4.  Under **Domain Connectivity Settings**, change the password.
 
@@ -187,7 +188,7 @@ To correct this, follow this procedure to update the Domain Connectivity passwor
 6.  After changing the password, manually check that the ATA Gateway service is running on the ATA Gateway servers.
 
 ## See Also
-[Working with the ATA Console](../../ems/ATA_Content/Working-with-the-ATA-Console.md)
- [ATA Installation](../../ems/ATA_Content/ATA-Installation.md)
+[Working with the ATA Console](../../ems/ATA_Content/working-with-the-ata-console.md)
+ [ATA Installation](../../ems/ATA_Content/ata-installation.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

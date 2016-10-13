@@ -1,29 +1,30 @@
 ---
 title: "Logging and Analyzing Azure Rights Management Usage"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
+  - "Azure Rights Management"
 ms.assetid: a735f3f7-6eb2-4901-9084-8c3cd3a9087e
 caps.latest.revision: 16
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Logging and Analyzing Azure Rights Management Usage
 Use the information in this topic to help you understand how you can use logging with Azure Rights Management (RMS). RMS can log every request that it makes for your organization, which includes requests from users, actions performed by RMS administrators in your organization, and actions performed by Microsoft operators to support your RMS deployment.
@@ -51,17 +52,17 @@ You can then use these RMS logs to support the following business scenarios:
 
 Use the following sections for more information about RMS logging.
 
-- [How to enable RMS logging](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_EnableRMSLogging)
+- [How to enable RMS logging](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_EnableRMSLogging)
 
-- [How to access and use your RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_AccesAndUseLogs)
+- [How to access and use your RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_AccesAndUseLogs)
 
-- [How to manage your RMS log storage](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_ManageStorage)
+- [How to manage your RMS log storage](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_ManageStorage)
 
-- [How to delegate access to your RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_Delegate)
+- [How to delegate access to your RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_Delegate)
 
-- [How to interpret your RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_Interpret)
+- [How to interpret your RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_Interpret)
 
-- [Windows PowerShell reference](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_PowerShell)
+- [Windows PowerShell reference](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_PowerShell)
 
 ## <a name="BKMK_EnableRMSLogging"></a>How to enable RMS logging
 RMS logging is optional, so if you want to use it, you must take specific steps. When you use RMS logging, there is no change in how RMS works and the logging process itself is free. However, you must provide an Azure storage account for the logs and you will be charged for this storage.
@@ -70,9 +71,9 @@ Before you begin, make sure that you meet the following prerequisites to use RMS
 
 |Requirement <br /> <br />|More information <br /> <br />|
 |---------------|--------------------|
-|An IT-managed subscription that includes Azure Rights Management <br /> <br />|You must have a Microsoft RMS subscription that is managed by your organization. Organizations that use RMS for individuals cannot use RMS logging. <br /> <br />If your organization has users who use RMS for individuals, RMS logging provides a very compelling business reason to convert RMS for individuals into a Microsoft RMS subscription. <br /> <br />For more information about the subscriptions that include Azure RMS, see the [Cloud subscriptions that support Azure RMS](../../ems/AADRightsMgmt/Requirements-for-Azure-Rights-Management.md#BKMK_SupportedSubscriptions) section in the [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/Requirements-for-Azure-Rights-Management.md) topic. <br /> <br />For more information about RMS for individuals, see [RMS for Individuals and Azure Rights Management](../../ems/AADRightsMgmt/RMS-for-Individuals-and-Azure-Rights-Management.md) <br /> <br />|
+|An IT-managed subscription that includes Azure Rights Management <br /> <br />|You must have a Microsoft RMS subscription that is managed by your organization. Organizations that use RMS for individuals cannot use RMS logging. <br /> <br />If your organization has users who use RMS for individuals, RMS logging provides a very compelling business reason to convert RMS for individuals into a Microsoft RMS subscription. <br /> <br />For more information about the subscriptions that include Azure RMS, see the [Cloud subscriptions that support Azure RMS](../../ems/AADRightsMgmt/requirements-for-azure-rights-management.md#BKMK_SupportedSubscriptions) section in the [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/requirements-for-azure-rights-management.md) topic. <br /> <br />For more information about RMS for individuals, see [RMS for Individuals and Azure Rights Management](../../ems/AADRightsMgmt/rms-for-individuals-and-azure-rights-management.md) <br /> <br />|
 |Azure subscription <br /> <br />|You must have a subscription to Azure and sufficient storage on Azure for your RMS logs. <br /> <br />|
-|Windows PowerShell for Azure Rights Management <br /> <br />|If you haven’t already done so, download and install Windows PowerShell for Azure Rights Management. You will use Windows PowerShell cmdlets to configure and manage your RMS logs. <br /> <br />For more information, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Installing-Windows-PowerShell-for-Azure-Rights-Management.md). <br /> <br />|
+|Windows PowerShell for Azure Rights Management <br /> <br />|If you haven’t already done so, download and install Windows PowerShell for Azure Rights Management. You will use Windows PowerShell cmdlets to configure and manage your RMS logs. <br /> <br />For more information, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/installing-windows-powershell-for-azure-rights-management.md). <br /> <br />|
 Use the following procedure to enable RMS logging, which includes steps to create an Azure storage account and then configure Azure to use this storage account for your RMS logs.
 
 > [!NOTE]
@@ -120,7 +121,7 @@ Use the following procedure to enable RMS logging, which includes steps to creat
 Now that RMS logging is enabled, RMS starts to log all actions for your organization and saves this information to your storage account. Logging information is not available before this point.
 
 ## <a name="BKMK_AccesAndUseLogs"></a>How to access and use your RMS logs
-RMS writes logs to your Azure storage account as a series of blobs. Each blob contains one or more log records, in W3C extended log format. The blob names are numbers, in the order in which they were created. The [How to interpret the RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_Interpret) section later in this document contains more information about the log contents and their creation.
+RMS writes logs to your Azure storage account as a series of blobs. Each blob contains one or more log records, in W3C extended log format. The blob names are numbers, in the order in which they were created. The [How to interpret the RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_Interpret) section later in this document contains more information about the log contents and their creation.
 
 It can take a while for logs to appear in your storage account after an RMS action. Most logs appear within 15 minutes.
 
@@ -179,7 +180,7 @@ RMS does no automatic management of your RMS log files. If you take no action, t
 The file that you must not delete (or modify) is named **metadata** that is in the **rms-metadata** container. RMS uses this blob to keep track of the last blob number that it used. If this file is deleted, RMS starts a new container for logs, with a blob number that starts from 1, and all future downloads that use the Get-AadrmUsageLog cmdlet use this new container to download log files. As a result, any logs in the original container are retained, but orphaned. The only way to download these orphaned logs is to use the Azure storage SDK.
 
 > [!TIP]
-> Instead of managing your RMS log storage yourself, you can delegate this management function to another company by sharing your storage account name and access key. For more information, see the [How to delegate access to your RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_Delegate) section later in this topic.
+> Instead of managing your RMS log storage yourself, you can delegate this management function to another company by sharing your storage account name and access key. For more information, see the [How to delegate access to your RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_Delegate) section later in this topic.
 
 In some circumstances, you might want to regenerate your storage access keys. For example:
 
@@ -239,7 +240,7 @@ The name of each blob is a number. Within each log container the first blob is n
 > - The log records in blob 000000004 might overlap chronologically with the log records in blob 000000003. In an extreme case, all log records in blob 000000004 might have been generated before all log records in blob 000000003.
 > - The second log record in a blob might have been generated before the first log record, but was written to storage in reverse order.
 
-Before you analyze your RMS logs, we recommend that you download and import the log into a repository where you can sort the logs based on their timestamp. For more information about to download the logs, see the [How to access and use your RMS logs](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md#BKMK_AccesAndUseLogs) section in this topic.
+Before you analyze your RMS logs, we recommend that you download and import the log into a repository where you can sort the logs based on their timestamp. For more information about to download the logs, see the [How to access and use your RMS logs](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md#BKMK_AccesAndUseLogs) section in this topic.
 
 Because the logs are not necessarily chronological but the majority of them are written within 15 minutes of the request, when you identify the logs that you want by using their timestamp , add 15 minutes to the time that you are interested in. Then download these logs. This strategy should ensure that you get almost all logs.
 
@@ -315,8 +316,8 @@ Use the following Windows PowerShell cmdlets to help you configure and use RMS l
 
 - [Set-AadrmUsageLogStorageAccount](http://msdn.microsoft.com/library/windowsazure/dn629426.aspx)
 
-For more information about Windows PowerShell for Rights Management, see [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/Administering-Azure-Rights-Management-by-Using-Windows-PowerShell.md).
+For more information about Windows PowerShell for Rights Management, see [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/administering-azure-rights-management-by-using-windows-powershell.md).
 
 ## See Also
-[Using Azure Rights Management](../../ems/AADRightsMgmt/Using-Azure-Rights-Management.md)
+[Using Azure Rights Management](../../ems/AADRightsMgmt/using-azure-rights-management.md)
 

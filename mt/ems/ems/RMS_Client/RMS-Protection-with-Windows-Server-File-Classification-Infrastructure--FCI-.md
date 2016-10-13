@@ -1,31 +1,32 @@
 ---
 title: "RMS Protection with Windows Server File Classification Infrastructure (FCI)"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Windows Server 2012
-  - Windows Server 2012 R2
+  - "Azure Rights Management"
+  - "Windows Server 2012"
+  - "Windows Server 2012 R2"
 ms.assetid: 9aa693db-9727-4284-9f64-867681e114c9
 caps.latest.revision: 33
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # RMS Protection with Windows Server File Classification Infrastructure (FCI)
 Use this article for instructions and a script to use the Rights Management (RMS) client with the RMS Protection tool to configure File Server Resource Manager and file classification infrastructure (FCI).
@@ -35,7 +36,7 @@ This solutions lets you automatically protect all files in a folder on a file se
 > [!NOTE]
 > Although Azure RMS includes a [connector](https://technet.microsoft.com/library/dn375964.aspx) that supports file classification infrastructure, that solution supports native protection only—for example, Office files.
 > 
-> To support all file types with file classification infrastructure, you must use the Windows PowerShell **RMS Protection** module, as documented in this article. The RMS Protection cmdlets, like the RMS sharing application, support generic protection as well as native protection, which means that all files can be protected. For more information about these different protection levels, see the [Levels of protection – native and generic](../../ems/RMS_Client/Rights-Management-sharing-application-administrator-guide.md#BKMK_LevelsofProtection) section in the [Rights Management sharing application administrator guide](../../ems/RMS_Client/Rights-Management-sharing-application-administrator-guide.md).
+> To support all file types with file classification infrastructure, you must use the Windows PowerShell **RMS Protection** module, as documented in this article. The RMS Protection cmdlets, like the RMS sharing application, support generic protection as well as native protection, which means that all files can be protected. For more information about these different protection levels, see the [Levels of protection – native and generic](../../ems/RMS_Client/rights-management-sharing-application-administrator-guide.md#BKMK_LevelsofProtection) section in the [Rights Management sharing application administrator guide](../../ems/RMS_Client/rights-management-sharing-application-administrator-guide.md).
 
 The instructions that follow are for Windows Server 2012 R2 or Windows Server 2012. If you run other supported versions of Windows, you might need to adapt some of the steps for differences between your operating system version and the one documented in this article.
 
@@ -62,7 +63,7 @@ Prerequisites for these instructions:
 
     -   Symmetric key
 
--   You have synchronized your on\-premises Active Directory user accounts with Azure Active Directory or Office 365, including their email address. This is required for all users that might need to access files after they are protected by FCI and Azure RMS. If you do not  do this step (for example, in a test environment), users might be blocked from accessing these files. If you need more information about this account configuration, see [Preparing for Azure Rights Management](../../ems/AADRightsMgmt/Preparing-for-Azure-Rights-Management.md).
+-   You have synchronized your on\-premises Active Directory user accounts with Azure Active Directory or Office 365, including their email address. This is required for all users that might need to access files after they are protected by FCI and Azure RMS. If you do not  do this step (for example, in a test environment), users might be blocked from accessing these files. If you need more information about this account configuration, see [Preparing for Azure Rights Management](../../ems/AADRightsMgmt/preparing-for-azure-rights-management.md).
 
 -   You have identified the Rights Management template to use, which will protect the files. Make sure that you know the ID for this template by using the [Get-RMSTemplate](https://msdn.microsoft.com/library/azure/mt433197.aspx) cmdlet.
 

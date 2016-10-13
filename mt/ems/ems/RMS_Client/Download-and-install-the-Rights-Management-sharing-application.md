@@ -1,45 +1,46 @@
 ---
 title: "Download and install the Rights Management sharing application"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Active Directory Rights Management Services
-  - Azure Rights Management
-  - Windows 10
-  - Windows 7 with SP1
-  - Windows 8
-  - Windows 8.1
+  - "Active Directory Rights Management Services"
+  - "Azure Rights Management"
+  - "Windows 10"
+  - "Windows 7 with SP1"
+  - "Windows 8"
+  - "Windows 8.1"
 ms.assetid: 2bf09690-9dba-43b7-9e0a-0110915d4081
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 robots: nofollow
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - hu-hu
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "hu-hu"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Download and install the Rights Management sharing application
 You must have a local administrator account to install the RMS sharing application. If you do not log in as a local administrator, you can use the **Run as administrator** option when you run Setup.exe in step 3.
@@ -64,10 +65,10 @@ You’re now ready to start protecting your files or read files that others have
 ## Examples and other instructions
 For examples for how you might use the Rights Management sharing application, and how-to instructions, see the following sections from the Rights Management sharing application user guide:
 
--   [Examples for using the RMS sharing application](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingExamples)
+-   [Examples for using the RMS sharing application](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingExamples)
 
--   [What do you want to do?](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingInstructions)
+-   [What do you want to do?](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingInstructions)
 
 ## See Also
-[Rights Management sharing application user guide](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md)
+[Rights Management sharing application user guide](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md)
 

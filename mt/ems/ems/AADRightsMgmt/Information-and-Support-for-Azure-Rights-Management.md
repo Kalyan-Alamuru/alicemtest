@@ -1,30 +1,31 @@
 ---
 title: "Information and Support for Azure Rights Management"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: 7cc73d92-27d6-49ff-a8ab-2fae73519b4b
 caps.latest.revision: 31
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Information and Support for Azure Rights Management
 Use the following resources for additional information about Microsoft [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (Azure RMS).
@@ -37,13 +38,13 @@ Use the following resources for additional information about Microsoft [!INCLUDE
 |… get a trial version of [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] →|[Sign up for free 30-day trial](https://portal.microsoftonline.com/Signup/MainSignUp15.aspx?&OfferId=A43415D3-404C-4df3-B31B-AAD28118A778&dl=RIGHTSMANAGEMENT&ali=1)|
 The following sections provide additional information about [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)]:
 
--   [Search the documentation library](../../ems/AADRightsMgmt/Information-and-Support-for-Azure-Rights-Management.md#BKMK_SearchTips)
+-   [Search the documentation library](../../ems/AADRightsMgmt/information-and-support-for-azure-rights-management.md#BKMK_SearchTips)
 
--   [Downloadable documentation](../../ems/AADRightsMgmt/Information-and-Support-for-Azure-Rights-Management.md#BKMK_Download)
+-   [Downloadable documentation](../../ems/AADRightsMgmt/information-and-support-for-azure-rights-management.md#BKMK_Download)
 
--   [The Rights Management product group blog](../../ems/AADRightsMgmt/Information-and-Support-for-Azure-Rights-Management.md#BKMK_ProductGroupBlog)
+-   [The Rights Management product group blog](../../ems/AADRightsMgmt/information-and-support-for-azure-rights-management.md#BKMK_ProductGroupBlog)
 
--   [Support options and community resources](../../ems/AADRightsMgmt/Information-and-Support-for-Azure-Rights-Management.md#BKMK_SupportOptions)
+-   [Support options and community resources](../../ems/AADRightsMgmt/information-and-support-for-azure-rights-management.md#BKMK_SupportOptions)
 
 ## <a name="BKMK_SearchTips"></a>Search the documentation library
 [Use this scoped search query](http://www.bing.com/search?q=("Rights%20Management")%20site:technet.microsoft.com/library%20meta:search.MSCategory(jj619159)) to find documentation in the TechNet Library that is scoped to [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] only.
@@ -80,7 +81,7 @@ The search results for that query do not include results about Active Directory
 ### Search tips
 Use the following search tips to help you find the information that you need:
 
--   When you are searching for official documentation, use search terms that match those that you see in the user interface (UI) and TechNet documentation, rather than unofficial terms or abbreviations that you might see in community content. For example, search for "Azure Rights Management" rather than "AADRMS" or other unofficial abbreviations for this cloud service. Although you might often hear and see “RMS”, the full name is Rights Management service, so try searching for “rights management” rather than RMS when you are looking for official documentation. You can use the [Terminology for Azure Rights Management](../../ems/AADRightsMgmt/Terminology-for-Azure-Rights-Management.md) to help identify official terms that are specific to [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)].
+-   When you are searching for official documentation, use search terms that match those that you see in the user interface (UI) and TechNet documentation, rather than unofficial terms or abbreviations that you might see in community content. For example, search for "Azure Rights Management" rather than "AADRMS" or other unofficial abbreviations for this cloud service. Although you might often hear and see “RMS”, the full name is Rights Management service, so try searching for “rights management” rather than RMS when you are looking for official documentation. You can use the [Terminology for Azure Rights Management](../../ems/AADRightsMgmt/terminology-for-azure-rights-management.md) to help identify official terms that are specific to [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)].
 
 -   When you search on a page in TechNet (press Ctrl-F, and enter search terms in the **Find** box), the results exclude text that is in collapsed sections. To search for text in collapsed sections, expand the sections before you search the page. To do this, you can click the **Expand All** button at the top of the page, or double-click any collapsed section. When all sections are expanded, a search of the page will then search all sections on that page.
 

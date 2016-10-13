@@ -1,31 +1,32 @@
 ---
 title: "Planning and Implementing Your Azure Rights Management Tenant Key"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: f0d33c5f-a6a6-44a1-bdec-5be1bc8e1e14
 caps.latest.revision: 9
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - es-es
-  - fr-fr
-  - it-it
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # Planning and Implementing Your Azure Rights Management Tenant Key
 Use the information in this topic to help you plan for and manage your Rights Management service (RMS) tenant key for Azure RMS. For example, instead of Microsoft managing your tenant key (the default), you might want to manage your own tenant key to comply with specific regulations that apply to your organization.  Managing your own tenant key is also referred to as bring your own key, or BYOK.
@@ -41,16 +42,16 @@ If you deploy Azure RMS by using a tenant key that is managed by Microsoft, you 
 |------------------------|-----------------------------------|
 |Deploy Azure RMS quickly and without requiring special hardware <br /> <br />|Managed by Microsoft <br /> <br />|
 |Need full IRM functionality in Exchange Online with Azure RMS <br /> <br />|Managed by Microsoft <br /> <br />|
-|Your keys are created by you and protected in a hardware security module (HSM) <br /> <br />|BYOK <br /> <br />Currently, this configuration will result in reduced IRM functionality in Exchange Online. For more information, see the [BYOK pricing and restrictions](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_Pricing) section. <br /> <br />|
+|Your keys are created by you and protected in a hardware security module (HSM) <br /> <br />|BYOK <br /> <br />Currently, this configuration will result in reduced IRM functionality in Exchange Online. For more information, see the [BYOK pricing and restrictions](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_Pricing) section. <br /> <br />|
 Use the following sections to help you choose which tenant key topology to use, understand the tenant key lifecycle, how to implement bring your own key (BYOK), and what steps to take next:
 
-- [Choose your tenant key topology: Managed by Microsoft (the default) or managed by you (BYOK)](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_ChooseTenantKey)
+- [Choose your tenant key topology: Managed by Microsoft (the default) or managed by you (BYOK)](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_ChooseTenantKey)
 
-- [BYOK pricing and restrictions](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_Pricing)
+- [BYOK pricing and restrictions](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_Pricing)
 
-- [Implementing bring your own key (BYOK)](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_ImplementBYOK)
+- [Implementing bring your own key (BYOK)](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_ImplementBYOK)
 
-- [Next steps](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_NextSteps)
+- [Next steps](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_NextSteps)
 
 ## <a name="BKMK_ChooseTenantKey"></a>Choose your tenant key topology: Managed by Microsoft (the default) or managed by you (BYOK)
 Decide which tenant key topology is best for your organization. By default, Azure RMS generates your tenant key and manages most aspects of the tenant key lifecycle. This is the simplest option with the lowest administrative overheads. In most cases, you do not even need to know that you have a tenant key. You just sign up for Azure RMS and the rest of the key management process is handled by Microsoft.
@@ -73,13 +74,13 @@ If you decide that Microsoft should manage your tenant key, Microsoft handles mo
 
 The following diagrams show and compares these two options. The first diagram shows how little administrator overheads there are for you in the default configuration when Microsoft manages the tenant key.
 
-![Tenent key default overview](../../ems/AADRightsMgmt/media/RMS_BYOK_cloud.png "RMS_BYOK_cloud")
+![Tenent key default overview](../../ems/AADRightsMgmt/media/rms_byok_cloud.png "RMS_BYOK_cloud")
 
 The second diagram shows the additional steps required when you manage your own tenant key.
 
-![Tenent key BYOK overview](../../ems/AADRightsMgmt/media/RMS_BYOK_onprem.png "RMS_BYOK_onprem")
+![Tenent key BYOK overview](../../ems/AADRightsMgmt/media/rms_byok_onprem.png "RMS_BYOK_onprem")
 
-If you decide to let Microsoft manage your tenant key, no further action is required for you to generate the key and you can skip the following sections and go straight to [Next steps](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_NextSteps).
+If you decide to let Microsoft manage your tenant key, no further action is required for you to generate the key and you can skip the following sections and go straight to [Next steps](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_NextSteps).
 
 If you decide to manage your tenant key yourself, read the following sections for more information.
 
@@ -96,9 +97,9 @@ For more information, see [Thales HSMs and Azure RMS](http://www.thales-esecurit
 Organization that have an IT-managed Azure subscription can use BYOK and log its usage at no extra charge. Organizations that use RMS for individuals cannot use BYOK and logging because they do not have a tenant administrator to configure these features.
 
 > [!NOTE]
-> For more information about RMS for individuals, see [RMS for Individuals and Azure Rights Management](../../ems/AADRightsMgmt/RMS-for-Individuals-and-Azure-Rights-Management.md).
+> For more information about RMS for individuals, see [RMS for Individuals and Azure Rights Management](../../ems/AADRightsMgmt/rms-for-individuals-and-azure-rights-management.md).
 
-![BYOK excludes Exchange Online](../../ems/AADRightsMgmt/media/RMS_BYOK_noExchange.png "RMS_BYOK_noExchange")
+![BYOK excludes Exchange Online](../../ems/AADRightsMgmt/media/rms_byok_noexchange.png "RMS_BYOK_noExchange")
 
 BYOK and logging work seamlessly with every application that integrates with Azure RMS. This includes cloud services such as SharePoint Online, on-premises servers that run Exchange and SharePoint that work with Azure RMS by using the RMS connector, and client applications such as Office 2013. You will get key usage logs regardless of which application makes requests of Azure RMS.
 
@@ -123,11 +124,11 @@ Sometimes, the Azure RMS BYOK  exception for Exchange Online is not a problem in
 ## <a name="BKMK_ImplementBYOK"></a>Implementing bring your own key (BYOK)
 Use the information and procedures in this section if you have decided to generate and manage your tenant key; the bring your own key (BYOK) scenario:
 
-- [Prerequisites for BYOK](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_Preqs)
+- [Prerequisites for BYOK](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_Preqs)
 
-- [Generate and transfer your tenant key – over the Internet](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_BYOK_Internet)
+- [Generate and transfer your tenant key – over the Internet](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_BYOK_Internet)
 
-- [Generate and transfer your tenant key – in person](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_BYOK_InPerson)
+- [Generate and transfer your tenant key – in person](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_BYOK_InPerson)
 
 > [!IMPORTANT]
 > If you have already started to use [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (the service is activated) and you have users who run Office 2010, contact Microsoft Customer Support Services (CSS) before you run these procedures. Depending on your scenario and requirements, you can still use BYOK but with some limitations or additional steps.
@@ -139,8 +140,8 @@ See the following table for a list of prerequisites for bring your own key (BYOK
 
 |Requirement <br /> <br />|More information <br /> <br />|
 |---------------|--------------------|
-|A subscription that supports Azure RMS <br /> <br />|For more information about the available subscriptions, see the [Cloud subscriptions that support Azure RMS](../../ems/AADRightsMgmt/Requirements-for-Azure-Rights-Management.md#BKMK_SupportedSubscriptions) section in the [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/Requirements-for-Azure-Rights-Management.md) topic. <br /> <br />|
-|You do not use RMS for individuals or Exchange Online. Or, if you use Exchange Online, you understand and accept the limitations of using BYOK with this configuration. <br /> <br />|For more information about the restrictions and current limitations for BYOK, see the [BYOK pricing and restrictions](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_Pricing) section in this topic. **Important:** Currently, BYOK is not compatible with Exchange Online. <br />|
+|A subscription that supports Azure RMS <br /> <br />|For more information about the available subscriptions, see the [Cloud subscriptions that support Azure RMS](../../ems/AADRightsMgmt/requirements-for-azure-rights-management.md#BKMK_SupportedSubscriptions) section in the [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/requirements-for-azure-rights-management.md) topic. <br /> <br />|
+|You do not use RMS for individuals or Exchange Online. Or, if you use Exchange Online, you understand and accept the limitations of using BYOK with this configuration. <br /> <br />|For more information about the restrictions and current limitations for BYOK, see the [BYOK pricing and restrictions](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_Pricing) section in this topic. **Important:** Currently, BYOK is not compatible with Exchange Online. <br />|
 |Thales HSM, smartcards, and support software <br /> <br />If you are migrating from AD RMS to Azure RMS by using software key to hardware key, you must have a minimum version of 11.62 for the Thales drivers. <br /> <br />|You must have access to a Thales Hardware Security Module and basic operational knowledge of Thales HSMs. See [Thales Hardware Security Module](http://www.thales-esecurity.com/msrms/buy) for the list of compatible models, or to purchase an HSM if you do not have one. <br /> <br />|
 |If you want to transfer your tenant key over the Internet rather than physically be present in Redmond, USA:<ol><li>An offline x64 workstation with a minimum Windows operation system of Windows 7 and Thales nShield software that is at least version 11.62.   If this workstation runs Windows 7, you must [install Microsoft .NET Framework 4.5](http://go.microsoft.com/fwlink/?LinkId=225702). </li><li>A workstation that is connected to the Internet and has a minimum Windows operation system of Windows 7. </li><li>A USB drive or other portable storage device that has at least 16 MB free space. </li> </ol>|These prerequisites are not required if you travel to Redmond and transfer your tenant key in person. <br /> <br />For security reasons, we recommend that the first workstation is not connected to a network. However, this is not programmatically enforced. **Note:** In the instructions that follow, this workstation is referred to as the disconnected workstation. <br />In addition, if your tenant key is for a production network, we recommend that you use a second, separate workstation to download the toolset and upload the tenant key. But for testing purposes, you can use the same workstation as the first one. **Note:** In the instructions that follow, this second workstation is referred to as the Internet-connected workstation. <br />|
 |Optional: Azure subscription <br /> <br />|If you want to log your tenant key usage (and Rights Management usage), you must have a subscription to Azure and sufficient storage on Azure to store your logs. <br /> <br />|
@@ -168,24 +169,24 @@ The procedures to generate and use your own tenant key depend on whether you wan
 ### <a name="BKMK_BYOK_Internet"></a>Generate and transfer your tenant key – over the Internet
 Use the following procedures if you want to transfer your tenant key over the Internet rather than travel to a Microsoft facility to transfer the tenant key in person:
 
-- [Prepare your Internet-connected workstation](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareWorkstation)
+- [Prepare your Internet-connected workstation](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareWorkstation)
 
-- [Prepare your disconnected workstation](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_DisconnectedPrepareWorkstation)
+- [Prepare your disconnected workstation](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_DisconnectedPrepareWorkstation)
 
-- [Generate your tenant key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate)
+- [Generate your tenant key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate)
 
-- [Prepare your tenant key for transfer](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareTransfer)
+- [Prepare your tenant key for transfer](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareTransfer)
 
-- [Transfer your tenant key to Azure RMS](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetTransfer)
+- [Transfer your tenant key to Azure RMS](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetTransfer)
 
 #### <a name="BKMK_InternetPrepareWorkstation"></a>Prepare your Internet-connected workstation
 To prepare your workstation that is connected to the Internet, follow these 3 steps:
 
-- [Step 1: Install Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareInternetConnectedWorkstation1)
+- [Step 1: Install Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareInternetConnectedWorkstation1)
 
-- [Step 2: Get your Azure Active Directory tenant ID](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareInternetConnectedWorkstation2)
+- [Step 2: Get your Azure Active Directory tenant ID](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareInternetConnectedWorkstation2)
 
-- [Step 3: Download the BYOK toolset](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareInternetConnectedWorkstation3)
+- [Step 3: Download the BYOK toolset](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareInternetConnectedWorkstation3)
 
 ##### <a name="BKMK_PrepareInternetConnectedWorkstation1"></a>Step 1: Install Windows PowerShell for Azure Rights Management
 From the Internet-connected workstation, download and install the Windows PowerShell module for Azure Rights Management.
@@ -193,7 +194,7 @@ From the Internet-connected workstation, download and install the Windows Power
 > [!NOTE]
 > If you have previously downloaded this Windows PowerShell module, run the following command to check that your version number is at least 2.1.0.0: **(Get-Module aadrm -ListAvailable).Version**
 
-For installation instructions, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/Installing-Windows-PowerShell-for-Azure-Rights-Management.md).
+For installation instructions, see [Installing Windows PowerShell for Azure Rights Management](../../ems/AADRightsMgmt/installing-windows-powershell-for-azure-rights-management.md).
 
 ##### <a name="BKMK_PrepareInternetConnectedWorkstation2"></a>Step 2: Get your Azure Active Directory tenant ID
 Start Windows PowerShell with the **Run as administrator** option, and then run the following commands:
@@ -245,9 +246,9 @@ Copy the package to a USB drive or other portable storage.
 #### <a name="BKMK_DisconnectedPrepareWorkstation"></a>Prepare your disconnected workstation
 To prepare your workstation that is not connected to a network (either the Internet or your internal network), follow these 2 steps:
 
-- [Step 1: Prepare the disconnected workstation with Thales HSM](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareDisconnectedWorkstation1)
+- [Step 1: Prepare the disconnected workstation with Thales HSM](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareDisconnectedWorkstation1)
 
-- [Step 2: Install the BYOK toolset on the disconnected workstation](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareDisconnectedWorkstation2)
+- [Step 2: Install the BYOK toolset on the disconnected workstation](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareDisconnectedWorkstation2)
 
 ##### <a name="BKMK_PrepareDisconnectedWorkstation1"></a>Step 1: Prepare the disconnected workstation with Thales HSM
 On the disconnected workstation, install the nCipher (Thales) support software on a Windows computer, and then attach a Thales HSM to that computer.
@@ -271,11 +272,11 @@ Copy the BYOK toolset package from the USB drive or other portable storage, and 
 #### <a name="BKMK_InternetGenerate"></a>Generate your tenant key
 On the disconnected workstation, following these 3 steps to generate your own tenant key:
 
-- [Step 1: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate1)
+- [Step 1: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate1)
 
-- [Step 2: Validate the downloaded package](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate2)
+- [Step 2: Validate the downloaded package](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate2)
 
-- [Step 3: Create a new key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate3)
+- [Step 3: Create a new key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate3)
 
 ##### <a name="BKMK_InternetGenerate1"></a>Step 1: Create a security world
 Start a command prompt and run the Thales new-world program.
@@ -360,7 +361,7 @@ cngimport --import -M --key=contosokey --appname=simple contosokey
 ```
 When you run this command, use these instructions:
 
-- Replace *contosokey* with the same value that you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
+- Replace *contosokey* with the same value that you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
 
 - Use the **-M** option so that the key is suitable for this scenario. Without this, the resultant key will be a user-specific key for the current user.
 
@@ -379,13 +380,13 @@ You are now ready to transfer your tenant key to Azure RMS.
 #### <a name="BKMK_InternetPrepareTransfer"></a>Prepare your tenant key for transfer
 On the disconnected workstation, following these 4 steps to prepare your own tenant key:
 
-- [Step 1: Create a copy of your key with reduced permissions](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareTransfer1)
+- [Step 1: Create a copy of your key with reduced permissions](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareTransfer1)
 
-- [Step 2: Inspect the new copy of the key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareTransfer2)
+- [Step 2: Inspect the new copy of the key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareTransfer2)
 
-- [Step 3: Encrypt your key by using Microsoft’s Key Exchange Key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareTransfer3)
+- [Step 3: Encrypt your key by using Microsoft’s Key Exchange Key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareTransfer3)
 
-- [Step 4: Copy your key transfer package to the Internet-connected workstation](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetPrepareTransfer4)
+- [Step 4: Copy your key transfer package to the Internet-connected workstation](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetPrepareTransfer4)
 
 ##### <a name="BKMK_InternetPrepareTransfer1"></a>Step 1: Create a copy of your key with reduced permissions
 To reduce the permissions on your tenant key, do the following:
@@ -410,7 +411,7 @@ To reduce the permissions on your tenant key, do the following:
       KeyTransferRemote.exe -ModifyAcls -KeyAppName simple -KeyIdentifier contosokey -ExchangeKeyPackage BYOK-KEK-pkg-AP-1 -NewSecurityWorldPackage BYOK-SecurityWorld-pkg-AP-1
       ```
 
-When you run this command, replace *contosokey* with the same value you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
+When you run this command, replace *contosokey* with the same value you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
 
 You will be asked to plug in your security world ACS cards, and if specified, their password or PIN..
 
@@ -431,7 +432,7 @@ Optionally, run the Thales utilities to confirm the minimal permissions on the n
    "%nfast_home%\bin\kmfile-dump.exe" "%NFAST_KMDATA%\local\key_xferacld_contosokey"
    ```
 
-When you run these command, replace *contosokey* with the same value you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
+When you run these command, replace *contosokey* with the same value you specified in [Step 1: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
 
 ##### <a name="BKMK_InternetPrepareTransfer3"></a>Step 3: Encrypt your key by using Microsoft’s Key Exchange Key
 Run one of the following commands, depending on your region:
@@ -456,9 +457,9 @@ Run one of the following commands, depending on your region:
 
 When you run this command, use these instructions:
 
-- Replace *contosokey* with the identifier that you used to generate the key in [Step 1: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
+- Replace *contosokey* with the identifier that you used to generate the key in [Step 1: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetGenerate1) from the *Generate your tenant key* section.
 
-- Replace *GUID* with your Azure Active Directory tenant ID that you retrieved in [Step 2: Get your Azure Active Directory tenant ID](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_PrepareInternetConnectedWorkstation2) from the *Prepare your Internet-connected workstation* section.
+- Replace *GUID* with your Azure Active Directory tenant ID that you retrieved in [Step 2: Get your Azure Active Directory tenant ID](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_PrepareInternetConnectedWorkstation2) from the *Prepare your Internet-connected workstation* section.
 
 - Replace *ContosoFirstKey* with a label that will be used for your output file name.
 
@@ -473,11 +474,11 @@ Use a USB drive or other portable storage to copy the output file from the previ
 #### <a name="BKMK_InternetTransfer"></a>Transfer your tenant key to Azure RMS
 On the Internet-connected workstation,  follow these 3 steps To transfer your new tenant key to Azure RMS, :
 
-- [Step 1: Connect to Azure RMS](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetTransfer1)
+- [Step 1: Connect to Azure RMS](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetTransfer1)
 
-- [Step 2: Upload the key package](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetTransfer2)
+- [Step 2: Upload the key package](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetTransfer2)
 
-- [Step 3: Enumerate your tenant keys – as needed](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_InternetTransfer3)
+- [Step 3: Enumerate your tenant keys – as needed](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_InternetTransfer3)
 
 ##### <a name="BKMK_InternetTransfer1"></a>Step 1: Connect to Azure RMS
 Return to the Windows PowerShell window and type the following:
@@ -515,23 +516,23 @@ Get-AadrmKeys
 ```
 The tenant key that is marked **Active** is the one that your organization is currently using to protect documents and files.
 
-You have now completed all the steps required for bring your own key over the Internet and can go to [Next steps](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_NextSteps).
+You have now completed all the steps required for bring your own key over the Internet and can go to [Next steps](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_NextSteps).
 
 ### <a name="BKMK_BYOK_InPerson"></a>Generate and transfer your tenant key – in person
 Use the following procedures if you do not want to transfer your tenant key over the Internet, but instead, transfer your tenant key in person.
 
-- [Generate your tenant key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_GenerateKey)
+- [Generate your tenant key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_GenerateKey)
 
-- [Transfer your tenant key to Azure RMS](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_Transfer)
+- [Transfer your tenant key to Azure RMS](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_Transfer)
 
 #### <a name="BKMK_GenerateKey"></a>Generate your tenant key
 To generate your own tenant key, follow these 3 steps:
 
-- [Step 1: Prepare a workstation with Thales HSM](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_GenerateYourKey1)
+- [Step 1: Prepare a workstation with Thales HSM](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_GenerateYourKey1)
 
-- [Step 2: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_GenerateYourKey2)
+- [Step 2: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_GenerateYourKey2)
 
-- [Step 3: Create a new key](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_GenerateYourKey3)
+- [Step 3: Create a new key](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_GenerateYourKey3)
 
 ##### <a name="BKMK_GenerateYourKey1"></a>Step 1: Prepare a workstation with Thales HSM
 Install the nCipher (Thales) support software on a Windows computer. Attach a Thales HSM to that computer. Ensure the Thales tools are in your path. For more information, see the user guide included with the Thales HSM, or visit the Thales website for Azure RMS at [http://www.thales-esecurity.com/msrms/cloud](http://www.thales-esecurity.com/msrms/cloud).
@@ -591,17 +592,17 @@ You are now ready to transfer your tenant key to Azure RMS.
 #### <a name="BKMK_Transfer"></a>Transfer your tenant key to Azure RMS
 After you have generated your own key, you must transfer it to Azure RMS before you use it. For the highest level of security, this transfer is a manual process that requires you to fly to the Microsoft office in Redmond, Washington, United States of America. To complete this process, follow these 3 steps:
 
-- [Step 1: Bring your key to Microsoft](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_TransferYourKey1)
+- [Step 1: Bring your key to Microsoft](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_TransferYourKey1)
 
-- [Step 2: Transfer your key to the Window Azure RMS security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_TransferYourKey2)
+- [Step 2: Transfer your key to the Window Azure RMS security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_TransferYourKey2)
 
-- [Step 3: Closing procedures](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_TransferYourKey3)
+- [Step 3: Closing procedures](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_TransferYourKey3)
 
 ###### Step 1: Bring your key to Microsoft
 
 - Contact Microsoft Customer Support Services (CSS) to schedule a key transfer appointment for Azure RMS. Bring the following to Microsoft in Redmond:
 
-   - A quorum of your Administrative Cards. If you followed the previous instructions in [Step 2: Create a security world](../../ems/AADRightsMgmt/Planning-and-Implementing-Your-Azure-Rights-Management-Tenant-Key.md#BKMK_GenerateYourKey2), these are any two of your three cards.
+   - A quorum of your Administrative Cards. If you followed the previous instructions in [Step 2: Create a security world](../../ems/AADRightsMgmt/planning-and-implementing-your-azure-rights-management-tenant-key.md#BKMK_GenerateYourKey2), these are any two of your three cards.
 
    - Personnel authorized to carry your Administrative Cards and pins, typically two (one for each card).
 
@@ -645,7 +646,7 @@ You have now completed all the steps required for bring your own key in person a
 
    - If you haven’t already done so, you must now activate Rights Management so that your organization can start to use RMS. Users immediately start to use your tenant key (managed by Microsoft or managed by you).
 
-      For more information about activation, see [Activating Azure Rights Management](../../ems/AADRightsMgmt/Activating-Azure-Rights-Management.md).
+      For more information about activation, see [Activating Azure Rights Management](../../ems/AADRightsMgmt/activating-azure-rights-management.md).
 
    - If you had already activated Rights Management and then decided to manage your own tenant key, users gradually transition from the old tenant key to the new tenant key, and this staggered transition can take a few weeks to complete. Documents and files that were protected with the old tenant key remains accessible to authorized users.
 
@@ -653,14 +654,14 @@ You have now completed all the steps required for bring your own key in person a
 
    If you decided to manage your own tenant key, logging includes information about using your tenant key. See the following example of a log file displayed in Excel where the **Decrypt** and **SignDigest** Request Types show that the tenant key is being used.
 
-   ![RMS  log file displayed in Microsoft Excel](../../ems/AADRightsMgmt/media/RMS_Logging.gif "RMS_Logging")
+   ![RMS  log file displayed in Microsoft Excel](../../ems/ATA_Content/media/rms_logging.gif "RMS_Logging")
 
-   For more information about usage logging, see [Logging and Analyzing Azure Rights Management Usage](../../ems/AADRightsMgmt/Logging-and-Analyzing-Azure-Rights-Management-Usage.md).
+   For more information about usage logging, see [Logging and Analyzing Azure Rights Management Usage](../../ems/AADRightsMgmt/logging-and-analyzing-azure-rights-management-usage.md).
 
 3. Maintain your tenant key.
 
-   For more information, see [Operations for Your Azure Rights Management Tenant Key](../../ems/AADRightsMgmt/Operations-for-Your-Azure-Rights-Management-Tenant-Key.md).
+   For more information, see [Operations for Your Azure Rights Management Tenant Key](../../ems/AADRightsMgmt/operations-for-your-azure-rights-management-tenant-key.md).
 
 ## See Also
-[Configuring Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Azure-Rights-Management.md)
+[Configuring Azure Rights Management](../../ems/AADRightsMgmt/configuring-azure-rights-management.md)
 

@@ -1,25 +1,26 @@
 ---
 title: "ATA Release Notes"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 606ab8db-3c42-4d99-90dc-c54a76f52d13
 caps.latest.revision: 26
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # ATA Release Notes
 These release notes provide information about known issues in this version of  Advanced Threat Analytics.
-![RMS_Logging](../../ems/AADRightsMgmt/media/RMS_Logging.gif)
+![RMS_Logging](../../ems/ATA_Content/media/rms_logging.gif)
 ## What's new in this version?
 
 -   Support for Windows Event Forwarding (WEF) to send events directly from the domain controllers to the ATA gateway.
@@ -74,7 +75,7 @@ When you attempt to uninstall the ATA Center or ATA Gateway, if the ATA installa
 
 -   Add a new String value named `InstallationPath` with a value of `C:\Program Files\Microsoft Advanced Threat Analytics\Center` . This is the default installation folder. If you changed the installation folder enter the path where ATA is installed.
 
-    ![ATA uninstall center bug](../../ems/ATA_Content/media/ATA-uninstall-center-bug.jpg "ATA uninstall center bug")
+    ![ATA uninstall center bug](../../ems/ATA_Content/media/ata-uninstall-center-bug.jpg "ATA uninstall center bug")
 
 **ATA Gateway**
 
@@ -82,7 +83,7 @@ When you attempt to uninstall the ATA Center or ATA Gateway, if the ATA installa
 
 -   Add a new String value named `InstallationPath` with a value of `C:\Program Files\Microsoft Advanced Threat Analytics\Gateway`. This is the default installation folder.  If you changed the installation folder enter the path where ATA is installed.
 
-    ![ATA GW uninstall bug](../../ems/ATA_Content/media/ATA-GW-uninstall-bug.jpg "ATA GW uninstall bug")
+    ![ATA GW uninstall bug](../../ems/ATA_Content/media/ata-gw-uninstall-bug.jpg "ATA GW uninstall bug")
 
 After uninstalling, delete the installation folder on both the ATA Center and the ATA Gateway.  If you installed the Database in a separate folder, delete the Database folder on the ATA Center.
 

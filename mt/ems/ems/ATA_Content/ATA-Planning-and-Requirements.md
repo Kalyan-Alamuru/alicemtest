@@ -1,24 +1,25 @@
 ---
 title: "ATA Planning and Requirements"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: a5f90544-1c70-4aff-8bf3-c59dd7abd687
 caps.latest.revision: 16
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # ATA Planning and Requirements
 This section describes the requirements to successfully deploy the ATA Center and the ATA Gateway in your environment, and includes the following sections:
@@ -52,7 +53,7 @@ The following section describes the requirements to successfully deploy the ATA 
 -   Optional: A user account of a user who has no network activities. This account will be configured as the ATA Honeytoken user. To configure the Honeytoken user you will need the SID of the user account, not the username.
 
 ### Networking
-The ATA Gateway needs to see all the network traffic to and from each domain controller being monitored. Configure **port mirroring** for each domain controller to be monitored, as the **source** of the network traffic. See [Configure Port Mirroring](../../ems/ATA_Content/Configure-Port-Mirroring.md) for additional information. Typically, you will need to work with the networking or virtualization team to configure port mirroring.
+The ATA Gateway needs to see all the network traffic to and from each domain controller being monitored. Configure **port mirroring** for each domain controller to be monitored, as the **source** of the network traffic. See [Configure Port Mirroring](../../ems/ATA_Content/configure-port-mirroring.md) for additional information. Typically, you will need to work with the networking or virtualization team to configure port mirroring.
 
 ## <a name="ATASIEM"></a>Event collection
 In addition to collecting and analyzing network traffic to and from the domain controllers, ATA can use Windows event 4776 to further enhance ATA Pass-the-Hash detection. This can be received from your SIEM or by  setting Windows Event Forwarding from your domain controller. Events collected provide ATA with additional information that is not available via the domain controller network traffic.
@@ -68,7 +69,7 @@ For ATA to be able to consume data from a Syslog server, you need to configure t
 > -   Do not forward all the Syslog data to the ATA Gateway.
 > -   ATA supports UDP traffic from the SIEM/Syslog server.
 
-Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server. For more information about the events forwarded to ATA, see [Configure Event Collection](../../ems/ATA_Content/Configure-Event-Collection.md).
+Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server. For more information about the events forwarded to ATA, see [Configure Event Collection](../../ems/ATA_Content/configure-event-collection.md).
 
 ### Windows Event Forwarding
 If you do not use a SIEM/Syslog server, you can configure your Windows domain controllers to forward Windows Event ID 4776 to be collected and analyzed by ATA. Windows Event ID 4776 provides data regarding NTLM authentications.
@@ -76,7 +77,7 @@ If you do not use a SIEM/Syslog server, you can configure your Windows domain co
 For more information see:  [Configuring Windows Event Forwarding](http://msdn.microsoft.com/en-us/library/1608e89e-0d73-499e-a603-8c540b6f5b9d).
 
 ## <a name="ATAmisc"></a>Short-term lease subnets
-Identify the subnets in which IP addresses are reassigned between devices within a very short period of time (seconds or minutes). ATA reduces the cache lifetime for all IP addresses in these subnets to accommodate the fast re-assignment between devices. VPN or Wi-Fi networks are common examples of short-term lease subnets. See [ATA Installation](../../ems/ATA_Content/ATA-Installation.md) for short-term lease subnet configuration.
+Identify the subnets in which IP addresses are reassigned between devices within a very short period of time (seconds or minutes). ATA reduces the cache lifetime for all IP addresses in these subnets to accommodate the fast re-assignment between devices. VPN or Wi-Fi networks are common examples of short-term lease subnets. See [ATA Installation](../../ems/ATA_Content/ata-installation.md) for short-term lease subnet configuration.
 
 ## <a name="ATAcenter"></a>ATA Center
 This section lists the requirements for the ATA Center.
@@ -107,7 +108,7 @@ The number of domain controllers you are monitoring and the load on each of the 
 
 -   Storage - 1000 GB per month to monitor 2 lightly loaded domain controllers
 
-The ATA Center requires a minimum of 21 days of data for user behavioral analytics. For more information on hardware requirements, see [ATA Capacity Planning](../../ems/ATA_Content/ATA-Capacity-Planning.md).
+The ATA Center requires a minimum of 21 days of data for user behavioral analytics. For more information on hardware requirements, see [ATA Capacity Planning](../../ems/ATA_Content/ata-capacity-planning.md).
 
 ### Networking
 
@@ -214,7 +215,7 @@ An ATA Gateway can support monitoring multiple domain controllers, depending on 
 
 -   Storage - Enough for the OS + 10GB for ATA + crash dumps = at least 100 GB
 
-For more information, see [ATA Capacity Planning](../../ems/ATA_Content/ATA-Capacity-Planning.md).
+For more information, see [ATA Capacity Planning](../../ems/ATA_Content/ata-capacity-planning.md).
 
 ### Networking
 
@@ -232,12 +233,12 @@ The ATA Gateway requires two or more network adapters.
         > [!NOTE]
         > If the ATA Gateway is a member of the domain, this is configured automatically.
         > 
-        > ![The DNS Suffix setting for the ATA Gateway](../../ems/ATA_Content/media/ATA-DNS-Suffix.png "ATA DNS Suffix")
+        > ![The DNS Suffix setting for the ATA Gateway](../../ems/ATA_Content/media/ata-dns-suffix.png "ATA DNS Suffix")
 
 -   **Capture adapter** - will be used to capture traffic to and from the domain controllers.
 
     > [!IMPORTANT]
-    > -   Configure port mirroring for the capture adapter as the destination of the domain controller network traffic. See [Configure Port Mirroring](../../ems/ATA_Content/Configure-Port-Mirroring.md)  for additional information. Typically, you will need to work with the networking or virtualization team to configure port mirroring.
+    > -   Configure port mirroring for the capture adapter as the destination of the domain controller network traffic. See [Configure Port Mirroring](../../ems/ATA_Content/configure-port-mirroring.md)  for additional information. Typically, you will need to work with the networking or virtualization team to configure port mirroring.
     > -   Configure a static non-routable IP address for your environment with no default gateway and no DNS server addresses. For example, 1.1.1.1/32. This will ensure that the capture network adapter can capture the maximum amount of traffic and that the management network adapter is used to send and receive the required network traffic.
 
 #### Ports:
@@ -264,7 +265,7 @@ The following table lists the minimum ports that the ATA Gateway requires config
 > -   NetBIOS
 
 ### Virtualization:
-For information on using virtual machines with the ATA Gateway, see [Configure Port Mirroring](../../ems/ATA_Content/Configure-Port-Mirroring.md).
+For information on using virtual machines with the ATA Gateway, see [Configure Port Mirroring](../../ems/ATA_Content/configure-port-mirroring.md).
 
 > [!NOTE]
 > If you run the ATA Gateway as a virtual machine, shut down the server before creating a new checkpoint to avoid potential database corruption.
@@ -293,7 +294,7 @@ The following components are installed and configured during the installation of
 -   Custom Performance Monitor data collection set
 
 ## See Also
-[ATA Architecture](../../ems/ATA_Content/ATA-Architecture.md)
- [ATA Installation](../../ems/ATA_Content/ATA-Installation.md)
+[ATA Architecture](../../ems/ATA_Content/ata-architecture.md)
+ [ATA Installation](../../ems/ATA_Content/ata-installation.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

@@ -1,44 +1,45 @@
 ---
 title: "Protect a file that you share by email by using the Rights Management sharing application"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Active Directory Rights Management Services
-  - Azure Rights Management
-  - Windows 10
-  - Windows 7 with SP1
-  - Windows 8
-  - Windows 8.1
+  - "Active Directory Rights Management Services"
+  - "Azure Rights Management"
+  - "Windows 10"
+  - "Windows 7 with SP1"
+  - "Windows 8"
+  - "Windows 8.1"
 ms.assetid: 4c1cd1d3-78dd-4f90-8b37-dcc9205a6736
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - hu-hu
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "hu-hu"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Protect a file that you share by email by using the Rights Management sharing application
 When you protect a file that you share by email, it creates a new version of the original file. The original file remains unprotected and the new version is protected and automatically attached to an email that you then send.
@@ -49,15 +50,15 @@ If your organization uses Azure RMS, you can keep track of the files that you pr
 
 -   Select an option to receive emails when somebody tries to open these protected attachments. Each time the file is accessed, you will be notified who tried to open the file and when, and whether they were successful (they were successfully authenticated) or not.
 
--   Use the documentation tracking site. You can even stop sharing the file, by revoking access to it in the document tracking site. For more information, see [Track and revoke your documents when you use the RMS sharing application](../../ems/RMS_Client/Track-and-revoke-your-documents-when-you-use-the-RMS-sharing-application.md).
+-   Use the documentation tracking site. You can even stop sharing the file, by revoking access to it in the document tracking site. For more information, see [Track and revoke your documents when you use the RMS sharing application](../../ems/RMS_Client/track-and-revoke-your-documents-when-you-use-the-rms-sharing-application.md).
 
 ## Using Outlook: To protect a file that you share by email
 
 1.  Create your email message and attach the file. Then, on the **Message** tab, in the **RMS** group, click **Share Protected** and then click **Share Protected** again:
 
-    ![Outlook add-in for the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_OutlookToolbar.png "ADRMS_MSRMSApp_SP_OutlookToolbar")
+    ![Outlook add-in for the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_sp_outlooktoolbar.png "ADRMS_MSRMSApp_SP_OutlookToolbar")
 
-    If you do not see this button, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/Download-and-install-the-Rights-Management-sharing-application.md).
+    If you do not see this button, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/download-and-install-the-rights-management-sharing-application.md).
 
 2.  Specify the options that you want for this file in the [share protected dialog box](http://technet.microsoft.com/library/dn574738.aspx), and then click **Send Now**.
 
@@ -74,13 +75,13 @@ In addition to sharing a protected file by using Outlook, you can also use these
 
     -   For File Explorer: Right-click the file, select **Protect with RMS**, and then select **Share Protected**:
 
-        ![Share Protected menu option](../../ems/RMS_Client/media/ADRMS_MSRMSApp_ShareProtectedMenu.png "ADRMS_MSRMSApp_ShareProtectedMenu")
+        ![Share Protected menu option](../../ems/RMS_Client/media/adrms_msrmsapp_shareprotectedmenu.png "ADRMS_MSRMSApp_ShareProtectedMenu")
 
     -   For the Office applications, Word, Excel, and PowerPoint: Make sure that you have saved the file first. Then, on the **Home** tab, in the **RMS** group, click **Share Protected** and then click **Share Protected** again:
 
-        ![Office toolbar add-in](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_OfficeToolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
+        ![Office toolbar add-in](../../ems/RMS_Client/media/adrms_msrmsapp_sp_officetoolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
 
-    If you do not see these options for protection, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/Download-and-install-the-Rights-Management-sharing-application.md).
+    If you do not see these options for protection, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/download-and-install-the-rights-management-sharing-application.md).
 
 2.  Specify the options that you want for this file in the [share protected dialog box](http://technet.microsoft.com/library/dn574738.aspx), and then click **Send**.
 
@@ -88,9 +89,9 @@ In addition to sharing a protected file by using Outlook, you can also use these
 
     Example:
 
-    ![Email message for Azure RMS](../../ems/RMS_Client/media/ADRMS_MSRMSApp_EmailMessage.PNG "ADRMS_MSRMSApp_EmailMessage")
+    ![Email message for Azure RMS](../../ems/RMS_Client/media/adrms_msrmsapp_emailmessage.PNG "ADRMS_MSRMSApp_EmailMessage")
 
-    Are you wondering: [What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/Dialog-box-options-for-the-Rights-Management-sharing-application.md#BKMK_PPDF)
+    Are you wondering: [What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/dialog-box-options-for-the-rights-management-sharing-application.md#BKMK_PPDF)
 
 4.  Optional: You can change anything that you want in this email message. For example, you can add to or change the subject or text in the message.
 
@@ -102,10 +103,10 @@ In addition to sharing a protected file by using Outlook, you can also use these
 ## Examples and other instructions
 For examples for how you might use the Rights Management sharing application, and how-to instructions, see the following sections from the Rights Management sharing application user guide:
 
--   [Examples for using the RMS sharing application](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingExamples)
+-   [Examples for using the RMS sharing application](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingExamples)
 
--   [What do you want to do?](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingInstructions)
+-   [What do you want to do?](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingInstructions)
 
 ## See Also
-[Rights Management sharing application user guide](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md)
+[Rights Management sharing application user guide](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md)
 

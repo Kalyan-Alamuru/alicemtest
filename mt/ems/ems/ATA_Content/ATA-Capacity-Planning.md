@@ -1,21 +1,22 @@
 ---
 title: "ATA Capacity Planning"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 279d79f2-962c-4c6f-9702-29744a5d50e2
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # ATA Capacity Planning
 This topic helps you determine how many ATA servers will be needed to support your network.
@@ -61,21 +62,21 @@ To determine packets per second, perform the following on each domain controller
 
 1.  Open Performance Monitor.
 
-    ![ATA traffic estimation 1](../../ems/ATA_Content/media/ATA-traffic-estimation-1.png "ATA traffic estimation 1")
+    ![ATA traffic estimation 1](../../ems/ATA_Content/media/ata-traffic-estimation-1.png "ATA traffic estimation 1")
 
 2.  Expand **Data Collector Sets**.
 
-    ![ATA traffic estimation 2](../../ems/ATA_Content/media/ATA-traffic-estimation-2.png "ATA traffic estimation 2")
+    ![ATA traffic estimation 2](../../ems/ATA_Content/media/ata-traffic-estimation-2.png "ATA traffic estimation 2")
 
 3.  Right click **User Defined** and select **New** &gt; **Data Collector Set**.
 
-    ![ATA traffic estimation 3](../../ems/ATA_Content/media/ATA-traffic-estimation-3.png "ATA traffic estimation 3")
+    ![ATA traffic estimation 3](../../ems/ATA_Content/media/ata-traffic-estimation-3.png "ATA traffic estimation 3")
 
 4.  Enter a name for the collector set and select **Create Manually (Advanced)**.
 
 5.  Under **What type of data do you want to include?**, select  **Create data logs and Performance counter**.
 
-    ![ATA traffic estimation 5](../../ems/ATA_Content/media/ATA-traffic-estimation-5.png "ATA traffic estimation 5")
+    ![ATA traffic estimation 5](../../ems/ATA_Content/media/ata-traffic-estimation-5.png "ATA traffic estimation 5")
 
 6.  Under **Which performance counters would you like to log** click **Add**.
 
@@ -84,7 +85,7 @@ To determine packets per second, perform the following on each domain controller
     > [!NOTE]
     > To do this, in a command line, run `ipconfig /all` to see the name of the adapter and configuration.
 
-    ![ATA traffic estimation 7](../../ems/ATA_Content/media/ATA-traffic-estimation-7.png "ATA traffic estimation 7")
+    ![ATA traffic estimation 7](../../ems/ATA_Content/media/ata-traffic-estimation-7.png "ATA traffic estimation 7")
 
 8.  Change the **Sample interval** to **1 second**.
 
@@ -96,16 +97,16 @@ To determine packets per second, perform the following on each domain controller
 
 11. After 24 hours, stop the data collector set, by right clicking the data collector set and selecting **Stop**
 
-    ![ATA traffic estimation 12](../../ems/ATA_Content/media/ATA-traffic-estimation-12.png "ATA traffic estimation 12")
+    ![ATA traffic estimation 12](../../ems/ATA_Content/media/ata-traffic-estimation-12.png "ATA traffic estimation 12")
 
 12. In File Explorer, browse to the folder where the .blg file was saved and double click it to open it in Performance Monitor.
 
 13. Select the Packets/sec counter, and record the average and maximum values.
 
-    ![ATA traffic estimation 14](../../ems/ATA_Content/media/ATA-traffic-estimation-14.png "ATA traffic estimation 14")
+    ![ATA traffic estimation 14](../../ems/ATA_Content/media/ata-traffic-estimation-14.png "ATA traffic estimation 14")
 
 ## See Also
-[ATA Planning and Requirements](../../ems/ATA_Content/ATA-Planning-and-Requirements.md)
- [ATA Architecture](../../ems/ATA_Content/ATA-Architecture.md)
+[ATA Planning and Requirements](../../ems/ATA_Content/ata-planning-and-requirements.md)
+ [ATA Architecture](../../ems/ATA_Content/ata-architecture.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

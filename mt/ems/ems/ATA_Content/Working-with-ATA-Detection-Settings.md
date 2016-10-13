@@ -1,21 +1,22 @@
 ---
 title: "Working with ATA Detection Settings"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: f4f2ae30-4849-4a4f-8f6d-bfe99a32c746
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Working with ATA Detection Settings
 The **Detection** configuration page lets you set a list of IP addresses and subnets that have unusual circumstances and should be handled slightly differently than other entities on your network.
@@ -34,7 +35,7 @@ You can exclude IP addresses from the following detections. If you enter an IP a
 -   Pass-the-Ticket IP address exclusions
 
 ## See Also
-[Working with Suspicious Activities](../../ems/ATA_Content/Working-with-Suspicious-Activities.md)
- [Modifying ATA Configuration](../../ems/ATA_Content/Modifying-ATA-Configuration.md)
+[Working with Suspicious Activities](../../ems/ATA_Content/working-with-suspicious-activities.md)
+ [Modifying ATA Configuration](../../ems/ATA_Content/modifying-ata-configuration.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

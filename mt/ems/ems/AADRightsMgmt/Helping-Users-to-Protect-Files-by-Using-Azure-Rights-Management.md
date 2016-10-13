@@ -1,30 +1,31 @@
 ---
 title: "Helping Users to Protect Files by Using Azure Rights Management"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: 58f9a6ff-4121-4c8c-9865-1bb290604ad2
 caps.latest.revision: 16
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "zh-cn"
+  - "zh-tw"
 ---
 # Helping Users to Protect Files by Using Azure Rights Management
 After you have deployed and configured Azure Rights Management (Azure RMS) for your organization, provide help and guidance for users, administrators, and your help desk:
@@ -41,7 +42,7 @@ After you have deployed and configured Azure Rights Management (Azure RMS) for y
 
 - **Administrator information:**
 
-   Some applications automatically apply information protection, by using policies and settings that administrators configure. For these applications, you might need to provide instructions for other administrators who manage these applications and services. For more information, see [How Applications Support Azure Rights Management](../../ems/AADRightsMgmt/How-Applications-Support-Azure-Rights-Management.md) and [Configuring Applications for Azure Rights Management](../../ems/AADRightsMgmt/Configuring-Applications-for-Azure-Rights-Management.md).
+   Some applications automatically apply information protection, by using policies and settings that administrators configure. For these applications, you might need to provide instructions for other administrators who manage these applications and services. For more information, see [How Applications Support Azure Rights Management](../../ems/AADRightsMgmt/how-applications-support-azure-rights-management.md) and [Configuring Applications for Azure Rights Management](../../ems/AADRightsMgmt/configuring-applications-for-azure-rights-management.md).
 
 - **Help desk information:**
 
@@ -57,7 +58,7 @@ After you have deployed and configured Azure Rights Management (Azure RMS) for y
 
    - **Problems protecting or consuming content:**
 
-      Make sure that users have the appropriate instructions for the applications that they use, and are using applications and devices that are supported by Azure RMS. For more information about supported applications and devices, see [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/Requirements-for-Azure-Rights-Management.md).
+      Make sure that users have the appropriate instructions for the applications that they use, and are using applications and devices that are supported by Azure RMS. For more information about supported applications and devices, see [Requirements for Azure Rights Management](../../ems/AADRightsMgmt/requirements-for-azure-rights-management.md).
 
       If users see an error when trying to protect or consume content, ask them to run the [RMS Analyzer](https://www.microsoft.com/en-us/download/details.aspx?id=46437) as an Azure RMS user.
 
@@ -75,7 +76,7 @@ For instructions to use this application for Windows computers, see the [Rights 
 For mobile devices, see the [FAQ for Microsoft Rights Management Sharing Application for Mobile Platforms](http://technet.microsoft.com/dn451248).
 
 > [!TIP]
-> For a high-level example scenario with screenshots, see the [Users safely share attachments with mobile users](../../ems/AADRightsMgmt/What-is-Azure-Rights-Management-.md#BKMK_Example_SharingApp) section in the [What is Azure Rights Management?](../../ems/AADRightsMgmt/What-is-Azure-Rights-Management-.md) topic.
+> For a high-level example scenario with screenshots, see the [Users safely share attachments with mobile users](../../ems/AADRightsMgmt/what-is-azure-rights-management-.md#BKMK_Example_SharingApp) section in the [What is Azure Rights Management?](../../ems/AADRightsMgmt/what-is-azure-rights-management-.md) topic.
 
 ## Using information protection with Office 365, Office 2016, or Office 2013
 If you are using Azure RMS and have not installed the Rights Management sharing application, users will not see the **Share Protected** button on the ribbon or **Protect in-place** from File Explorer that makes it easier for them to protect files. For these users, they must follow instructions similar to these.
@@ -117,5 +118,5 @@ Similarly to viewing a protected document, when the recipients receive the email
 Similarly to viewing a protected document, when the recipients receive the email message, they are first authenticated. If they are authorized to see the email message, it opens with the restricted usage rights that were specified for that user. For example, if you selected **Do Not Reply All**, the **REPLY ALL** option in the message window is not available.
 
 ## See Also
-[Using Azure Rights Management](../../ems/AADRightsMgmt/Using-Azure-Rights-Management.md)
+[Using Azure Rights Management](../../ems/AADRightsMgmt/using-azure-rights-management.md)
 

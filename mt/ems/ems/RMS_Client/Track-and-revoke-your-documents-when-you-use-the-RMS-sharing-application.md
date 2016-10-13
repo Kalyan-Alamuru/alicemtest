@@ -1,44 +1,45 @@
 ---
 title: "Track and revoke your documents when you use the RMS sharing application"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Active Directory Rights Management Services
-  - Azure Rights Management
-  - Windows 10
-  - Windows 7 with SP1
-  - Windows 8
-  - Windows 8.1
+  - "Active Directory Rights Management Services"
+  - "Azure Rights Management"
+  - "Windows 10"
+  - "Windows 7 with SP1"
+  - "Windows 8"
+  - "Windows 8.1"
 ms.assetid: 61f349ce-bdd2-45c1-acc5-bc83937fb187
 caps.latest.revision: 26
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - hu-hu
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "hu-hu"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Track and revoke your documents when you use the RMS sharing application
 After you have protected your documents by using the RMS sharing application, you can track how people are using your protected documents, and if necessary, revoke access to them when you want to stop sharing. To do this, you use the document tracking site, which you can access from Windows computers, Mac computers, and even from tablets and phones.
@@ -60,13 +61,13 @@ When you access this site, you just need to sign in to track your documents. The
 
 -   For the Office applications, Word, Excel, and PowerPoint: On the **Home** tab, in the **RMS** group, click **Share Protected**, and then click **Track Usage**.
 
-    ![Track usage from Office applications when using the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_OfficeToolbarTrackUsage.png "ADRMS_MSRMSApp_OfficeToolbarTrackUsage")
+    ![Track usage from Office applications when using the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_officetoolbartrackusage.png "ADRMS_MSRMSApp_OfficeToolbarTrackUsage")
 
 -   For Outlook: On the **Home** tab, in the  **RMS** group, click **Track Usage**:
 
-    ![Select Track Usage from Outlook when using the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_OutlookTrackUsage.png "ADRMS_MSRMSApp_OutlookTrackUsage")
+    ![Select Track Usage from Outlook when using the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_outlooktrackusage.png "ADRMS_MSRMSApp_OutlookTrackUsage")
 
-If you do not see these options for RMS, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/Download-and-install-the-Rights-Management-sharing-application.md).
+If you do not see these options for RMS, it’s likely that either the RMS sharing application is not installed on your computer, the latest version isn’t installed, or your computer must be restarted to complete the installation. For more information about how to install the sharing application, see [Download and install the Rights Management sharing application](../../ems/RMS_Client/download-and-install-the-rights-management-sharing-application.md).
 
 ### Other ways to track and revoke your documents
 In addition to tracking your documents on Windows computers by using Office applications, you can also use these alternatives:
@@ -97,21 +98,21 @@ In addition to tracking your documents on Windows computers by using Office appl
 
 -   Right-click the file, select **Protect with RMS**, and then select **Track Usage**:
 
-    ![Selecting Track Usage from Explorer when using the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_ExplorerTrackUsage.png "ADRMS_MSRMSApp_ExplorerTrackUsage")
+    ![Selecting Track Usage from Explorer when using the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_explorertrackusage.png "ADRMS_MSRMSApp_ExplorerTrackUsage")
 
 ##### Using an Outlook email message to access the doc tracking site
 
 -   In an email message, in the **Message** tab, in the  **RMS** group, click **Share Protected**, and then click **Track Usage**:
 
-    ![Select Track Usage from an Outlook message when using the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_OutlookMessageTrackUsage.png "ADRMS_MSRMSApp_OutlookMessageTrackUsage")
+    ![Select Track Usage from an Outlook message when using the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_outlookmessagetrackusage.png "ADRMS_MSRMSApp_OutlookMessageTrackUsage")
 
 ## Examples and other instructions
 For examples for how you might use the Rights Management sharing application, and how-to instructions, see the following sections from the Rights Management sharing application user guide:
 
--   [Examples for using the RMS sharing application](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingExamples)
+-   [Examples for using the RMS sharing application](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingExamples)
 
--   [What do you want to do?](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingInstructions)
+-   [What do you want to do?](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingInstructions)
 
 ## See Also
-[Rights Management sharing application user guide](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md)
+[Rights Management sharing application user guide](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md)
 

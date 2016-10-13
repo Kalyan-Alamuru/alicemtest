@@ -1,44 +1,45 @@
 ---
 title: "Dialog box options for the Rights Management sharing application"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Active Directory Rights Management Services
-  - Azure Rights Management
-  - Windows 10
-  - Windows 7 with SP1
-  - Windows 8
-  - Windows 8.1
+  - "Active Directory Rights Management Services"
+  - "Azure Rights Management"
+  - "Windows 10"
+  - "Windows 7 with SP1"
+  - "Windows 8"
+  - "Windows 8.1"
 ms.assetid: 7b91ab30-6363-4929-bcbd-4dfbd05f644a
 caps.latest.revision: 19
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - es-es
-  - fr-fr
-  - it-it
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - de-de
-  - hu-hu
-  - ja-jp
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "de-de"
+  - "hu-hu"
+  - "ja-jp"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Dialog box options for the Rights Management sharing application
 Use this information to help you specify the options in the RMS sharing application **add protection** dialog box or the **share protected** dialog box. You will see this dialog box when you [protect a file to share](http://technet.microsoft.com/library/dn574735.aspx) or you [protect a file in place](http://technet.microsoft.com/library/dn574733.aspx) and choose custom permissions.
@@ -50,14 +51,14 @@ Use this information to help you specify the options in the RMS sharing applicat
 
 In addition to the options that you can choose, you might also be wondering:
 
--   [What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/Dialog-box-options-for-the-Rights-Management-sharing-application.md#BKMK_PPDF)
+-   [What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/dialog-box-options-for-the-rights-management-sharing-application.md#BKMK_PPDF)
 
--   [What’s the difference between generic protection and built-in (native) protection?](../../ems/RMS_Client/Dialog-box-options-for-the-Rights-Management-sharing-application.md#BKMK_GenericNative)
+-   [What’s the difference between generic protection and built-in (native) protection?](../../ems/RMS_Client/dialog-box-options-for-the-rights-management-sharing-application.md#BKMK_GenericNative)
 
 |Option|Description|
 |----------|---------------|
 |**USERS**|If you haven’t already specified an email address from Outlook, type the email addresses of the people that you want to be able to open the file.<br /><br />If your organization uses the on-premises version of Rights Management (AD RMS), the email addresses you can  specify are restricted to  people within your organization. When this applies, and you try to specify external email addresses, you will see a message that says your company configuration allows sharing of protected content only within the company. However, if your organization uses Azure RMS, these email addresses can be for people within  your  organization, or for people in another organization.<br /><br />For example: janetm@contoso.com; p.dover@fabrikam.com|
-|**Generic Protection**|If this option is selected, it means that the file you selected cannot be natively protected. For more information, see. [What’s the difference between generic protection and built-in (native) protection?](../../ems/RMS_Client/Dialog-box-options-for-the-Rights-Management-sharing-application.md#BKMK_GenericNative) in this topic.|
+|**Generic Protection**|If this option is selected, it means that the file you selected cannot be natively protected. For more information, see. [What’s the difference between generic protection and built-in (native) protection?](../../ems/RMS_Client/dialog-box-options-for-the-rights-management-sharing-application.md#BKMK_GenericNative) in this topic.|
 |**Viewer – View Only**<br /><br />**Reviewer – View and Edit**<br /><br />**Co-Author – View, Edit, Copy, and Print**<br /><br />**Co-Owner – All Permissions** **Note:** All these options have a round icon before the name, which represent a world globe. This icon is used because typically, you select one of these options when you send your attachment to somebody in a different organization.|Select one of these options if you want to define the rights for your protected document. Click each option to view a description.<br /><br />When you choose one of these options, only the people you specify in **USERS** have the rights you specify to open and use the document. For example, if they forward to somebody else, the document would not open.|
 |Policy templates that your administrator configures.<br /><br />For example, if your company name is Contoso, Ltd: **Contoso, Ltd - Confidential View Only** **Note:** All these options have a square icon before the name, which represent an office building. This icon is used because typically, you select one of these options when you send your attachment to somebody in your organization.|When you share a document with people who work for your organization, you see the available policy templates that your administrator configures. Choose one of these when the document should not be shared outside your organization.<br /><br />When you choose one of these options, your administrator defines the rights for the document and who can open it.|
 |**Expire these documents on**|Select this option only for time-sensitive files that the users that you selected should not be able to open after a date that you specify. You will still be able to open the original file but after midnight (your current time zone), on the day that you specify, others will not be able to open the file.<br /><br />This option is not available if you select a policy template that your administrator configures.|
@@ -73,7 +74,7 @@ In addition to the options that you can choose, you might also be wondering:
 
 -   In comparison, when you use the **built-in (native) protection** of Rights Management with applications that support this (for example, Office files), the protection applies to the file even if the file is then sent to somebody else or saved in another location. And, when you protect these files, you can use restrictive permissions such as read-only, or the permission to edit but not print or copy. For example, you could select **Viewer – View Only**, so that the content cannot be edited, printed, or copied.
 
-For additional technical information, see the [Levels of protection – native and generic](../../ems/RMS_Client/Rights-Management-sharing-application-administrator-guide.md#BKMK_LevelsofProtection) section in the [Rights Management sharing application administrator guide](../../ems/RMS_Client/Rights-Management-sharing-application-administrator-guide.md).
+For additional technical information, see the [Levels of protection – native and generic](../../ems/RMS_Client/rights-management-sharing-application-administrator-guide.md#BKMK_LevelsofProtection) section in the [Rights Management sharing application administrator guide](../../ems/RMS_Client/rights-management-sharing-application-administrator-guide.md).
 
 ## <a name="BKMK_PPDF"></a>What’s the .ppdf file that’s automatically created?
 
@@ -87,10 +88,10 @@ For additional technical information, see the [Levels of protection – native a
 ## Examples and other instructions
 For examples for how you might use the Rights Management sharing application, and how-to instructions, see the following sections from the Rights Management sharing application user guide:
 
--   [Examples for using the RMS sharing application](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingExamples)
+-   [Examples for using the RMS sharing application](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingExamples)
 
--   [What do you want to do?](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingInstructions)
+-   [What do you want to do?](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingInstructions)
 
 ## See Also
-[Rights Management sharing application user guide](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md)
+[Rights Management sharing application user guide](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md)
 

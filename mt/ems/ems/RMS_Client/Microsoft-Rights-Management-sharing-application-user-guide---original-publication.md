@@ -1,57 +1,58 @@
 ---
 title: "Microsoft Rights Management sharing application user guide - original publication"
 ms.custom: na
-ms.date: 09/19/2016
+ms.date: "09/19/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.assetid: 350b6869-084d-4e8a-a4d3-df44a40fa13b
 caps.latest.revision: 18
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - cs-cz
-  - es-es
-  - fr-fr
-  - hu-hu
-  - it-it
-  - ko-kr
-  - nl-nl
-  - pl-pl
-  - pt-br
-  - pt-pt
-  - ru-ru
-  - sv-se
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "cs-cz"
+  - "es-es"
+  - "fr-fr"
+  - "hu-hu"
+  - "it-it"
+  - "ko-kr"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-br"
+  - "pt-pt"
+  - "ru-ru"
+  - "sv-se"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - de-de
-  - ja-jp
+  - "de-de"
+  - "ja-jp"
 ---
 # Microsoft Rights Management sharing application user guide - original publication
 This user guide for Microsoft Rights Management sharing application for Windows includes the following sections:
 
--   [Evaluating and Installing Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Eval)
+-   [Evaluating and Installing Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Eval)
 
--   [Using Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_UsingMSRMSApp)
+-   [Using Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_UsingMSRMSApp)
 
--   [Using User-Authored Permissions and Sharing Protected Content](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Custom)
+-   [Using User-Authored Permissions and Sharing Protected Content](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Custom)
 
--   [Using the Office Toolbar Add-in](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_OfficeToolbar)
+-   [Using the Office Toolbar Add-in](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_OfficeToolbar)
 
--   [Administrator’s guidance for Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_AdminGuide)
+-   [Administrator’s guidance for Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_AdminGuide)
 
 For frequently asked questions and troubleshooting information, see [FAQ for Microsoft Rights Management Sharing Application for Windows](http://go.microsoft.com/fwlink/?LinkId=303971).
 
 ## <a name="BKMK_Eval"></a>Evaluating and Installing Microsoft Rights Management sharing application
 This section explains what Microsoft Rights Management sharing application is and how to install it:
 
--   [What is the Microsoft Rights Management sharing application?](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_WhatIs)
+-   [What is the Microsoft Rights Management sharing application?](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_WhatIs)
 
--   [Requirements for Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Reqs)
+-   [Requirements for Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Reqs)
 
--   [Installing the Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Install)
+-   [Installing the Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Install)
 
 ### <a name="BKMK_WhatIs"></a>What is the Microsoft Rights Management sharing application?
 Microsoft Rights Management sharing application is an optional downloadable application for Microsoft Windows that provides the following:
@@ -83,15 +84,15 @@ To install the Microsoft Rights Management sharing application, do the following
 ## <a name="BKMK_UsingMSRMSApp"></a>Using Microsoft Rights Management sharing application
 This section covers different ways to use Microsoft Rights Management sharing application:
 
--   [Creating a protected text (.ptxt) file](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_CreatePTXT)
+-   [Creating a protected text (.ptxt) file](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_CreatePTXT)
 
--   [Viewing a protected text (.ptxt) or a protected image file](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_ViewPTXT)
+-   [Viewing a protected text (.ptxt) or a protected image file](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_ViewPTXT)
 
--   [Creating a generic protected (.pfile) file](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_CreatePFILE)
+-   [Creating a generic protected (.pfile) file](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_CreatePFILE)
 
--   [Viewing a generic protected (.pfile) file](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_ViewPFILE)
+-   [Viewing a generic protected (.pfile) file](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_ViewPFILE)
 
--   [Removing protection from a file](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Unprotect)
+-   [Removing protection from a file](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Unprotect)
 
 ### <a name="BKMK_CreatePTXT"></a>Creating a protected text (.ptxt) file
 Microsoft Rights Management sharing application can be used to convert a regular text (.txt) file into a protected (.ptxt) file.
@@ -163,15 +164,15 @@ To remove protection (that is, unprotect) a file previously protected, you apply
 ## <a name="BKMK_Custom"></a>Using User-Authored Permissions and Sharing Protected Content
 This section covers how to protect and consume a file using user-authored permissions, how to share protected content, and how to protect multiple files:
 
--   [Protecting a file with user-authored permissions](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_ProtectCustom)
+-   [Protecting a file with user-authored permissions](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_ProtectCustom)
 
--   [Consuming files that have user-authored protection](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_UserDefined)
+-   [Consuming files that have user-authored protection](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_UserDefined)
 
--   [Sharing protected content](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_ShareProtected)
+-   [Sharing protected content](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_ShareProtected)
 
--   [Using keyboard shortcuts](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_AccessKeys)
+-   [Using keyboard shortcuts](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_AccessKeys)
 
--   [Applying protection to multiple files and folders](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_Multiple)
+-   [Applying protection to multiple files and folders](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_Multiple)
 
 ### <a name="BKMK_ProtectCustom"></a>Protecting a file with user-authored permissions
 User-authored protection can be used to achieve the following:
@@ -182,7 +183,7 @@ User-authored protection can be used to achieve the following:
 
 To protect a file with user-authored permissions, right-click the file, click **Protect in-place** and click **Custom Permissions**. The following screen will launch:
 
-![Custom Protection for RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_ProtectCustom.gif "ADRMS_MSRMSApp_ProtectCustom")
+![Custom Protection for RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_protectcustom.gif "ADRMS_MSRMSApp_ProtectCustom")
 
 Type the email addresses of the list of users, use the slider to select permissions for the file, and click **Apply**.
 
@@ -201,12 +202,12 @@ When viewing a protected text file that has had user- protection applied to it, 
 
 For files that are protected using the generic protection (.pfile) file format, the specific rights or permissions that were  by the user appear in the confirmation screen instead of the name of the template that was used to protect the file, as shown in the following figure.
 
-![Consume Protected File](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_ConsumePfile.gif "ADRMS_MSRMSApp_SP_ConsumePfile")
+![Consume Protected File](../../ems/RMS_Client/media/adrms_msrmsapp_sp_consumepfile.gif "ADRMS_MSRMSApp_SP_ConsumePfile")
 
 ### <a name="BKMK_ShareProtected"></a>Sharing protected content
 To protect and share content, right-click the file, and click **Share Protected**. The following screen will launch:
 
-![Share protected dialog box](../../ems/RMS_Client/media/ADRMS_MSRMSAPP_SP_ShareProtected.gif "ADRMS_MSRMSAPP_SP_ShareProtected")
+![Share protected dialog box](../../ems/RMS_Client/media/adrms_msrmsapp_sp_shareprotected.gif "ADRMS_MSRMSAPP_SP_ShareProtected")
 
 Type the email addresses of the list of users, use the slider to select permissions for the file, and click **Send**. The application will launch Outlook with a pre- email, with the protected file attached. The original file will not be protected.
 
@@ -215,7 +216,7 @@ To enable users to view protected files on non-Windows devices, click **Allow co
 ### <a name="BKMK_AccessKeys"></a>Using keyboard shortcuts
 Press the **Alt** key to see the available access keys. Press **Alt** + the access key to select an option. For example, on the **Share Protected** dialog, press **Alt** to see the access keys and press **Alt + u** to select **Users must login every time they open this file**.
 
-![RMS sharing application access keys](../../ems/RMS_Client/media/ADRMS_MSRMSApp_AccessKeys.png "ADRMS_MSRMSApp_AccessKeys")
+![RMS sharing application access keys](../../ems/RMS_Client/media/adrms_msrmsapp_accesskeys.png "ADRMS_MSRMSApp_AccessKeys")
 
 ### <a name="BKMK_Multiple"></a>Applying protection to multiple files and folders
 Microsoft Rights Management sharing application can also be used to apply protection to more than a single file, such as by selecting multiple files or a folder that contains unprotected files in File Explorer.
@@ -233,16 +234,16 @@ If you have errors, refer to [FAQ for Microsoft Rights Management Sharing Applic
 ## <a name="BKMK_OfficeToolbar"></a>Using the Office Toolbar Add-in
 You can protect and share Word, PowerPoint, Excel files right from within Microsoft Office by using the Office ribbon add-in for Microsoft Rights Management sharing application. Click **Share Protected** on the ribbon to start the Microsoft Rights Management sharing application.
 
-![Office toolbar add-in](../../ems/RMS_Client/media/ADRMS_MSRMSApp_SP_OfficeToolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
+![Office toolbar add-in](../../ems/RMS_Client/media/adrms_msrmsapp_sp_officetoolbar.png "ADRMS_MSRMSApp_SP_OfficeToolbar")
 
 ## <a name="BKMK_AdminGuide"></a>Administrator’s guidance for Microsoft Rights Management sharing application
 The Administrator's Guide for Microsoft Rights Management sharing application includes the following sections:
 
--   [Microsoft Rights Management sharing application Technical Overview](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_AdminOverview)
+-   [Microsoft Rights Management sharing application Technical Overview](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_AdminOverview)
 
--   [Supported File Types](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_SupportFileTypes)
+-   [Supported File Types](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_SupportFileTypes)
 
--   [Automatic deployment for the Microsoft Rights Management sharing application](../../ems/RMS_Client/Microsoft-Rights-Management-sharing-application-user-guide---original-publication.md#BKMK_ScriptedInstall)
+-   [Automatic deployment for the Microsoft Rights Management sharing application](../../ems/RMS_Client/microsoft-rights-management-sharing-application-user-guide---original-publication.md#BKMK_ScriptedInstall)
 
 ### <a name="BKMK_AdminOverview"></a>Microsoft Rights Management sharing application Technical Overview
 The Microsoft Rights Management sharing application is an optional downloadable application for Microsoft Windows and other platforms that provides the following:

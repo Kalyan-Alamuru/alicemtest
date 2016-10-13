@@ -1,44 +1,45 @@
 ---
 title: "View and use files that have been protected by Rights Management"
 ms.custom: na
-ms.date: 2015-09-01
+ms.date: "2015-09-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Active Directory Rights Management Services
-  - Azure Rights Management
-  - Windows 10
-  - Windows 7 with SP1
-  - Windows 8
-  - Windows 8.1
+  - "Active Directory Rights Management Services"
+  - "Azure Rights Management"
+  - "Windows 10"
+  - "Windows 7 with SP1"
+  - "Windows 8"
+  - "Windows 8.1"
 ms.assetid: e5fa4666-6906-405a-9e0c-2c52d4cd27c8
 caps.latest.revision: 25
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - de-de
-  - es-es
-  - fr-fr
-  - it-it
-  - ja-jp
-  - ko-kr
-  - pt-br
-  - ru-ru
-  - tr-tr
-  - zh-cn
-  - zh-tw
+  - "de-de"
+  - "es-es"
+  - "fr-fr"
+  - "it-it"
+  - "ja-jp"
+  - "ko-kr"
+  - "pt-br"
+  - "ru-ru"
+  - "tr-tr"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - hu-hu
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "hu-hu"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # View and use files that have been protected by Rights Management
 When the Rights Management (RMS) sharing application is installed on your computer, you view a protected file by simply double-clicking it. The file might be an attachment in an email message, or you might see it when you use File Explorer.
@@ -59,32 +60,32 @@ By using File Explorer or the email message that contains the attachment, double
 If you see two versions of the file but with different file name extensions, open the file that has a .ppdf file extension only if the other file does not open. If you cannot open the .ppdf version either, first install the [RMS sharing application](http://technet.microsoft.com/library/dn574734.aspx), which knows how to open files that have a .ppdf file name extension.
 
 > [!NOTE]
-> For more information, see “[What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/Dialog-box-options-for-the-Rights-Management-sharing-application.md#BKMK_PPDF)”.
+> For more information, see “[What’s the .ppdf file that’s automatically created?](../../ems/RMS_Client/dialog-box-options-for-the-rights-management-sharing-application.md#BKMK_PPDF)”.
 
 How the file opens depends on how it was protected, which you can tell by looking at the file name extension. In each case, opening the file might be audited and remains audited as long as it is protected. In addition, if the file was sent as an email attachment, the sender might be notified by email each time you open the file.
 
 |File name extension and protection|More information|
 |--------------------------------------|--------------------|
-|The file has a **.pfile** file name extension.<br /><br />The file was generically protected.|When you open the file, you see a **protected file** dialog box from the sharing application that tells you who protected the file and that you are expected to honor the co-owner permissions. Click **Open** to read the file.<br /><br />![Dialog box for a pfile shared by email when using the RMS sharing application](../../ems/RMS_Client/media/ADRMS_MSRMSApp_PfilePermission.png "ADRMS_MSRMSApp_PfilePermission")|
+|The file has a **.pfile** file name extension.<br /><br />The file was generically protected.|When you open the file, you see a **protected file** dialog box from the sharing application that tells you who protected the file and that you are expected to honor the co-owner permissions. Click **Open** to read the file.<br /><br />![Dialog box for a pfile shared by email when using the RMS sharing application](../../ems/RMS_Client/media/adrms_msrmsapp_pfilepermission.png "ADRMS_MSRMSApp_PfilePermission")|
 |The file has a **.ppdf** file name extension or is a protected text or image file (such as **.ptxt** or **.pjpg**).<br /><br />The file has been natively protected as a read-only copy.|The file opens by using the viewer that installs with the RMS sharing application. This file is read-only, even if you save it to another location or rename it.|
-|Other file name extensions.<br /><br />The file has been natively protected.|The file opens by using the application that is associated with the original file name extension, and a restriction banner is displayed at the top of the file. The banner might display the permissions that are applied to the file, or it might provide a link to display them. For example, you might see the following where you must click **Permission is currently restricted** to see the actual permissions that are applied to the file and the people that can access it:<br /><br />![Restricted access banner when file is protected](../../ems/RMS_Client/media/ADRMS_MSRMSApp_RestrictedAccess.png "ADRMS_MSRMSApp_RestrictedAccess")|
+|Other file name extensions.<br /><br />The file has been natively protected.|The file opens by using the application that is associated with the original file name extension, and a restriction banner is displayed at the top of the file. The banner might display the permissions that are applied to the file, or it might provide a link to display them. For example, you might see the following where you must click **Permission is currently restricted** to see the actual permissions that are applied to the file and the people that can access it:<br /><br />![Restricted access banner when file is protected](../../ems/RMS_Client/media/adrms_msrmsapp_restrictedaccess.png "ADRMS_MSRMSApp_RestrictedAccess")|
 
 ## <a name="BKMK_UserDefined"></a>To use files that have been protected (for example, edit and print the file)
 If you want to do more than just read the protected file, for example, edit, copy, and print it:
 
 |File name extension|Instructions|
 |-----------------------|----------------|
-|The file has a **.pfile** file name extension.|Save the opened file and give it a new file name extension that is associated with the application that you want to use.<br /><br />For example, if a file was protected by using the file name document.vsdx.pfile, view the file and in File Explorer, save the file as document.vsdx.<br /><br />The new file is no longer protected. If you want to protect it, you must do this manually. For instructions, see [Protect a file on a device &#40;protect in-place&#41; by using the Rights Management sharing application](../../ems/RMS_Client/Protect-a-file-on-a-device--protect-in-place--by-using-the-Rights-Management-sharing-application.md).|
+|The file has a **.pfile** file name extension.|Save the opened file and give it a new file name extension that is associated with the application that you want to use.<br /><br />For example, if a file was protected by using the file name document.vsdx.pfile, view the file and in File Explorer, save the file as document.vsdx.<br /><br />The new file is no longer protected. If you want to protect it, you must do this manually. For instructions, see [Protect a file on a device &#40;protect in-place&#41; by using the Rights Management sharing application](../../ems/RMS_Client/protect-a-file-on-a-device--protect-in-place--by-using-the-rights-management-sharing-application.md).|
 |The file has a **.ppdf** file name extension or is a protected text or image file (such as **.ptxt** or **.pjpg**).|You can only view the file and if you rename or move it, the protection remains with the file.|
 |Other file name extensions.|Your device must have an application that understands Rights Management to use these files. These applications are called RMS-enlightened applications. Applications from Office 2016, Office 2013,  and Office 2010 (such as Word, Excel, PowerPoint, and Outlook) are examples of applications that are enlightened for Rights Management. But applications that do not come from Microsoft, such as other software companies and your own line-of-business applications, might also be enlightened for Rights Management.<br /><br />Applications that are enlightened for Rights Management know how to open files that have been protected by other Rights Management enlightened applications. They also persist the protection that is applied to them, even if you edit the file or save it to another file name or another location. These applications let you use the file according to the permissions that are currently applied to the file, so that if you have permissions to use the file, you can do so. For example, you might be able to edit the file but not print it.|
 
 ## Examples and other instructions
 For examples for how you might use the Rights Management sharing application, and how-to instructions, see the following sections from the Rights Management sharing application user guide:
 
--   [Examples for using the RMS sharing application](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingExamples)
+-   [Examples for using the RMS sharing application](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingExamples)
 
--   [What do you want to do?](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md#BKMK_SharingInstructions)
+-   [What do you want to do?](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md#BKMK_SharingInstructions)
 
 ## See Also
-[Rights Management sharing application user guide](../../ems/RMS_Client/Rights-Management-sharing-application-user-guide.md)
+[Rights Management sharing application user guide](../../ems/RMS_Client/rights-management-sharing-application-user-guide.md)
 

@@ -1,15 +1,15 @@
 ---
 title: "ATA database maintenance"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 ms.assetid: 736f9279-a047-415c-b3eb-c63ab8725ec0
 caps.latest.revision: 24
 ---

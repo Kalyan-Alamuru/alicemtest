@@ -1,59 +1,60 @@
 ---
 title: "Installing Windows PowerShell for Azure Rights Management"
 ms.custom: na
-ms.date: 2015-10-01
+ms.date: "2015-10-01"
 ms.reviewer: na
-ms.service: rights-management
+ms.service: "rights-management"
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Azure Rights Management
-  - Office 365
+  - "Azure Rights Management"
+  - "Office 365"
 ms.assetid: 0d665ed6-b1de-4d63-854a-bc57c1c49844
 caps.latest.revision: 19
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 translation.priority.ht: 
-  - bg-bg
-  - el-gr
-  - es-es
-  - et-ee
-  - fi-fi
-  - fr-fr
-  - hr-hr
-  - it-it
-  - kk-kz
-  - ko-kr
-  - lt-lt
-  - lv-lv
-  - pt-br
-  - ro-ro
-  - ru-ru
-  - sk-sk
-  - sl-si
-  - sr-latn-cs
-  - th-th
-  - tr-tr
-  - uk-ua
-  - zh-cn
-  - zh-tw
+  - "bg-bg"
+  - "el-gr"
+  - "es-es"
+  - "et-ee"
+  - "fi-fi"
+  - "fr-fr"
+  - "hr-hr"
+  - "it-it"
+  - "kk-kz"
+  - "ko-kr"
+  - "lt-lt"
+  - "lv-lv"
+  - "pt-br"
+  - "ro-ro"
+  - "ru-ru"
+  - "sk-sk"
+  - "sl-si"
+  - "sr-latn-cs"
+  - "th-th"
+  - "tr-tr"
+  - "uk-ua"
+  - "zh-cn"
+  - "zh-tw"
 translation.priority.mt: 
-  - cs-cz
-  - da-dk
-  - de-de
-  - hu-hu
-  - ja-jp
-  - nb-no
-  - nl-nl
-  - pl-pl
-  - pt-pt
-  - sv-se
+  - "cs-cz"
+  - "da-dk"
+  - "de-de"
+  - "hu-hu"
+  - "ja-jp"
+  - "nb-no"
+  - "nl-nl"
+  - "pl-pl"
+  - "pt-pt"
+  - "sv-se"
 ---
 # Installing Windows PowerShell for Azure Rights Management
 Use the following information to help you install Windows PowerShell for Microsoft [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] (Azure RMS).
 
-You can use this Windows PowerShell module to administer [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] from the command line by using any computer that has an Internet connection and that meets the prerequisites listed in the next section. Windows PowerShell for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] supports scripting for automation or might be necessary for advanced configuration scenarios. For more information about the administration tasks and configurations that the module supports, see [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/Administering-Azure-Rights-Management-by-Using-Windows-PowerShell.md).
+You can use this Windows PowerShell module to administer [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] from the command line by using any computer that has an Internet connection and that meets the prerequisites listed in the next section. Windows PowerShell for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] supports scripting for automation or might be necessary for advanced configuration scenarios. For more information about the administration tasks and configurations that the module supports, see [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/administering-azure-rights-management-by-using-windows-powershell.md).
 
 ## Prerequisites
 This table lists the prerequisites to install and use Windows PowerShell for [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)].
@@ -87,7 +88,7 @@ For more information:
 
 -   Full list of cmdlets available: [Azure Rights Management Cmdlets](https://msdn.microsoft.com/library/windowsazure/dn629398.aspx)
 
--   List of main configuration scenarios that support Windows PowerShell: [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/Administering-Azure-Rights-Management-by-Using-Windows-PowerShell.md)
+-   List of main configuration scenarios that support Windows PowerShell: [Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/administering-azure-rights-management-by-using-windows-powershell.md)
 
 Before you can run any commands that configure the [!INCLUDE[aad_rightsmanagement_1](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_1_md.md)] service, you must connect to the  service by using the [Connect-AadrmService](https://msdn.microsoft.com/library/windowsazure/dn629415.aspx) cmdlet. When you have finished running the configuration commands that you want, disconnect from the service by using the [Disconnect-AadrmService](https://msdn.microsoft.com/library/windowsazure/dn629416.aspx) cmdlet.
 
@@ -95,5 +96,5 @@ Before you can run any commands that configure the [!INCLUDE[aad_rightsmanagemen
 > If you have not yet activated [!INCLUDE[aad_rightsmanagement_2](../../ems/AADRightsMgmt/includes/aad_rightsmanagement_2_md.md)], you can do this after you have connected to the service, by using the [Enable-Aadrm](https://msdn.microsoft.com/library/windowsazure/dn629412.aspx) cmdlet.
 
 ## See Also
-[Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/Administering-Azure-Rights-Management-by-Using-Windows-PowerShell.md)
+[Administering Azure Rights Management by Using Windows PowerShell](../../ems/AADRightsMgmt/administering-azure-rights-management-by-using-windows-powershell.md)
 

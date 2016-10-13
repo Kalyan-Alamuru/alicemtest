@@ -1,21 +1,22 @@
 ---
 title: "Microsoft Advanced Threat Analytics"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: a315cf03-c5a3-4ecb-a0f8-4d3e322e6ad1
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Microsoft Advanced Threat Analytics
 Microsoft Advanced Threat Analytics (ATA) is an on-premises product that helps IT security professionals protect their enterprise from advanced targeted attacks by automatically analyzing, learning, and identifying normal and abnormal behavior among entities (users, devices, and resources).  ATA also helps identify known malicious attacks, security issues and risks using world-class, cutting edge research in behavioral analytics to help enterprises identify security breaches before they cause damage.
@@ -64,15 +65,15 @@ ATA runs in the background and automatically analyzes, learns, and identifies no
 
 ## The following documentation is available to learn more:
 
--   [ATA Release Notes](../../ems/ATA_Content/ATA-Release-Notes.md)
+-   [ATA Release Notes](../../ems/ATA_Content/ata-release-notes.md)
 
--   [ATA Architecture](../../ems/ATA_Content/ATA-Architecture.md)
+-   [ATA Architecture](../../ems/ATA_Content/ata-architecture.md)
 
--   [ATA Deployment Guide](../../ems/ATA_Content/ATA-Deployment-Guide.md)
+-   [ATA Deployment Guide](../../ems/ATA_Content/ata-deployment-guide.md)
 
--   [ATA Operations Guide](../../ems/ATA_Content/ATA-Operations-Guide.md)
+-   [ATA Operations Guide](../../ems/ATA_Content/ata-operations-guide.md)
 
--   [ATA FAQ](../../ems/ATA_Content/ATA-FAQ.md)
+-   [ATA FAQ](../../ems/ATA_Content/ata-faq.md)
 
 ## See Also
 [For ATA support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)

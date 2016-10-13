@@ -1,21 +1,22 @@
 ---
 title: "Validate Port Mirroring"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: ebd41719-c91a-4fdd-bcab-2affa2a2cace
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Validate Port Mirroring
 The following steps walk you through the process for validating that port mirroring is properly configured.
@@ -33,20 +34,20 @@ The following steps walk you through the process for validating that port mirror
 
     3.  Click **New Capture**.
 
-        ![The steps to create a new capture for ATA Port Mirroring](../../ems/ATA_Content/media/ATA-Port-Mirroring-Capture.jpg "ATA Port Mirroring Capture")
+        ![The steps to create a new capture for ATA Port Mirroring](../../ems/ATA_Content/media/ata-port-mirroring-capture.jpg "ATA Port Mirroring Capture")
 
 3.  In the Display Filter window, enter the following filter: **KerberosV5 OR LDAP** and then click **Apply**.
 
-    ![ATA Port Mirroring filter settings for the capture](../../ems/ATA_Content/media/ATA-Port-Mirroring-filter-settings.jpg "ATA Port Mirroring filter settings")
+    ![ATA Port Mirroring filter settings for the capture](../../ems/ATA_Content/media/ata-port-mirroring-filter-settings.jpg "ATA Port Mirroring filter settings")
 
 4.  Click **Start** to start the capture session. If you do not see traffic to and from the domain controller, review your port mirroring configuration.
 
     > [!NOTE]
     > It is important to make sure you see traffic to and from the domain controllers.
     > 
-    > ![Traffic to and from the domain controller](../../ems/ATA_Content/media/ATA-Port-Mirroring-Capture-traffic.jpg "ATA Port Mirroring Capture traffic")
+    > ![Traffic to and from the domain controller](../../ems/ATA_Content/media/ata-port-mirroring-capture-traffic.jpg "ATA Port Mirroring Capture traffic")
 
 ## See Also
-[Configure Port Mirroring](../../ems/ATA_Content/Configure-Port-Mirroring.md)
+[Configure Port Mirroring](../../ems/ATA_Content/configure-port-mirroring.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 

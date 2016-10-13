@@ -1,21 +1,22 @@
 ---
 title: "Configure Event Collection"
 ms.custom: 
-  - ATA
-ms.date: 09/19/2016
-ms.prod: identity-ata
+  - "ATA"
+ms.date: "09/19/2016"
+ms.prod: "identity-ata"
 ms.reviewer: na
 ms.suite: na
 ms.technology: 
-  - security
+  - "security"
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: "article"
 applies_to: 
-  - Advanced Threat Analytics
+  - "Advanced Threat Analytics"
 ms.assetid: 3f0498f9-061d-40e6-ae07-98b8dcad9b20
 caps.latest.revision: 24
-author: karthikaraman
-manager: jeffgilb
+author: "karthikaraman"
+ms.author: "karaman"
+manager: "jeffgilb"
 ---
 # Configure Event Collection
 To enhance ATA detection of Pass-the-Hash, ATA needs Windows Event log ID 4776. This can be forwarded to the ATA Gateway in one of two ways, by configuring the ATA Gateway to listen for SIEM events or by [Configuring Windows Event Forwarding](#ATA_event_WEF).
@@ -26,7 +27,7 @@ To enhance ATA detection of Pass-the-Hash, ATA needs Windows Event log ID 4776. 
 
     Set the Listening IP Address as described in the picture, below. The default port is 514.
 
-    ![ATA enable siem forward events](../../ems/ATA_Content/media/ATA-enable-siem-forward-events.png "ATA enable siem forward events")
+    ![ATA enable siem forward events](../../ems/ATA_Content/media/ata-enable-siem-forward-events.png "ATA enable siem forward events")
 
 2.  Configure your SIEM or Syslog server to forward Windows Event ID 4776 to the IP address selected above. For additional information on configuring your SIEM, refer to your SIEM online help or technical support options for specific formatting requirements for each SIEM server.
 
@@ -143,6 +144,6 @@ If you do not have a SIEM server you can configure your domain controllers to fo
 2.  Configure your domain controllers to forward Windows Event ID 4776 to the ATA Gateways. For additional information on Windows Event Forwarding, see [Configure Computers to Forward and Collect Events](https://technet.microsoft.com/en-us/library/cc748890).
 
 ## See Also
-[ATA Installation](../../ems/ATA_Content/ATA-Installation.md)
+[ATA Installation](../../ems/ATA_Content/ata-installation.md)
  [For support, check out our forum!](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)
 
